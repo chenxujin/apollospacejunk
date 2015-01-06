@@ -32,8 +32,12 @@ class Sheep(object):
         self.total_interval = total_interval
 
         # sheep require a JSON with keys
+        print json_file
         with open(json_file, "r") as f:
             self.params = json.load(f)
+
+        # perform some check here
+        # to make sure this is valid JSON
 
         # self.params keys:
         # - oauth_token_secret
