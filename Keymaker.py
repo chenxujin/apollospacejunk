@@ -58,7 +58,7 @@ class Keymaker(object):
             if make_key == 'n':
                 print "Skipping keymaking for file "+full_file
             else:
-                print "Starting keymaking for file "+full__file
+                print "Starting keymaking for file "+full_file
 
                 consumer = oauth.Consumer(consumer_key, consumer_secret)
                 client = oauth.Client(consumer)

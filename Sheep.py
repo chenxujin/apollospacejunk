@@ -1,7 +1,11 @@
+from apikeys import *
+
 import twitter
 import time
 import simplejson as json
 from numpy.random import rand
+
+from queneau import DialogueAssembler
 
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool 
@@ -43,10 +47,9 @@ class Sheep(object):
         # sheep interface with twitter
         self.setup_api()
 
-        # sheep has memory, which is a list of tokens
-        # (lines, or sentences, however we tokenize the file.)
-        self.memory = []
-        self.memorize()
+        # sheep has dialogue generator (brain)
+        self.dialogue = DialogueAssembler.loadlines(open(self.params['file']))
+        self.last_speaker = None
 
         # sheep can sleep
         self.sleeping = False
@@ -74,13 +77,7 @@ class Sheep(object):
         Memorize a file
         (i.e. read it into list called memory)
         """
-        ## Keep it simple for now.
-        ## One-liner straight-shot list comprehension.
-        #self.memory = [line.strip() for line in open(self.params['file'])]
-        #
-        ## Prune empty lines
-        #self.memory = [mem for mem in self.memory if mem <> ""]
-        self.memory = [""]
+        pass
 
 
 
@@ -88,13 +85,46 @@ class Sheep(object):
         """
         Do this forever
         """
+        short = self.line_interval #100
+        loong = self.total_interval #50000
         while True:
-            try: 
-                self.tweet_something()
-                self.sleep()
-            except:
-                print "Uh oh! Sheep "+self.params['screen_name']+" ran into a problem."
-                time.sleep(1000)
+
+            #try:
+
+            # Outer loop: bursts of conversation of N messages, 
+            # 3 - 13 back-and-forths in length,
+            # spaced with long intervals.
+            Nmessages = int(round(10*rand()+3))
+            for N in range(Nmessages):
+                print "Doing",N,"of",Nmessages,"messages"
+
+                # Inner loop: messages spaced with short intervals.
+                speaker, tokens = self.dialogue.assemble(self.last_speaker)
+                self.last_speaker = speaker
+                s = "%s: %s" % (speaker, " ".join(x for x, y in tokens))
+
+                try:
+                    stats = self.api.PostUpdates(s)
+                    for stat in stats:
+                        print "Post id:",stat.id
+                        print "Post text:",stat.text
+                except twitter.TwitterError as e:
+                    print "Twitter error"
+                    if e.message[0]['code'] == 185:
+                        print "Daily message limit reached."
+                    elif e.message[0]['code'] == 187:
+                        print "Duplicate message."
+                    else:
+                        print e.message
+
+                time.sleep( short*rand() )
+
+            print "\n[...]\n"
+            time.sleep( loong*rand() )
+
+            #except:
+            #    print "Uh oh! Sheep "+self.params['screen_name']+" ran into a problem."
+            #    time.sleep(1000)
 
 
 
