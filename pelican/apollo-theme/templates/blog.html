@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}Blog - {{ SITENAME }}{% endblock %}
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-8 offset4" >
+            <div class="well">
+
+                <h1 class="entry-title">Dispatches: Space Junk Blog</h1>
+                    
+                <p>&nbsp;</p>
+                <hr />
+                <p>&nbsp;</p>
+
+                {% if articles %}
+                	{% for article in articles %}
+                		<article>
+                  		{% include '_includes/article.html' %}
+                		</article>
+                	{% endfor %}
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+{% endblock %}
