@@ -1,6 +1,13 @@
-output
-keys/*.json
+# bot stuff
+keys/
 apikeys.py
+
+# pelican stuff
+output/
+cache/
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

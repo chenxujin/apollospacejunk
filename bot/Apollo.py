@@ -6,8 +6,8 @@ def the_real_mccoy():
     """
     s = Shepherd()
     s.setup('keys/',
-            line_interval = 10,
-            total_interval = 500 )
+            line_interval = 120,
+            total_interval = 3000 )
     s.loop()
 
 if __name__=="__main__":
