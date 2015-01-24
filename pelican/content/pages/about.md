@@ -2,6 +2,18 @@ Title: About
 PageStyle: well
 save_as: about.html
 
+## What is the Apollo Space Junk Bot Flock?
+
+The ASJBF is a bunch of robots tweeting fake Apollo radio dialogue.
+These robots are given the entire transcripts of all radio communications
+during the Apollo missions as a corpus of text, and uses that to learn
+how to "speak" in the same style, generating random chatter.
+
+If you are not sure what Twitter bots are, read on.
+
+If you want to learn more about how the bot flock works,
+see the [Code](code.html) page.
+
 ## What is a Twitter Bot?
 
 A Twitter bot is a computer program that automatically generates
