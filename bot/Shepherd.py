@@ -67,7 +67,11 @@ class Shepherd(object):
         This is what the Shepherd does...
         forever
         """
-        pool = ThreadPool(len(self.all_sheep))
+        try:
+            pool = ThreadPool(len(self.all_sheep))
+        except ValueError:
+            # no keys found
+            raise Exception("Error: did not find any keys, so could not create any Sheep.")
 
         results = pool.map(runsheep,self.all_sheep)
 
