@@ -2,12 +2,6 @@ Title: About
 PageStyle: well
 save_as: about.html
 
-<br />
-
-<a href="https://twitter.com/charlesreid1/lists/space-junk-botflock" class="btn btn-primary btn-large">Visit the Apollo Space Junk Bot Flock on Twitter</a>
-
-<br />
-
 ## What is a Twitter Bot?
 
 A Twitter bot is a computer program that automatically generates
@@ -22,6 +16,11 @@ All bots in the bot flock are tweeting similar things or
 are interacting with one another.
 
 <br />
+
+<a href="https://twitter.com/charlesreid1/lists/space-junk-botflock" class="btn btn-primary btn-large">Visit the Apollo Space Junk Bot Flock on Twitter</a>
+
+<br />
+
 
 ## What is special about the Apollo Space Junk bot flock?
 
