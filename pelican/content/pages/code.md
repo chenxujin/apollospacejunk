@@ -46,11 +46,11 @@ All of the code for the Milton Bot Flock is on Github.
 The following blog posts contain more detailed descriptions 
 of how the bot flocks work.
 
-<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2014/09/16/the-paradise-lost-bot-flock/">The Paradise Lost Bot Flock</a>
+<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2014/09/16/the-paradise-lost-bot-flock/">The Paradise Lost Bot Flock (Octopress post)</a>
 
-<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2014/05/20/the-ginsberg-bot-flock/">The Ginsberg Bot Flock</a>
+<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2014/05/20/the-ginsberg-bot-flock/">The Ginsberg Bot Flock (Octopress post)</a>
 
-<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2015/01/05/apollo11spacejunk/">The Apollo Space Junk Bot Flock</a>
+<a class="btn btn-primary btn-large" href="http://charlesreid1.github.io/blog/2015/01/05/apollo11spacejunk/">The Apollo Space Junk Bot Flock (Octopress post)</a>
 
 This describes some of the Motivation behind creating these 
 "imaginary friends" on Twitter.
