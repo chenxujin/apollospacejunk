@@ -46,7 +46,7 @@ def generate_ipsum(ipsum_file,data_file,N=100):
             """
         
             # Inner loop: messages spaced with short intervals.
-            speaker, tokens = dialogue.assemble(last_speaker)#,pattern="011.")
+            speaker, tokens = dialogue.assemble(last_speaker,pattern="0.")
             last_speaker = speaker
             s = "%s: %s" % (speaker, " ".join(x for x, y in tokens))
         

@@ -22,6 +22,7 @@ DEFAULT_LANG = u'en'
 READERS = {'html': None}
 
 #PLUGIN_PATHS = ['/Users/charles/codes/pelican-plugins/']
+PLUGIN_PATHS = ['/Users/charles/codes/pelican-plugins/']
 
 STATIC_PATHS = ['images']
 
