@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'charlesreid1'
 SITENAME = u'Apollo Space Junk Bot Flock'
-SITEURL = '/apollospacejunk'
+#SITEURL = '/apollospacejunk'
 
 PATH = 'content'
 
@@ -17,16 +17,29 @@ DEFAULT_LANG = u'en'
 
 # --------------8<---------------------
 
+SITETAGLINE = "Houston, Apollo 11. [Long pause.] This Entry PAD assumes no Midcourse 6. Over."
+
+# this image must be in content/images/
+SITEIMG = "Apollo12ConradSurveyor.jpg" 
+BLOGTITLE = "Dispatches: Space Junk Blog"
+
+
+
+# to install this theme:
+# git checkout http://github.com/charlesreid1/coffin-spore-theme
+# pelican-themes -i coffin-spore-theme
+THEME = 'coffin-spore-theme'
+
+
+
 
 # Don't try to turn HTML files into pages
 READERS = {'html': None}
 
 #PLUGIN_PATHS = ['/Users/charles/codes/pelican-plugins/']
-PLUGIN_PATHS = ['/Users/charles/codes/pelican-plugins/']
 
 STATIC_PATHS = ['images']
 
-THEME = 'apollo-theme'
 DISPLAY_PAGES_ON_MENU = False
 
 TEMPLATE_PAGES = {'blog.html':'blog.html'}
