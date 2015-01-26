@@ -56,6 +56,20 @@ on the Twitter API documentation.
 register_openers()
             
 
+
+def main():
+    r = Ring('keys/')
+    #change_milton_bios(r)
+    #change_milton_urls(r)
+    #change_milton_colors(r)
+    #change_milton_images(r)
+    r.change_profile()
+
+
+
+
+
+
 class Ring(object):
 
     def __init__(self,keys_dir):
@@ -125,6 +139,70 @@ class Ring(object):
                     )
             
             print content
+
+
+
+    def change_profile(self):
+
+        for key_dictionary in self.all_keys:
+
+            ########################################
+            # This page:
+            # http://stackoverflow.com/questions/14836956/how-to-get-user-image-with-twitter-api-1-1
+            # shows a get request.
+            # I think you gotta combine get and post methods.
+            # api.twitter.com/api/something.json/url?screen_name=charlesreid1
+            #
+            #
+            # Close. You have to sign a POST request,
+            # then turn it into a regular GET request.
+            # (Apparently...?)
+            # 
+            # This gist:
+            # https://gist.github.com/velocityzen/1242662
+            # This SO thread:
+            # http://stackoverflow.com/questions/6924569/doing-a-file-upload-with-python-oauth2
+            #
+            # This SO thread did it:
+            # http://stackoverflow.com/questions/12977604/how-do-i-send-a-post-using-2-legged-oauth2-in-python
+            # Boom.
+            # Twitter expects body to be a JSON
+            # containing whatever parameters are listed 
+            # on the Twitter API documentation.
+            ########################################
+
+            handle = key_dictionary['screen_name']
+
+            descr2title = {}
+            descr2title['apollo11junk'] = 'Houston, Apollo 11. [Long pause.] This Entry PAD assumes no Midcourse 6. Over.'
+            descr2title['apollo12junk'] = 'This is Apollo Control, Houston; at 57 hours, 35 minutes now into the flight of Apollo 12.'
+
+            apollo_url = 'http://charlesreid1.github.io/apollospacejunk'
+
+            # -------------------
+
+            # Set the API endpoint 
+            url = "https://api.twitter.com/1.1/account/update_profile.json"
+
+            import urllib
+
+            token = oauth.Token(key = key_dictionary['oauth_token'], 
+                             secret = key_dictionary['oauth_token_secret'])
+            consumer = oauth.Consumer(key = key_dictionary['consumer_token'], 
+                                   secret = key_dictionary['consumer_token_secret'])
+            client = oauth.Client(consumer,token)
+            resp, content = client.request(
+                    url,
+                    method = "POST",
+                    body=urllib.urlencode({'url': apollo_url,
+                                           'description': descr2title[handle]}),
+                    headers=None
+                    )
+            
+            print content
+
+
+
 
 
     def change_bot_bio(self,bios):
@@ -290,9 +368,5 @@ def change_milton_images(r):
     r.change_bot_img(url)
 
 if __name__=="__main__":
-    r = Ring('keys/')
-    change_milton_bios(r)
-    change_milton_urls(r)
-    change_milton_colors(r)
-    change_milton_images(r)
+    main()
 

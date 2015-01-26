@@ -21,6 +21,7 @@ SITETAGLINE = "Houston, Apollo 11. [Long pause.] This Entry PAD assumes no Midco
 
 # this image must be in content/images/
 SITEIMG = "Apollo12ConradSurveyor.jpg" 
+IMGVERTOFFSET = "100px"
 BLOGTITLE = "Dispatches: Space Junk Blog"
 
 
