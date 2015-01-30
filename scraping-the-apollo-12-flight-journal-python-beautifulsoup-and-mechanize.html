@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Apollo Space Junk Bot Flock</title>
+    <meta name="author" content="charlesreid1">
+
+
+
+    <!-- http://t.co/dKP3o1e -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <link href="/apollospacejunk/favicon.png" rel="icon">
+
+
+
+    <!--
+    my CSS styles
+    -->
+    <link href="/apollospacejunk/theme/css/bootstrap.css"       rel="stylesheet" type="text/css">
+    <link href="/apollospacejunk/theme/css/darkly.css"          rel="stylesheet" type="text/css"/>
+    <link href="/apollospacejunk/theme/css/navbar.css"          rel="stylesheet" type="text/css"/>
+    <link href="/apollospacejunk/theme/css/main.css"            rel="stylesheet" type="text/css"/>
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+          rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+          rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!--
+            http://www.w3schools.com/bootstrap/bootstrap_case_navigation.asp
+            -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+            </button>
+            <a class="navbar-brand" href="/apollospacejunk/index.html" style="margin-right:20px;">Apollo Space Junk Bot Flock</a>
+        </div>
+        <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+
+                    <li>
+                        <a href="/apollospacejunk/about.html">About</a>
+                    </li>
+
+
+                    <li>
+                        <a href="/apollospacejunk/twitter.html">Twitter</a>
+                    </li>
+
+
+                    <li>
+                        <a href="/apollospacejunk/code.html">Code</a>
+                    </li>
+
+
+                    <li>
+                        <a href="/apollospacejunk/blog.html">Blog</a>
+                    </li>
+
+
+
+
+                    <li class="spacer">
+                        <p>&nbsp;</p>
+                    </li>
+
+                    <li>
+                        <a href="/apollospacejunk/other.html">Other Flocks</a>
+                    </li>
+
+                    <li>
+                        <a href="/apollospacejunk/author.html">Author</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+
+
+<div class="container" style="background:#000; height:1200px; background-image:url(/apollospacejunk/images/Apollo12ConradSurveyor.jpg); background-position: 0px 120px; background-repeat: no-repeat;">
+
+    <div class="jumbotron" style="background:none;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Apollo Space Junk Bot Flock</h1>
+                <p class="lead">Houston, Apollo 11. [Long pause.] This Entry PAD assumes no Midcourse 6. Over.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col-md-8" >
+            <div class="well">
+
+                <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">"Scraping the Apollo 12 Flight Journal: Python, BeautifulSoup, and Mechanize"</h1>
+    <p class="meta">
+<time datetime="2015-01-29T18:15:00-08:00" pubdate>Thu 29 January 2015</time>    </p>
+</header>
+
+<p>===============================</p>
+
+  <div class="entry-content"><h2>Scraping the Apollo Flight Journals</h2>
+<p>I wanted to iterate through each day of the <a href="http://www.hq.nasa.gov/office/pao/History/ap12fj/">transcripts of the Apollo 12 flight logs</a>
+(i.e., the radio dialogue from the Apollo 12 mission), and extracting the text using a Python web scraper.</p>
+<p>That text is then parsed to break dialogue up into sentences,
+and match dialogue with speakers, all of which is then exported
+as a JSON file for olipy, a random text generation library for Python.</p>
+<p>This would all be used to create bots that would generate new, fake, 
+but plausible random Apollo radio chatter, by chopping up the dialogue
+and serving up a remix.</p>
+<p>This is the purpose of olipy, which requires a JSON file that looks like this: <a href="https://raw.githubusercontent.com/leonardr/olipy/master/data/apollo_11.txt">apollo 11.txt</a> </p>
+<p>A series of lines of the form:</p>
+<div class="highlight"><pre> {
+  &quot;tokens&quot;: [
+   &quot;Where are we going?&quot;
+  ],
+  &quot;speaker&quot;: &quot;Conrad&quot;,
+  &quot;time&quot;: &quot;000:24:00&quot;
+ },
+ {
+  &quot;tokens&quot;: [
+   &quot;AC Bus 1 light, all the fuel cells ... &quot;
+  ],
+  &quot;speaker&quot;: &quot;Conrad&quot;,
+  &quot;time&quot;: &quot;000:25:00&quot;
+ },
+ {
+  &quot;tokens&quot;: [
+   &quot;Altitude a mile and a half now.&quot;,
+   &quot;Velocity 1,592 feet per second.&quot;
+  ],
+  &quot;speaker&quot;: &quot;Public Affairs Office&quot;,
+  &quot;time&quot;: &quot;000:26:00&quot;
+ }
+</pre></div>
+
+
+<p>All of this will allow us to make the <a href="http://twitter.com/apollo12">Apollo 12 Space Junk twitterbot</a> (now created),
+a sister of the <a href="http://twitter.com/apollo11junk">Apollo 11 Space Junk twitterbot</a>.</p>
+<h2>TL;DR</h2>
+<p>Here's the links to the finished products, if you want to follow along, or skip everything:</p>
+<ul>
+<li>
+<p><a href="https://raw.githubusercontent.com/charlesreid1/wordswordswords/master/apollo12/data/apollo_12.txt">apollo 12.txt</a> - finished product, parsed JSON text of the Apollo 12 flight journals</p>
+</li>
+<li>
+<p><a href="https://github.com/charlesreid1/wordswordswords/tree/master/apollo12">apollo 12 scrapeit.py</a> - the Python script utilizing BeautifulSoup and Mechanize that I am walking you through on this post.</p>
+</li>
+</ul>
+<h2>Scraping with Python</h2>
+<p>I decided to use <a href="http://wwwsearch.sourceforge.net/mechanize/">Mechanize</a>,
+just cuz I wanted to learn how.</p>
+<p>I used <a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> 
+cuz it's a breeze.</p>
+<p>I was interested in extracting the text from each of the 10 days listed on the 
+Apollo 12 Flight Journal page. So I fired up mechanize and BeautifulSoup:</p>
+<h3>Getting Each Log Day Page</h3>
+<p>The first bit of the script obtains the HTML 
+of the main page. This is where the links to each 
+day are, and we can iterate through links to find
+links whose text contains "Day ".</p>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">mechanize</span> 
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+
+<span class="n">base_link</span> <span class="o">=</span> <span class="s">&#39;http://www.hq.nasa.gov/office/pao/History/ap12fj/&#39;</span>
+
+<span class="n">base_page</span> <span class="o">=</span> <span class="s">&#39;index.htm&#39;</span>
+
+<span class="n">browser</span> <span class="o">=</span> <span class="n">mechanize</span><span class="o">.</span><span class="n">Browser</span><span class="p">()</span>
+<span class="n">headers</span><span class="o">=</span><span class="p">[(</span><span class="s">&#39;Content-type&#39;</span><span class="p">,</span> <span class="s">&#39;application/x-www-form-urlencoded; charset=UTF-8&#39;</span><span class="p">)]</span>
+<span class="n">browser</span><span class="o">.</span><span class="n">addheaders</span> <span class="o">=</span> <span class="n">headers</span>
+<span class="n">resp</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">base_link</span><span class="o">+</span><span class="n">base_page</span><span class="p">)</span>
+
+<span class="n">html_doc</span> <span class="o">=</span> <span class="n">resp</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre></div>
+
+
+<p>Next is iterating through all the links with the soup object:</p>
+<div class="highlight"><pre><span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">html_doc</span><span class="p">)</span>
+<span class="n">a_s</span> <span class="o">=</span> <span class="n">soup</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">&#39;a&#39;</span><span class="p">)</span>
+
+<span class="n">log_links</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">a_</span> <span class="ow">in</span> <span class="n">a_s</span><span class="p">:</span>
+    <span class="n">link_text</span> <span class="o">=</span> <span class="n">a_</span><span class="o">.</span><span class="n">get_text</span><span class="p">()</span>
+    <span class="k">if</span> <span class="s">&#39;Day &#39;</span> <span class="ow">in</span> <span class="n">link_text</span><span class="p">:</span>
+        <span class="n">page_name</span> <span class="o">=</span> <span class="n">a_</span><span class="o">.</span><span class="n">attrs</span><span class="p">[</span><span class="s">&#39;href&#39;</span><span class="p">]</span>
+        <span class="n">link_name</span> <span class="o">=</span> <span class="n">base_link</span><span class="o">+</span><span class="n">page_name</span>
+        <span class="n">log_links</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">link_name</span><span class="p">)</span>
+
+<span class="c"># follow those links!!!</span>
+</pre></div>
+
+
+<h2>A Whole Bunch of Crummy Low-Level Text Wrangling</h2>
+<p>I had to do a bunch of nonsense to get the text
+properly encoded and decoded, namely, find and replace
+ascii characters like 1/2, single and double quotes,
+emdashes and endashes, etc.</p>
+<h2>Sentence Tokenization with NLTK</h2>
+<p>Now we can start using the <a href="http://www.nltk.org/">Natural Language Toolkit (nltk)</a>
+to parse the text:</p>
+<div class="highlight"><pre>    <span class="kn">import</span> <span class="nn">nltk</span>
+
+    <span class="c"># tokenize by sentence:</span>
+    <span class="n">tokens</span> <span class="o">=</span> <span class="n">nltk</span><span class="o">.</span><span class="n">tokenize</span><span class="o">.</span><span class="n">sent_tokenize</span><span class="p">(</span><span class="n">booty</span><span class="p">)</span>
+</pre></div>
+
+
+<p>I then did some cleaning up of the tokens, to split at colons and hyphens
+(delineating speakers from dialogue).</p>
+<h3>Speakers and Dialogue</h3>
+<p>Now I get to the hard part: parsing who says what.</p>
+<p>I started by defining all the speakers:</p>
+<div class="highlight"><pre>    <span class="n">speakers</span> <span class="o">=</span> <span class="p">[</span>
+        <span class="s">&#39;Public Affairs Office&#39;</span><span class="p">,</span>
+        <span class="s">&#39;SC&#39;</span><span class="p">,</span>
+        <span class="s">&#39;MS&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Carr&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Conrad&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Gordon&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Gibson&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Bean&#39;</span><span class="p">,</span>
+        <span class="s">&#39;ARIA&#39;</span><span class="p">,</span>
+        <span class="s">&#39;MS&#39;</span><span class="p">,</span>
+        <span class="s">&#39;SC&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Weitz&#39;</span><span class="p">,</span>
+        <span class="s">&#39;Lind&#39;</span>
+        <span class="p">]</span>
+</pre></div>
+
+
+<p>Next, some regular expression magic to get rid of timestamps 
+appearing next to speakers' names:</p>
+<div class="highlight"><pre>    <span class="c"># replace timestamps 000:00:00</span>
+    <span class="c"># look for &quot;last updated&quot; location</span>
+    <span class="c">#</span>
+    <span class="n">last_updated_index</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">jj</span><span class="p">,</span><span class="n">tok</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">tokens</span><span class="p">):</span>
+
+        <span class="k">if</span> <span class="nb">any</span><span class="p">([</span><span class="n">speaker</span> <span class="ow">in</span> <span class="n">tok</span> <span class="k">for</span> <span class="n">speaker</span> <span class="ow">in</span> <span class="n">speakers</span><span class="p">]):</span>
+
+            <span class="n">stripped_tok</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">&#39;[0-9]{3}:[0-9]{2}:[0-9]{2} &#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">,</span><span class="n">tok</span><span class="p">)</span>
+            <span class="n">stripped_tok2</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">&#39;at [0-9]{3}:[0-9]{2}:[0-9x]{2}&#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">,</span><span class="n">stripped_tok</span><span class="p">)</span>
+            <span class="n">stripped_tok3</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s">&#39; \(onboard\)&#39;</span><span class="p">,</span><span class="s">&#39;&#39;</span><span class="p">,</span><span class="n">stripped_tok2</span><span class="p">)</span>
+            <span class="n">tokens</span><span class="p">[</span><span class="n">jj</span><span class="p">]</span> <span class="o">=</span> <span class="n">stripped_tok3</span>
+
+        <span class="k">if</span> <span class="s">&#39;last updated&#39;</span> <span class="ow">in</span> <span class="n">tok</span><span class="o">.</span><span class="n">lower</span><span class="p">():</span>
+            <span class="n">last_updated_index</span> <span class="o">=</span> <span class="n">jj</span>
+
+    <span class="k">if</span> <span class="n">last_updated_index</span> <span class="o">&lt;&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">tokens</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">last_updated_index</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+</pre></div>
+
+
+<p>The last step is to put all this information into a 
+Python dictionary, with keys "speaker", "tokens",
+and "time". I'm generating a fake timestamp, 
+incremented by one minute with each line of 
+dialogue, since timestamps aren't used consistently
+through the flight journal, and so long as order is 
+preserved, aren't as important to the text generation process.</p>
+<div class="highlight"><pre>    <span class="n">ii</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">ii</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">tokens</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="ow">in</span> <span class="n">speakers</span><span class="p">:</span>
+            <span class="n">d</span> <span class="o">=</span> <span class="p">{}</span>
+            <span class="n">d</span><span class="p">[</span><span class="s">&#39;speaker&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">tokens</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span>
+            <span class="n">ii</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">z</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">while</span> <span class="p">(</span><span class="n">ii</span><span class="o">&lt;</span><span class="nb">len</span><span class="p">(</span><span class="n">tokens</span><span class="p">))</span> <span class="ow">and</span> <span class="p">(</span><span class="n">comm_break</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">tokens</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="ow">and</span> <span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">speakers</span><span class="p">):</span>
+                <span class="n">z</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tokens</span><span class="p">[</span><span class="n">ii</span><span class="p">])</span>
+                <span class="n">ii</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">d</span><span class="p">[</span><span class="s">&#39;tokens&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">z</span>
+
+            <span class="n">cc</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">all_the_dialogue</span><span class="p">)</span>
+            <span class="k">if</span> <span class="p">((</span><span class="n">mm</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">%</span><span class="mi">60</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+                <span class="n">mm</span><span class="o">=</span><span class="mi">0</span>
+            <span class="k">if</span> <span class="p">((</span><span class="n">cc</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">%</span><span class="mi">60</span><span class="p">)</span><span class="o">==</span><span class="mi">0</span><span class="p">:</span>
+                <span class="n">hh</span> <span class="o">+=</span> <span class="mi">1</span>
+
+            <span class="n">d</span><span class="p">[</span><span class="s">&#39;time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;</span><span class="si">%03d</span><span class="s">:</span><span class="si">%02d</span><span class="s">:00&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">hh</span><span class="p">,</span><span class="n">mm</span><span class="p">)</span>
+            <span class="n">all_the_dialogue</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+            <span class="n">mm</span> <span class="o">+=</span> <span class="mi">1</span>
+
+        <span class="n">ii</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+
+<p>You can see that I am compiling a Python list containing 
+each of those dictionaries. Once I'm done, I can dump
+that whole list into a file with the JSON dumps function,
+which dumps the list to a string:</p>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;data/apollo_12.txt&#39;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">all_the_dialogue</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">d</span><span class="p">))</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>which results in this output:</p>
+<div class="highlight"><pre>{&quot;tokens&quot;: [&quot;Two minutes, 20 seconds and counting at this time.&quot;, &quot;Two minutes, 10 seconds at this time.&quot;, &quot;We see that the stages are now beginning to pressurize as our countdown proceeds.&quot;, &quot;Coming up on the 2 minute mark in the count.&quot;, &quot;T minus 2 minutes and counting, T minus 2.&quot;, &quot;Spacecraft commander now has placed the environmental control system of the spacecraft on internal.&quot;, &quot;Up to this time we have been providing external sources for the environmental control system.&quot;, &quot;We&#39;re checking the hydraulics of the first stage of the launch vehicle now.&quot;, &quot;We are still Go.&quot;, &quot;One minute, 40 seconds and counting at this time.&quot;, &quot;T minus 90 seconds and counting, T minus 90, still Go.&quot;, &quot;Our status board here in firing room 2 indicates all is still well with the countdown.&quot;, &quot;Third stage tanks now pressurized as the automatic sequence continues.&quot;], &quot;speaker&quot;: &quot;Public Affairs Office&quot;, &quot;time&quot;: &quot;000:08:00&quot;}
+{&quot;tokens&quot;: [&quot;Lift-off.&quot;, &quot;The clock&#39;s running.&quot;], &quot;speaker&quot;: &quot;Conrad&quot;, &quot;time&quot;: &quot;000:09:00&quot;}
+{&quot;tokens&quot;: [&quot;Six seconds.&quot;], &quot;speaker&quot;: &quot;Bean&quot;, &quot;time&quot;: &quot;000:10:00&quot;}
+{&quot;tokens&quot;: [&quot;Clear the tower.&quot;], &quot;speaker&quot;: &quot;Gordon&quot;, &quot;time&quot;: &quot;000:11:00&quot;}
+{&quot;tokens&quot;: [&quot;Pete Conrad reports the yaw program is in.&quot;, &quot;Tower clear.&quot;], &quot;speaker&quot;: &quot;Public Affairs Office&quot;, &quot;time&quot;: &quot;000:12:00&quot;}
+{&quot;tokens&quot;: [&quot;Roger, Pete.&quot;], &quot;speaker&quot;: &quot;Carr&quot;, &quot;time&quot;: &quot;000:13:00&quot;}
+{&quot;tokens&quot;: [&quot;It&#39;s a lovely lift-off.&quot;, &quot;It&#39;s not bad at all.&quot;, &quot;[Pause.]&quot;], &quot;speaker&quot;: &quot;Conrad&quot;, &quot;time&quot;: &quot;000:14:00&quot;}
+{&quot;tokens&quot;: [&quot;Everything&#39;s looking great.&quot;, &quot;Sky&#39;s getting lighter.&quot;], &quot;speaker&quot;: &quot;Gordon&quot;, &quot;time&quot;: &quot;000:15:00&quot;}
+{&quot;tokens&quot;: [&quot;Thirty seconds.&quot;], &quot;speaker&quot;: &quot;Bean&quot;, &quot;time&quot;: &quot;000:16:00&quot;}
+{&quot;tokens&quot;: [&quot;Roll&#39;s complete.&quot;], &quot;speaker&quot;: &quot;Conrad&quot;, &quot;time&quot;: &quot;000:17:00&quot;}
+{&quot;tokens&quot;: [&quot;Roger, Pete.&quot;, &quot;[Pause.]&quot;], &quot;speaker&quot;: &quot;Carr&quot;, &quot;time&quot;: &quot;000:18:00&quot;}
+</pre></div>
+
+
+<p>I can even print it out all nice and pretty like:</p>
+<div class="highlight"><pre><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">&#39;data/apollo_12_pretty.txt&#39;</span><span class="p">,</span><span class="s">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">all_the_dialogue</span><span class="p">,</span><span class="n">f</span><span class="p">,</span><span class="n">indent</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+
+<p>which results in this:</p>
+<div class="highlight"><pre> {
+  &quot;tokens&quot;: [
+   &quot;Two minutes, 20 seconds and counting at this time.&quot;, 
+   &quot;Two minutes, 10 seconds at this time.&quot;, 
+   &quot;We see that the stages are now beginning to pressurize as our countdown proceeds.&quot;, 
+   &quot;Coming up on the 2 minute mark in the count.&quot;, 
+   &quot;T minus 2 minutes and counting, T minus 2.&quot;, 
+   &quot;Spacecraft commander now has placed the environmental control system of the spacecraft on internal.&quot;, 
+   &quot;Up to this time we have been providing external sources for the environmental control system.&quot;, 
+   &quot;We&#39;re checking the hydraulics of the first stage of the launch vehicle now.&quot;, 
+   &quot;We are still Go.&quot;, 
+   &quot;One minute, 40 seconds and counting at this time.&quot;, 
+   &quot;T minus 90 seconds and counting, T minus 90, still Go.&quot;, 
+   &quot;Our status board here in firing room 2 indicates all is still well with the countdown.&quot;, 
+   &quot;Third stage tanks now pressurized as the automatic sequence continues.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Public Affairs Office&quot;, 
+  &quot;time&quot;: &quot;000:08:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Lift-off.&quot;, 
+   &quot;The clock&#39;s running.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Conrad&quot;, 
+  &quot;time&quot;: &quot;000:09:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Six seconds.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Bean&quot;, 
+  &quot;time&quot;: &quot;000:10:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Clear the tower.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Gordon&quot;, 
+  &quot;time&quot;: &quot;000:11:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Pete Conrad reports the yaw program is in.&quot;, 
+   &quot;Tower clear.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Public Affairs Office&quot;, 
+  &quot;time&quot;: &quot;000:12:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Roger, Pete.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Carr&quot;, 
+  &quot;time&quot;: &quot;000:13:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;It&#39;s a lovely lift-off.&quot;, 
+   &quot;It&#39;s not bad at all.&quot;, 
+   &quot;[Pause.]&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Conrad&quot;, 
+  &quot;time&quot;: &quot;000:14:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Everything&#39;s looking great.&quot;, 
+   &quot;Sky&#39;s getting lighter.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Gordon&quot;, 
+  &quot;time&quot;: &quot;000:15:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Thirty seconds.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Bean&quot;, 
+  &quot;time&quot;: &quot;000:16:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Roll&#39;s complete.&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Conrad&quot;, 
+  &quot;time&quot;: &quot;000:17:00&quot;
+ }, 
+ {
+  &quot;tokens&quot;: [
+   &quot;Roger, Pete.&quot;, 
+   &quot;[Pause.]&quot;
+  ], 
+  &quot;speaker&quot;: &quot;Carr&quot;, 
+  &quot;time&quot;: &quot;000:18:00&quot;
+ }, 
+</pre></div>
+
+
+<p>In any case, the end result is a brand-new file, apollo_12.txt, 
+which is in just the right format to feed to olipy!</p>
+<p>Here's the link to the final product, apollo_12.txt: <a href="https://raw.githubusercontent.com/charlesreid1/wordswordswords/master/apollo12/data/apollo_12.txt">https://raw.githubusercontent.com/charlesreid1/wordswordswords/master/apollo12/data/apollo_12.txt</a></p>
+<p>In a future post I'll cover my script for feeding this JSON file to olipy
+to make an Apollo 12 Space Junk bot. That script is available on Github 
+at <a href="https://github.com/charlesreid1/wordswordswords/tree/master/apollo12">apollo12_olipy.py</a>.</p></div>
+                </article>
+
+            </div>
+        </div>
+
+        <div class="col-md-4" >
+<div id="blog-archives">
+    <h3>Blog Archives:</h3>
+    <ul>
+                    <li class="archive"><a href="/apollospacejunk/scraping-the-apollo-12-flight-journal-python-beautifulsoup-and-mechanize.html">"Scraping the Apollo 12 Flight Journal: Python, BeautifulSoup, and Mechanize"</a></li>
+                    <li class="archive"><a href="/apollospacejunk/apollo-11-ipsum-variation-in-sentence-structure.html">Apollo 11 Ipsum: Variation in Sentence Structure</a></li>
+                    <li class="archive"><a href="/apollospacejunk/apollo-12-ipsum.html">Apollo 12 Ipsum</a></li>
+                    <li class="archive"><a href="/apollospacejunk/apollo-11-ipsum.html">Apollo 11 Ipsum</a></li>
+    </ul>
+</div>
+        </div>
+
+    </div>
+
+
+
+</div><!--jumbotron container-->
+
+</div><!--container-->
+
+<script src="/apollospacejunk/theme/js/jquery.min.js"></script>
+<script src="/apollospacejunk/theme/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
