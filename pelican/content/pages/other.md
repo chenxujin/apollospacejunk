@@ -6,6 +6,16 @@ The Apollo Space Junk Bot Flock is just one
 of several bot flocks that I have
 created. The complete list is here.
 
+<a href="http://charlesreid1.github.io/watergate">
+<img src="images/watergatethumb.jpg" /> 
+
+Watergate Twitter Bot 
+</a>
+
+<br />
+
+<br />
+
 <a href="http://charlesreid1.github.io/milton">
 <img src="images/miltonthumb.jpg" /> 
 
