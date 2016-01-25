@@ -1,13 +1,14 @@
 import rainbowmindmachine as rmm
 import logging
 
+LOG_FILE = "apollo_bot_flock_jan21.log"
 
 def setup():
     k = rmm.TxtKeymaker()
-    k.make_keys('data/')
+    k.make_keys('/home/charles/codes/apollospacejunk/bot/data/')
     
 def run():
-    sh = rmm.Shepherd('keys/',sheep_class=rmm.QueneauSheep)
+    sh = rmm.Shepherd('/home/charles/codes/apollospacejunk/bot/keys/',sheep_class=rmm.QueneauSheep)
 
     #sh.perform_action('tweet',{'publish':False})
     sh.perform_pool_action('tweet',{
