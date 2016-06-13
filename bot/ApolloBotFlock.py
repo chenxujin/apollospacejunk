@@ -5,7 +5,7 @@ LOG_FILE = "apollo_bot_flock_jan21.log"
 
 def setup():
     k = rmm.TxtKeymaker()
-    k.make_keys('/home/charles/codes/apollospacejunk/bot/data/')
+    k.make_keys('/home/charles/codes/apollospacejunk/bot/data/','/home/charles/codes/apollospacejunk/bot/keys/')
     
 def run():
     sh = rmm.Shepherd('/home/charles/codes/apollospacejunk/bot/keys/',sheep_class=rmm.QueneauSheep)
@@ -20,4 +20,5 @@ def run():
 
 if __name__=="__main__":
     run()
+    #setup()
 
