@@ -16,7 +16,7 @@ Step 3:
     good to go!
 """
 
-d = DialogueAssembler.loadlines(open("../data/apollo_12.txt"))
+d = DialogueAssembler.loadlines(open("../data/apollo_13.txt"))
 last_speaker = None
 for i in range(1, 100):
     speaker, tokens = d.assemble(last_speaker)
