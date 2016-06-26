@@ -4,7 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'charlesreid1'
 SITENAME = u'Apollo Space Junk Bot Flock'
+
+# If you are building this for Github, you need to use the site prefix /apollospacejunk 
 SITEURL = '/apollospacejunk'
+
+# If you are building this for local testing, you need to use the site prefix /
+#SITEURL=''
 
 PATH = 'content'
 
