@@ -1,11 +1,11 @@
 {"tokens": ["Good morning, 11.", "This is Houston.", "Over."], "speaker": "McCandless", "time": "147:47:24"}
 {"tokens": ["Okay.", "Crew status report.", "8, 8 and 8.5."], "speaker": "Armstrong", "time": "147:47:31"}
 {"tokens": ["Houston, we're ready to copy."], "speaker": "Aldrin", "time": "147:48:14"}
-{"tokens": ["Roger.", "At about 148 hours, if you've not already done so, a CO<sub>2</sub> filter change, and the H<sub>2</sub> purge line heater on 20 minutes before the O<sub>2</sub> and H<sub>2</sub> purge.", "At 148 hours, we'd like you to initiate a charge on Battery Alpha instead of at 151 hours, and leave the charge on until we notify you further.", "At 150 hours GET, waste-water dump to 10 percent.", "We do plan to burn Midcourse Correction 5.", "It will be an RCS burn about 5 feet per second [1.5 m/s] at about the nominal time in the Flight Plan.", "Over.", "[Long pause.]"], "speaker": "McCandless", "time": "147:48:16"}
-{"tokens": ["Roger.", "Understand.", "We'll be accomplishing the filter change shortly, the purge line heater is on, and we'll take care of O<sub>2</sub> and H<sub>2</sub> purge shortly, and at 148 will initiate a charge on Battery A until you notify us further.", "150 hours, waste-water dump to 10 percent.", "And we're looking forward to Midcourse Correction 5 at about 5 feet per second at the nominal time.", "Over."], "speaker": "Aldrin", "time": "147:49:24"}
+{"tokens": ["Roger.", "At about 148 hours, if you've not already done so, a CO2 filter change, and the H2 purge line heater on 20 minutes before the O2 and H2 purge.", "At 148 hours, we'd like you to initiate a charge on Battery Alpha instead of at 151 hours, and leave the charge on until we notify you further.", "At 150 hours GET, waste-water dump to 10 percent.", "We do plan to burn Midcourse Correction 5.", "It will be an RCS burn about 5 feet per second [1.5 m/s] at about the nominal time in the Flight Plan.", "Over.", "[Long pause.]"], "speaker": "McCandless", "time": "147:48:16"}
+{"tokens": ["Roger.", "Understand.", "We'll be accomplishing the filter change shortly, the purge line heater is on, and we'll take care of O2 and H2 purge shortly, and at 148 will initiate a charge on Battery A until you notify us further.", "150 hours, waste-water dump to 10 percent.", "And we're looking forward to Midcourse Correction 5 at about 5 feet per second at the nominal time.", "Over."], "speaker": "Aldrin", "time": "147:49:24"}
 {"tokens": ["Roger.", "I've got your consumables update, if you're ready to copy.", "[Pause.]"], "speaker": "McCandless", "time": "147:49:52"}
 {"tokens": ["Copy."], "speaker": "Aldrin", "time": "147:50:02"}
-{"tokens": ["Okay.", "At GET of 147 plus 00, RCS total minus 2.0 percent, which is about minus 14 pounds.", "Alpha minus 12.0, Bravo plus 10.0, minus 3.0, minus 2.0.", "Hydrogen total minus 1.5 pounds, O<sub>2</sub> total plus 20 pounds.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "147:50:04"}
+{"tokens": ["Okay.", "At GET of 147 plus 00, RCS total minus 2.0 percent, which is about minus 14 pounds.", "Alpha minus 12.0, Bravo plus 10.0, minus 3.0, minus 2.0.", "Hydrogen total minus 1.5 pounds, O2 total plus 20 pounds.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "147:50:04"}
 {"tokens": ["Roger.", "I copy, and our onboard readouts - Alpha 53 percent, Bravo 54 percent, Cocoa's 64 percent, Delta 61 percent.", "Over."], "speaker": "Aldrin", "time": "147:50:50"}
 {"tokens": ["Roger, 11.", "Would you read that quad Alpha again, please, Buzz.", "You're cutting out.", "It may be - are you operating on VOX?", "Over."], "speaker": "McCandless", "time": "147:51:19"}
 {"tokens": ["Negative.", "Alpha is 53 percent.", "Over."], "speaker": "Aldrin", "time": "147:51:29"}
@@ -49,21 +49,21 @@
 {"tokens": ["And on the LM side, we were in AGS Min deadband Att Hold, and at contact, I thrusted plus-X.", "And shortly after that we had a sizable attitude oscillation and thruster firing, so we opened up the deadband to Max and manually flew the vehicle into stable attitude during the retraction.", "And we went to Off after [garble] completion of retraction."], "speaker": "Armstrong", "time": "148:47:49"}
 {"tokens": ["Roger.", "Thank you very much.", "Out."], "speaker": "McCandless", "time": "148:48:28"}
 {"tokens": ["Stand by."], "speaker": "Armstrong", "time": "148:50:56"}
-{"tokens": ["11, this is Houston.", "Midcourse Correction number 5.", "RCS/G&N: 26025, pitch and yaw trim NA, T<sub>IG</sub> 150:29:54.53; minus 0004.8, plus all balls, plus 0000.1; 075, 159, 328.", "H<sub>A</sub> is NA; H<sub>P</sub>, plus 0023.0.", "0004.8, 0:11, 0004.8.", "Sextant star 03, 090.8, 38.2.", "Boresight star block, none available.", "Latitude plus 11.02, minus 172.04; 1180.3, 36275, 195:03:33; GDC align, Deneb and Vega, 007, 144, 068; no ullage of course, four-quad thrusting.", "Over.", "Read back."], "speaker": "McCandless", "time": "148:52:02"}
+{"tokens": ["11, this is Houston.", "Midcourse Correction number 5.", "RCS/G&N: 26025, pitch and yaw trim NA, TIG 150:29:54.53; minus 0004.8, plus all balls, plus 0000.1; 075, 159, 328.", "HA is NA; HP, plus 0023.0.", "0004.8, 0:11, 0004.8.", "Sextant star 03, 090.8, 38.2.", "Boresight star block, none available.", "Latitude plus 11.02, minus 172.04; 1180.3, 36275, 195:03:33; GDC align, Deneb and Vega, 007, 144, 068; no ullage of course, four-quad thrusting.", "Over.", "Read back."], "speaker": "McCandless", "time": "148:52:02"}
 {"tokens": ["Roger.", "Midcourse number 5.", "RCS/G&N: 26025, pitch and yaw NA, 150:29:54.53, minus 0004.8, plus all zeros, plus 0000.1; 075, 159, 328.", "NA, plus 0023.0; 0004.8, 0:11, 0004.8.", "03, 090.8, 38.2.", "NA three times.", "Plus 11.02, minus 172.04, 1180.3, 36275, 195:03:33; Deneb and Vega, 007, 144, 068; and four quads for the burn.", "Over."], "speaker": "Collins", "time": "148:53:51"}
 {"tokens": ["Apollo 11, this is Houston.", "Readback correct.", "Out."], "speaker": "McCandless", "time": "148:55:17"}
 {"tokens": ["Roger.", "Go ahead, Houston."], "speaker": "Aldrin", "time": "149:03:18"}
-{"tokens": ["Roger.", "If Neil has a free minute, we've got a question or two regarding the CO<sub>2</sub> partial pressure and water in the suit loop discrepancies noted yesterday.", "Over."], "speaker": "McCandless", "time": "149:03:20"}
+{"tokens": ["Roger.", "If Neil has a free minute, we've got a question or two regarding the CO2 partial pressure and water in the suit loop discrepancies noted yesterday.", "Over."], "speaker": "McCandless", "time": "149:03:20"}
 {"tokens": ["Go ahead."], "speaker": "Armstrong", "time": "149:03:33"}
 {"tokens": ["Roger, 11.", "Was water noted in both suits or only in yours, Neil?"], "speaker": "McCandless", "time": "149:03:36"}
 {"tokens": ["I think only in my suit."], "speaker": "Armstrong", "time": "149:03:44"}
 {"tokens": ["Okay.", "Can you locate that occurrence for us in time when you first noticed water in the suit, either by mission time or relation to any particular event?", "[Long pause.]"], "speaker": "McCandless", "time": "149:03:48"}
 {"tokens": ["I think it was after insertion sometime, Bruce.", "I don't remember exactly when.", "I - It was when we were in orbit and had our - after we took our helmets off."], "speaker": "Armstrong", "time": "149:04:17"}
 {"tokens": ["I'd guess it might have been probably 20 minutes after I noticed it that I mentioned it to you."], "speaker": "Armstrong", "time": "149:04:38"}
-{"tokens": ["Roger.", "Was this noticing the water accompanied by erratic CO<sub>2</sub> partial pressure readings, or was that a separate problem?", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "149:04:44"}
-{"tokens": ["Well, the water problem evidenced itself before we noted any erratic motions of the PCO<sub>2</sub> gauge."], "speaker": "Armstrong", "time": "149:04:57"}
-{"tokens": ["Roger.", "And what was the relative sequence on selecting water separator number 2 and the secondary CO<sub>2</sub> canister?", "That is, did you go to the secondary water separator first and then the secondary CO<sub>2</sub>?", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "149:05:06"}
-{"tokens": ["I believe we went to secondary CO<sub>2</sub> first."], "speaker": "Armstrong", "time": "149:05:27"}
+{"tokens": ["Roger.", "Was this noticing the water accompanied by erratic CO2 partial pressure readings, or was that a separate problem?", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "149:04:44"}
+{"tokens": ["Well, the water problem evidenced itself before we noted any erratic motions of the PCO2 gauge."], "speaker": "Armstrong", "time": "149:04:57"}
+{"tokens": ["Roger.", "And what was the relative sequence on selecting water separator number 2 and the secondary CO2 canister?", "That is, did you go to the secondary water separator first and then the secondary CO2?", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "149:05:06"}
+{"tokens": ["I believe we went to secondary CO2 first."], "speaker": "Armstrong", "time": "149:05:27"}
 {"tokens": ["Secondary hydroxide - lithium hydroxide."], "speaker": "Armstrong", "time": "149:05:33"}
 {"tokens": ["Roger.", "We copy.", "And was there any change in your suit loop..."], "speaker": "McCandless", "time": "149:05:37"}
 {"tokens": ["No."], "speaker": "Armstrong", "time": "149:05:40"}
@@ -72,9 +72,9 @@
 {"tokens": ["Roger.", "Did you make any changes in the suit loop configuration after you went from the egress mode to the cabin mode after insertion?", "That is, in particular, they're interested in knowing if you recall changing the diverter valve position to Egress at any time while you were on the secondary canister?", "Over."], "speaker": "McCandless", "time": "149:06:11"}
 {"tokens": ["No.", "I don't believe we did that at all, Bruce."], "speaker": "Aldrin", "time": "149:06:36"}
 {"tokens": ["Okay, 11.", "Thank you.", "That sums up our questions for now, and we'll crank these back into the engineering pipeline and see what we can come up with."], "speaker": "McCandless", "time": "149:06:40"}
-{"tokens": ["Okay.", "Are you satisfied that the CO<sub>2</sub> circuit breaker was in on jettison?", "Over."], "speaker": "Aldrin", "time": "149:06:51"}
+{"tokens": ["Okay.", "Are you satisfied that the CO2 circuit breaker was in on jettison?", "Over."], "speaker": "Aldrin", "time": "149:06:51"}
 {"tokens": ["Say again, please?"], "speaker": "McCandless", "time": "149:07:00"}
-{"tokens": ["Roger.", "On LM jettison, are you satisfied that the CO<sub>2</sub> circuit breaker was in?", "Over."], "speaker": "Aldrin", "time": "149:07:04"}
+{"tokens": ["Roger.", "On LM jettison, are you satisfied that the CO2 circuit breaker was in?", "Over."], "speaker": "Aldrin", "time": "149:07:04"}
 {"tokens": ["Yes.", "It was in."], "speaker": "McCandless", "time": "149:07:10"}
 {"tokens": ["Roger.", "Could you confirm that?", "I thought there was some question after we got into the Command Module as to whether that had been left in or not.", "Over.", "[Pause.]"], "speaker": "Aldrin", "time": "149:07:17"}
 {"tokens": ["Roger, 11.", "It was in and confirmed in, and the readings after jettison stayed about 0.1 to 0.2."], "speaker": "McCandless", "time": "149:07:34"}
@@ -95,7 +95,7 @@
 {"tokens": ["And we show the burn off."], "speaker": "PAO", "time": null}
 {"tokens": ["Houston, you copy our residuals?", "[Long pause.]"], "speaker": "Armstrong", "time": "150:31:16"}
 {"tokens": ["Roger.", "We've got your residual.", "Do you have a counter reading for us."], "speaker": "McCandless", "time": "150:31:33"}
-{"tokens": ["Delta-V<sub>C</sub> is plus 0.2."], "speaker": "Armstrong", "time": "150:31:43"}
+{"tokens": ["Delta-VC is plus 0.2."], "speaker": "Armstrong", "time": "150:31:43"}
 {"tokens": ["Roger.", "Plus 0.2."], "speaker": "McCandless", "time": "150:31:46"}
 {"tokens": ["That was actually plus 100.2.", "Okay?"], "speaker": "Armstrong", "time": "150:31:50"}
 {"tokens": ["Okay."], "speaker": "McCandless", "time": "150:31:54"}
@@ -223,7 +223,7 @@
 {"tokens": ["SPS/G&N: 36639; your Noun 48, minus 0.72, plus 0.51; your Noun 33, 135:24:40.00; Noun 81, plus 3217.8, plus 0603.6, minus 0130.4; your pitch, 064.", "The rest is NA.", "Ullage; two jet, 16 seconds.", "And it's based on LOI REFSMMAT.", "Over.", "[Long pause.]", "]"], "speaker": "Evans", "time": "094:54:22"}
 {"tokens": ["Apollo 11, Houston.", "Readback correct.", "Your consumables update?", "[Long pause.]"], "speaker": "Evans", "time": "094:56:15"}
 {"tokens": ["Yeah.", "Go ahead."], "speaker": "Collins", "time": "094:56:36"}
-{"tokens": ["Roger.", "GET 91 plus 30, minus 7 percent; Alpha, minus 8; Bravo, minus 2.5; Charlie, minus 10; Delta, minus 6.5.", "H<sub>2</sub> total, minus 2 pounds.", "Oxygen total, plus 9 pounds.", "Over."], "speaker": "Evans", "time": "094:56:37"}
+{"tokens": ["Roger.", "GET 91 plus 30, minus 7 percent; Alpha, minus 8; Bravo, minus 2.5; Charlie, minus 10; Delta, minus 6.5.", "H2 total, minus 2 pounds.", "Oxygen total, plus 9 pounds.", "Over."], "speaker": "Evans", "time": "094:56:37"}
 {"tokens": ["Okay.", "Thank you.", "And on board, we're reading for Quad Alpha, 75 percent; Bravo, 78; Charlie, 78; and Delta, 77 percent."], "speaker": "Collins", "time": "094:57:18"}
 {"tokens": ["11, Houston.", "We copy.", "[Pause.]"], "speaker": "Evans", "time": "094:57:37"}
 {"tokens": ["Apollo 11, Houston.", "I have your baseline altitude update now, if Buzz is ready to copy."], "speaker": "Evans", "time": "094:57:49"}
@@ -453,8 +453,8 @@
 {"tokens": ["Roger.", "Read you loud and clear.", "[Pause.]"], "speaker": "Armstrong", "time": "097:01:11"}
 {"tokens": ["And I'm ready to get a time hack from you.", "Load the CSM time."], "speaker": "Armstrong", "time": "097:01:22"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "097:01:29"}
-{"tokens": ["Do you want the T<sub>Ephem</sub> first?"], "speaker": "Collins", "time": "097:01:42"}
-{"tokens": ["Let's get your clock first and then we'll get T<sub>Ephem</sub>."], "speaker": "Armstrong", "time": "097:01:46"}
+{"tokens": ["Do you want the TEphem first?"], "speaker": "Collins", "time": "097:01:42"}
+{"tokens": ["Let's get your clock first and then we'll get TEphem."], "speaker": "Armstrong", "time": "097:01:46"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "097:01:50"}
 {"tokens": ["Give me a time to load."], "speaker": "Armstrong", "time": "097:01:53"}
 {"tokens": ["97:01:30.", "Correction on that, Neil.", "97 - make that 97:03:30.", "[Long pause.]"], "speaker": "Collins", "time": "097:01:59"}
@@ -473,7 +473,7 @@
 {"tokens": ["Okay.", "97:04:03.86."], "speaker": "Collins", "time": "097:04:08"}
 {"tokens": ["Okay.", "I'm within three-hundredths.", "That's within our ability to keep together, I think."], "speaker": "Armstrong", "time": "097:04:20"}
 {"tokens": ["Right.", "[Long pause.]"], "speaker": "Collins", "time": "097:04:26"}
-{"tokens": ["Okay.", "Now you want to give me T<sub>Ephem</sub> Verb 05, Noun 01, Enter?"], "speaker": "Armstrong", "time": "097:04:46"}
+{"tokens": ["Okay.", "Now you want to give me TEphem Verb 05, Noun 01, Enter?"], "speaker": "Armstrong", "time": "097:04:46"}
 {"tokens": ["Okay.", "I've got Verb 05, Noun 01, Enter.", "Going to 17 06, Enter."], "speaker": "Collins", "time": "097:04:56"}
 {"tokens": ["Roger."], "speaker": "Armstrong", "time": "097:05:00"}
 {"tokens": ["Are you ready to copy?"], "speaker": "Collins", "time": "097:05:04"}
@@ -725,7 +725,7 @@
 {"tokens": ["Stand by one.", "[Long pause.]"], "speaker": "Collins", "time": "098:52:54"}
 {"tokens": ["Ready to copy."], "speaker": "Collins", "time": "098:53:18"}
 {"tokens": ["Roger, Mike.", "SEP PAD, RCS/G&N: Noun 47 and Noun 48 are NA; Noun 33, 100:39:50.00; Noun 81 is NA.", "Roll; 000, 007, 000.", "Rest of PAD is NA."], "speaker": "Duke", "time": "098:53:19"}
-{"tokens": ["SEP, RCS/G&N at a T<sub>IG</sub> of 100:39:50, roll 0, pitch 007, yaw 0.", "Over."], "speaker": "Collins", "time": "098:53:58"}
+{"tokens": ["SEP, RCS/G&N at a TIG of 100:39:50, roll 0, pitch 007, yaw 0.", "Over."], "speaker": "Collins", "time": "098:53:58"}
 {"tokens": ["Roger.", "Good readback.", "[Long pause.]"], "speaker": "Duke", "time": "098:54:08"}
 {"tokens": ["Houston, Eagle.", "Are you ready for us to start the RCS check-out now?"], "speaker": "Armstrong", "time": "098:54:49"}
 {"tokens": ["As soon as we finish the uplink.", "Stand by one.", "Over."], "speaker": "Duke", "time": "098:55:03"}
@@ -840,11 +840,11 @@
 {"tokens": ["Apollo 11, Apollo 11, this is Houston.", "Over."], "speaker": "McCandless", "time": "071:03:30"}
 {"tokens": ["Good morning again, Houston.", "Apollo 11."], "speaker": "Aldrin", "time": "071:03:38"}
 {"tokens": ["Roger 11.", "Good morning.", "[Pause.]", "] When you..."], "speaker": "McCandless", "time": "071:03:41"}
-{"tokens": ["Would you like the O<sub>2</sub> purge this morning?"], "speaker": "Aldrin", "time": "071:03:48"}
-{"tokens": ["Yes indeed.", "O<sub>2</sub> fuel cell purge at 71 hours, and when you feel like copying, I've got a Flight Plan update containing - I guess that and some other items for you."], "speaker": "McCandless", "time": "071:03:52"}
+{"tokens": ["Would you like the O2 purge this morning?"], "speaker": "Aldrin", "time": "071:03:48"}
+{"tokens": ["Yes indeed.", "O2 fuel cell purge at 71 hours, and when you feel like copying, I've got a Flight Plan update containing - I guess that and some other items for you."], "speaker": "McCandless", "time": "071:03:52"}
 {"tokens": ["Okay.", "Stand by."], "speaker": "Aldrin", "time": "071:04:08"}
-{"tokens": ["Roger, 11.", "This is Houston.", "At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already.", "71 hours: O<sub>2</sub> fuel cell purge.", "72 hours GET: CO<sub>2</sub> filter change number 6, secondary radiator flow check, and we'll send you up a P37 block data on a 2-hour pass - pericynthion pass return mode abort.", "At 73 hours, 00 minutes, stop PTC at approximately 0 degrees roll, that is when you're coming up on 0 degrees roll angle around 73 hours we'd like you to stop PTC.", "And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check.", "73 hours, 20 minutes, we'll give you a P27 update to the landing site REFSMMAT, LOI-1 state vector and target load.", "73 hours, 30 minutes; maneuver to 000 roll, pitch, and yaw.", "High Gain Antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT.", "Resume the nominal Flight Plan at 74 hours GET.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "071:07:05"}
-{"tokens": ["Okay.", "We'll get started on the fuel cell purge while we're eating.", "CO<sub>2</sub> canister change number 6; secondary radiator flow check; copy some PADs.", "Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplink REFSMMAT for the landing site; and - and at 000 degrees, now was this with the old REFSMMAT or the new REFSMMAT?"], "speaker": "Aldrin", "time": "071:09:08"}
+{"tokens": ["Roger, 11.", "This is Houston.", "At approximately 71 hours to 72 hours, we have you down for an eat period which I imagine is probably in progress already.", "71 hours: O2 fuel cell purge.", "72 hours GET: CO2 filter change number 6, secondary radiator flow check, and we'll send you up a P37 block data on a 2-hour pass - pericynthion pass return mode abort.", "At 73 hours, 00 minutes, stop PTC at approximately 0 degrees roll, that is when you're coming up on 0 degrees roll angle around 73 hours we'd like you to stop PTC.", "And perform a P52 option 3 remaining in the PTC REFSMMAT for a drift check.", "73 hours, 20 minutes, we'll give you a P27 update to the landing site REFSMMAT, LOI-1 state vector and target load.", "73 hours, 30 minutes; maneuver to 000 roll, pitch, and yaw.", "High Gain Antenna angles will be pitch 0, yaw 335; and perform a P52 option 1 using the new landing site REFSMMAT.", "Resume the nominal Flight Plan at 74 hours GET.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "071:07:05"}
+{"tokens": ["Okay.", "We'll get started on the fuel cell purge while we're eating.", "CO2 canister change number 6; secondary radiator flow check; copy some PADs.", "Also at 72 hours, stop PTC 0 roll at 73; do a P52 option 3; we'll get your uplink REFSMMAT for the landing site; and - and at 000 degrees, now was this with the old REFSMMAT or the new REFSMMAT?"], "speaker": "Aldrin", "time": "071:09:08"}
 {"tokens": ["This is with the..."], "speaker": "McCandless", "time": "071:09:45"}
 {"tokens": ["[Garble] antenna and, pitch."], "speaker": "Aldrin", "time": "071:09:46"}
 {"tokens": ["This is with the new REFSMMAT, Buzz."], "speaker": "McCandless", "time": "071:09:50"}
@@ -859,10 +859,10 @@
 {"tokens": ["I just got up, but you didn't catch me on that one."], "speaker": "Collins", "time": "071:13:22"}
 {"tokens": ["I say, I have one for you.", "[Long pause.]"], "speaker": "McCandless", "time": "071:13:26"}
 {"tokens": ["Okay.", "We're ready to copy that consumable update."], "speaker": "Aldrin", "time": "071:13:55"}
-{"tokens": ["Roger.", "As of GET 68:00; RCS total, minus 4.5 percent, corresponding to approximately minus 53 pounds.", "Alpha, minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H<sub>2</sub> total, minus 1.2 pounds; O<sub>2</sub> total, plus 10 pounds.", "Over."], "speaker": "McCandless", "time": "071:13:59"}
+{"tokens": ["Roger.", "As of GET 68:00; RCS total, minus 4.5 percent, corresponding to approximately minus 53 pounds.", "Alpha, minus 6.0 percent, minus 1.0 percent, minus 7.0 percent, minus 3.0 percent; H2 total, minus 1.2 pounds; O2 total, plus 10 pounds.", "Over."], "speaker": "McCandless", "time": "071:13:59"}
 {"tokens": ["Roger.", "And our readouts on board are Alpha is 82, Bravo is 84, Cocoa is 84, and Delta is 87."], "speaker": "Aldrin", "time": "071:14:49"}
 {"tokens": ["Houston.", "Roger.", "Out."], "speaker": "McCandless", "time": "071:15:09"}
-{"tokens": ["And you want us to cycle the O<sub>2</sub> and H<sub>2</sub> fans, I imagine?"], "speaker": "Aldrin", "time": "071:15:14"}
+{"tokens": ["And you want us to cycle the O2 and H2 fans, I imagine?"], "speaker": "Aldrin", "time": "071:15:14"}
 {"tokens": ["11, this is Houston.", "Affirmative.", "Over."], "speaker": "McCandless", "time": "071:15:24"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "071:15:31"}
 {"tokens": ["Go ahead, 11."], "speaker": "McCandless", "time": "071:23:34"}
@@ -931,7 +931,7 @@
 {"tokens": ["11, this is Houston.", "I have your pericynthion-plus-2 PAD, P30 format, when you're ready to copy.", "[Pause.]"], "speaker": "McCandless", "time": "072:19:10"}
 {"tokens": ["Roger.", "Stand by.", "[Long pause.]"], "speaker": "Armstrong", "time": "072:19:24"}
 {"tokens": ["Houston, Apollo 11.", "Ready to copy pericynthion-plus-2."], "speaker": "Aldrin", "time": "072:20:17"}
-{"tokens": ["Apollo 11, this is Houston.", "Pericynthion-plus-2 hours PAD.", "SPS/G&N: 62710, plus 0.98, minus 0.19; GET ignition 077:46:22.48, Delta-V<sub>X</sub> NOUN 81, plus 3214.8, minus 0045.5, minus 1037.7; roll NA, pitch 307, and the remainder of the PAD is NA.", "GDC align stars; Vega and Deneb.", "Roll 243, 183, 012; no ullage.", "Remarks: Assumes landing site REFSMMAT and docked.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "072:20:24"}
+{"tokens": ["Apollo 11, this is Houston.", "Pericynthion-plus-2 hours PAD.", "SPS/G&N: 62710, plus 0.98, minus 0.19; GET ignition 077:46:22.48, Delta-VX NOUN 81, plus 3214.8, minus 0045.5, minus 1037.7; roll NA, pitch 307, and the remainder of the PAD is NA.", "GDC align stars; Vega and Deneb.", "Roll 243, 183, 012; no ullage.", "Remarks: Assumes landing site REFSMMAT and docked.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "072:20:24"}
 {"tokens": ["Roger.", "SPS/G&N: 62710, plus 0.98, minus 0.19; 077:46:22.48; plus 3214.8, minus 0045.5, minus 1037.7; NA, 307; Vega and Deneb; 243, 183, 012; no ullage.", "Landing site REFSMMAT, docked.", "And ya'aven't - change on the LM weight.", "Over."], "speaker": "Aldrin", "time": "072:21:48"}
 {"tokens": ["No change in the LM's weight - in the LM weight, and the readback is correct.", "Out."], "speaker": "McCandless", "time": "072:22:30"}
 {"tokens": ["Roger.", "Go ahead."], "speaker": "Armstrong", "time": "072:25:13"}
@@ -993,8 +993,8 @@
 {"tokens": ["Okay."], "speaker": "Collins", "time": "072:51:13"}
 {"tokens": ["And I copied you're ready for the LOI-1 PAD.", "Over."], "speaker": "McCandless", "time": "072:51:15"}
 {"tokens": ["Go ahead."], "speaker": "Armstrong", "time": "072:51:22"}
-{"tokens": ["LOI-1, SPS/G&N: 62710, plus 0.98, minus 0.19, GET ignition 075:49:49.65; minus 2889.7, minus 0394.4, minus 0068.6; roll 358, pitch 226, 347; 0169.2, plus 00610; 2917.3, 6:02, 2910.8; sextant star 31, 1066, 358.", "Remainder of the PAD is NA.", "GDC align, Vega and Deneb, 243, 183, 012.", "No ullage.", "The horizon will be visible just below the upper edge of the hatch window 2 minutes prior to the LOI burn.", "It will not be visible in the rendezvous window on the left-hand side.", "LOS at 75 hours, 41 minutes, 23 seconds.", "AOS at 76:15:29.", "AOS without the LOI burn, 76:05:30.", "The values which you would see on Noun 42 prior to LOI burn are H<sub>A</sub>, plus 431.3; H<sub>P</sub>, minus 128.2.", "Read back, over."], "speaker": "McCandless", "time": "072:51:24"}
-{"tokens": ["Roger.", "LOI-1, SPS/G&N: 62710, plus 0.98, minus 0.19; 075:49:49.65; minus 2889.7, minus 0394.4, minus 0068.6; 358, 226, 347; 0169.2, plus 0061.0; 2917.3, 6:02, 2910.8; 31, 106.6, 35.8.", "GDC align, Vega and Deneb, 243, 183, 012.", "No ullage.", "Horizon in the hatch window 2 minutes before T<sub>IG</sub>.", "AOS with an LOI, 76:15:29; AOS without an LOI, 76:05:30.", "H<sub>A</sub> before the burn, 431.3; H<sub>P</sub>, minus 128.2.", "Say again LOS time."], "speaker": "Armstrong", "time": "072:53:54"}
+{"tokens": ["LOI-1, SPS/G&N: 62710, plus 0.98, minus 0.19, GET ignition 075:49:49.65; minus 2889.7, minus 0394.4, minus 0068.6; roll 358, pitch 226, 347; 0169.2, plus 00610; 2917.3, 6:02, 2910.8; sextant star 31, 1066, 358.", "Remainder of the PAD is NA.", "GDC align, Vega and Deneb, 243, 183, 012.", "No ullage.", "The horizon will be visible just below the upper edge of the hatch window 2 minutes prior to the LOI burn.", "It will not be visible in the rendezvous window on the left-hand side.", "LOS at 75 hours, 41 minutes, 23 seconds.", "AOS at 76:15:29.", "AOS without the LOI burn, 76:05:30.", "The values which you would see on Noun 42 prior to LOI burn are HA, plus 431.3; HP, minus 128.2.", "Read back, over."], "speaker": "McCandless", "time": "072:51:24"}
+{"tokens": ["Roger.", "LOI-1, SPS/G&N: 62710, plus 0.98, minus 0.19; 075:49:49.65; minus 2889.7, minus 0394.4, minus 0068.6; 358, 226, 347; 0169.2, plus 0061.0; 2917.3, 6:02, 2910.8; 31, 106.6, 35.8.", "GDC align, Vega and Deneb, 243, 183, 012.", "No ullage.", "Horizon in the hatch window 2 minutes before TIG.", "AOS with an LOI, 76:15:29; AOS without an LOI, 76:05:30.", "HA before the burn, 431.3; HP, minus 128.2.", "Say again LOS time."], "speaker": "Armstrong", "time": "072:53:54"}
 {"tokens": ["Understand 75:41:23."], "speaker": "Armstrong", "time": "072:55:58"}
 {"tokens": ["11, this is Houston.", "Readback correct.", "Out."], "speaker": "McCandless", "time": "072:56:03"}
 {"tokens": ["Go ahead."], "speaker": "Aldrin", "time": "073:04:43"}
@@ -1041,7 +1041,7 @@
 {"tokens": ["Roger.", "I've got the 1 and 4 PADs here, right now.", "I'll be ready to read them up to you in just a second.", "[Long pause.]"], "speaker": "McCandless", "time": "073:58:43"}
 {"tokens": ["11, this is Houston.", "I'm ready with the TEI-1 and 4 PADs.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "073:59:31"}
 {"tokens": ["Ready to copy."], "speaker": "Aldrin", "time": "073:59:44"}
-{"tokens": ["Roger.", "TEI-1, SPS/G&N; 38658, minus 0.54, plus 0.65, T<sub>IG</sub>, 078:02:03.45; plus 2918.0, plus 0377.9, minus 0132.5; roll NA, pitch 041.", "The balance of the PAD is NA.", "Ullage; two jets, 19 seconds.", "TEI-4 PAD, SPS/G&N:, 38658, minus 0.54, plus 0.65, T<sub>IG</sub>, 084:29:50.59; plus 3137.3, plus 0376.0, minus 0096.8; roll NA, pitch 034.", "The rest of the PAD is NA.", "Ullage; two jets, 19 seconds.", "Both of these PADs are for an undocked maneuver.", "TEI-plus-4 PAD assumes no LOI-2.", "Over.", "Make that TEI-4 PAD assumes no LOI-2.", "[Long pause.]"], "speaker": "McCandless", "time": "073:59:46"}
+{"tokens": ["Roger.", "TEI-1, SPS/G&N; 38658, minus 0.54, plus 0.65, TIG, 078:02:03.45; plus 2918.0, plus 0377.9, minus 0132.5; roll NA, pitch 041.", "The balance of the PAD is NA.", "Ullage; two jets, 19 seconds.", "TEI-4 PAD, SPS/G&N:, 38658, minus 0.54, plus 0.65, TIG, 084:29:50.59; plus 3137.3, plus 0376.0, minus 0096.8; roll NA, pitch 034.", "The rest of the PAD is NA.", "Ullage; two jets, 19 seconds.", "Both of these PADs are for an undocked maneuver.", "TEI-plus-4 PAD assumes no LOI-2.", "Over.", "Make that TEI-4 PAD assumes no LOI-2.", "[Long pause.]"], "speaker": "McCandless", "time": "073:59:46"}
 {"tokens": ["Roger.", "TEI-1, SPS/G&N; 38658, minus 0.54, plus 0.65; 078:02:03.45; plus 2918.0, plus 0377.9, minus 0132.5; roll NA, pitch 041; two jets, 19 seconds; undocked.", "TEI-4: 38658, minus 0.54, plus 0.65, 084:29:50.59, plus 3137.3, plus 0376.0, minus 0096.8; roll NA, pitch 034; two jets, 19 seconds; undocked; assumes no LOI-2."], "speaker": "Aldrin", "time": "074:01:53"}
 {"tokens": ["11, this is Houston..."], "speaker": "McCandless", "time": "074:02:59"}
 {"tokens": ["...Apollo 11.", "Over."], "speaker": "Aldrin", "time": "074:03:00"}
@@ -1105,9 +1105,9 @@
 {"tokens": ["Thank you."], "speaker": "Armstrong", "time": "075:37:07"}
 {"tokens": ["And I'll give you a time hack on time to ignition at 12 minutes to ignition.", "Over."], "speaker": "McCandless", "time": "075:37:12"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "075:37:22"}
-{"tokens": ["Stand by for a Mark at T<sub>IG</sub> minus 12."], "speaker": "McCandless", "time": "075:37:44"}
+{"tokens": ["Stand by for a Mark at TIG minus 12."], "speaker": "McCandless", "time": "075:37:44"}
 {"tokens": ["Mark."], "speaker": "McCandless", "time": "075:37:51"}
-{"tokens": ["T<sub>IG</sub> minus 12."], "speaker": "McCandless", "time": "075:37:52"}
+{"tokens": ["TIG minus 12."], "speaker": "McCandless", "time": "075:37:52"}
 {"tokens": ["You were right on, Bruce.", "Thank you."], "speaker": "Collins", "time": "075:37:56"}
 {"tokens": ["Roger.", "Out."], "speaker": "McCandless", "time": "075:37:58"}
 {"tokens": ["Two minutes to LOS."], "speaker": "McCandless", "time": "075:39:29"}
@@ -1158,14 +1158,14 @@
 {"tokens": ["Woo-oo, what time is it?"], "speaker": "Aldrin", "time": "075:44:28"}
 {"tokens": ["I turned my S-Band Volume down to get rid of that background noise.", "Now don't forget for us to turn it back up on the other side."], "speaker": "Collins", "time": "075:44:29"}
 {"tokens": ["What time you got?"], "speaker": "Aldrin", "time": "075:44:36"}
-{"tokens": ["It's coming up on 5 minutes to T<sub>IG</sub>.", "I'll give you a mark."], "speaker": "Collins", "time": "075:44:37"}
+{"tokens": ["It's coming up on 5 minutes to TIG.", "I'll give you a mark."], "speaker": "Collins", "time": "075:44:37"}
 {"tokens": ["Alright.", "Start giving me Pitch 1, Yaw 1."], "speaker": "Aldrin", "time": "075:44:41"}
 {"tokens": ["Okay, here comes Pitch 1."], "speaker": "Collins", "time": "075:44:44"}
 {"tokens": ["Got it."], "speaker": "Aldrin", "time": "075:44:46"}
 {"tokens": ["Here comes Yaw 1."], "speaker": "Collins", "time": "075:44:47"}
 {"tokens": ["Got it."], "speaker": "Aldrin", "time": "075:44:49"}
 {"tokens": ["Mark..."], "speaker": "Collins", "time": "075:44:50"}
-{"tokens": ["...5 minutes to T<sub>IG</sub>."], "speaker": "Collins", "time": "075:44:51"}
+{"tokens": ["...5 minutes to TIG."], "speaker": "Collins", "time": "075:44:51"}
 {"tokens": ["Alright.", "Translation Hand Controller's counter-clock - clockwise."], "speaker": "Aldrin", "time": "075:44:52"}
 {"tokens": ["Hey, are you - are you on your Intercom switch?", "Intercom Push-To-Talk and all that?"], "speaker": "Collins", "time": "075:44:57"}
 {"tokens": ["Yes, yes."], "speaker": "Aldrin", "time": "075:45:03"}
@@ -1242,11 +1242,11 @@
 {"tokens": ["Man, look at it."], "speaker": "Aldrin", "time": "075:49:34"}
 {"tokens": ["Don't look at it.", "Here we come up..."], "speaker": "Armstrong", "time": "075:49:35"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "075:49:36"}
-{"tokens": ["... [garble] to T<sub>IG</sub>."], "speaker": "Armstrong", "time": "075:49:37"}
+{"tokens": ["... [garble] to TIG."], "speaker": "Armstrong", "time": "075:49:37"}
 {"tokens": ["8 seconds."], "speaker": "Aldrin", "time": "075:49:42"}
 {"tokens": ["99..."], "speaker": "Collins", "time": "075:49:45"}
 {"tokens": ["Proceed."], "speaker": "Armstrong/Collins", "time": "075:49:46"}
-{"tokens": ["Stand by for T<sub>IG</sub>."], "speaker": "Collins", "time": "075:49:48"}
+{"tokens": ["Stand by for TIG."], "speaker": "Collins", "time": "075:49:48"}
 {"tokens": ["Got B mode..."], "speaker": "Collins", "time": "075:49:50"}
 {"tokens": ["Burning.", "We're looking good."], "speaker": "Armstrong", "time": "075:49:51"}
 {"tokens": ["...A, here comes B - B, I mean, Thrust A..."], "speaker": "Collins", "time": "075:49:54"}
@@ -1366,8 +1366,8 @@
 {"tokens": ["Okay, proceed.", "Okay, Verb 82 in there.", "Go to P00.", "Well, that isn't what it says, but..."], "speaker": "Aldrin", "time": "075:57:21"}
 {"tokens": ["Well, it's good."], "speaker": "Collins", "time": "075:57:30"}
 {"tokens": ["I think we're going to have to - Well, we'll leave this here anyway [garble] magazine [garble]."], "speaker": "Armstrong", "time": "075:57:45"}
-{"tokens": ["What goes in this VG<sub>X</sub> column?"], "speaker": "Collins", "time": "075:57:48"}
-{"tokens": ["That was the - that's the VG<sub>X</sub> residual at - before you spin."], "speaker": "Aldrin", "time": "075:57:53"}
+{"tokens": ["What goes in this VGX column?"], "speaker": "Collins", "time": "075:57:48"}
+{"tokens": ["That was the - that's the VGX residual at - before you spin."], "speaker": "Aldrin", "time": "075:57:53"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "075:58:00"}
 {"tokens": ["So just read the [garble] A."], "speaker": "Aldrin", "time": "075:58:02"}
 {"tokens": ["Alright."], "speaker": "Collins", "time": "075:58:04"}
@@ -1616,7 +1616,7 @@
 {"tokens": ["Roger, Houston.", "Apollo 11.", "Loud and clear.", "How me?"], "speaker": "Aldrin", "time": "022:59:10"}
 {"tokens": ["Okay.", "Beautiful.", "Did you copy the attitudes for the P52 and the waste-water dump?", "Over."], "speaker": "McCandless", "time": "022:59:12"}
 {"tokens": ["Rog.", "Okay.", "We note the battery charge as soon as we get around to it, and the attitude for the P52 optics Cal: roll, 330.5; pitch, 086.3; and yaw, all zeros.", "The attitude for the P23 as in the Flight Plan is okay, and I copy your battery charge.", "Crew status report as follows.", "Sleep: CDR, 7; CMP, 7; LMP, 5.5.", "And we've completed the post-sleep checklist.", "Standing by for a consumable update.", "Over."], "speaker": "Aldrin", "time": "022:59:20"}
-{"tokens": ["Roger.", "We're requesting a waste-water dump at GET 25:30 down to a nominal 25 percent, and here we go with the consumables update.", "At GET of 22 hours, RCS total is minus 3.5 percent.", "Alpha, minus 3.5 percent; Bravo, minus 1.5 percent; Charlie, minus 5.0 percent; minus 4.0 percent; H<sub>2</sub> minus 2 pounds, O<sub>2</sub> minus 4 pounds.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "023:00:04"}
+{"tokens": ["Roger.", "We're requesting a waste-water dump at GET 25:30 down to a nominal 25 percent, and here we go with the consumables update.", "At GET of 22 hours, RCS total is minus 3.5 percent.", "Alpha, minus 3.5 percent; Bravo, minus 1.5 percent; Charlie, minus 5.0 percent; minus 4.0 percent; H2 minus 2 pounds, O2 minus 4 pounds.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "023:00:04"}
 {"tokens": ["Okay.", "Stand by.", "[Pause.]"], "speaker": "Aldrin", "time": "023:00:59"}
 {"tokens": ["I copied those consumables, and I'll read you back our RCS quantities.", "We got 86 percent in Alpha, 87 in Bravo, 88 in Charlie, and 90 in Delta.", "Over."], "speaker": "Aldrin", "time": "023:01:08"}
 {"tokens": ["Roger.", "I copy.", "[Pause.]"], "speaker": "McCandless", "time": "023:01:37"}
@@ -1654,7 +1654,7 @@
 {"tokens": ["Roger, 11.", "We don't have that capability.", "We do require that the M-line be parallel to the horizon in order to get a good mark.", "We feel that possibly the - the state vector information that you were using for your maneuver basis yesterday may have needed to be updated a little.", "And if you'll stand by a second, we'll give you an evaluation of what we feel you'll get today by the Auto maneuver."], "speaker": "McCandless", "time": "024:03:49"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "024:04:25"}
 {"tokens": ["Go ahead, 11."], "speaker": "McCandless", "time": "024:11:01"}
-{"tokens": ["Roger.", "I'm getting ready to do an O<sub>2</sub> fuel cell purge.", "Do you have any particulars on this?", "And I assume you want these one at a time, or can I triple up?", "Over."], "speaker": "Aldrin", "time": "024:11:03"}
+{"tokens": ["Roger.", "I'm getting ready to do an O2 fuel cell purge.", "Do you have any particulars on this?", "And I assume you want these one at a time, or can I triple up?", "Over."], "speaker": "Aldrin", "time": "024:11:03"}
 {"tokens": ["We'd like them one at a time, and stand by.", "I don't think we have any sequence.", "You can do them in any order you want."], "speaker": "McCandless", "time": "024:11:13"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "024:11:23"}
 {"tokens": ["And we're watching you on TM down here."], "speaker": "McCandless", "time": "024:11:26"}
@@ -1666,13 +1666,13 @@
 {"tokens": ["Okay.", "Proceeding at this time.", "(Long pause.", ")"], "speaker": "Collins", "time": "024:16:36"}
 {"tokens": ["11, Houston.", "After you've completed P52, we'd like to uplink you a new state vector so we can start out clean on this P23.", "Over."], "speaker": "McCandless", "time": "024:16:58"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "024:17:09"}
-{"tokens": ["Houston, are you observing the higher O<sub>2</sub> flow on Fuel Cell 3?", "[Pause.]"], "speaker": "Aldrin", "time": "024:17:22"}
+{"tokens": ["Houston, are you observing the higher O2 flow on Fuel Cell 3?", "[Pause.]"], "speaker": "Aldrin", "time": "024:17:22"}
 {"tokens": ["Houston, Apollo 11.", "It's triggered the Master Alarm three times, now.", "[Master alarm goes off in the background] There goes number four.", "It goes up to about 1.4, then oscillates back down to about 1.1.", "Over."], "speaker": "Aldrin", "time": "024:17:34"}
 {"tokens": ["Roger.", "We're showing 1.3 now on TM.", "Stand by a second.", "[Pause.]"], "speaker": "McCandless", "time": "024:17:50"}
 {"tokens": ["And we're in P00, now, for a state vector."], "speaker": "Collins", "time": "024:18:01"}
 {"tokens": ["Roger.", "Give us Accept, please."], "speaker": "McCandless", "time": "024:18:06"}
 {"tokens": ["Roger that.", "[Long pause.]"], "speaker": "Collins", "time": "024:18:13"}
-{"tokens": ["11, Houston.", "On your O<sub>2</sub> flow, Fuel Cell 3: apparently it was flowing a little higher than the other two during purge, but the flow rate's acceptable.", "Over."], "speaker": "McCandless", "time": "024:18:41"}
+{"tokens": ["11, Houston.", "On your O2 flow, Fuel Cell 3: apparently it was flowing a little higher than the other two during purge, but the flow rate's acceptable.", "Over."], "speaker": "McCandless", "time": "024:18:41"}
 {"tokens": ["Roger, understand.", "It seems to be flowing a little bit more, and actually putting out more current than the other two, also.", "Over."], "speaker": "Aldrin", "time": "024:18:56"}
 {"tokens": ["Roger.", "We copy.", "[Long pause.]"], "speaker": "McCandless", "time": "024:19:05"}
 {"tokens": ["11, this is Houston.", "We've completed the uplink; the computer is yours.", "You can go back to Block."], "speaker": "McCandless", "time": "024:19:51"}
@@ -1694,7 +1694,7 @@
 {"tokens": ["And have you hit Proceed on this display to enter the zero?"], "speaker": "McCandless", "time": "024:30:18"}
 {"tokens": ["Not yet."], "speaker": "Collins", "time": "024:30:23"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "McCandless", "time": "024:30:24"}
-{"tokens": ["11, Houston.", "Over the past 2 hours we have seen a slight continuing increase in partial pressure of CO<sub>2</sub>.", "Have you in fact changed the CO<sub>2</sub> canister yet this morning?", "We don't need to do it right now; we'd just like to confirm that our instrumentation is in good shape.", "Over."], "speaker": "McCandless", "time": "024:30:54"}
+{"tokens": ["11, Houston.", "Over the past 2 hours we have seen a slight continuing increase in partial pressure of CO2.", "Have you in fact changed the CO2 canister yet this morning?", "We don't need to do it right now; we'd just like to confirm that our instrumentation is in good shape.", "Over."], "speaker": "McCandless", "time": "024:30:54"}
 {"tokens": ["No.", "We haven't changed any canisters this morning."], "speaker": "Aldrin", "time": "024:31:13"}
 {"tokens": ["Okay.", "Then you can plan on accomplishing that after P23 is over and you've got the LEB clear."], "speaker": "McCandless", "time": "024:31:19"}
 {"tokens": ["All right.", "[Long pause.]"], "speaker": "Collins", "time": "024:31:22"}
@@ -1743,7 +1743,7 @@
 {"tokens": ["And I have your Midcourse Correction number 2 PAD when you're ready to copy."], "speaker": "McCandless", "time": "025:48:44"}
 {"tokens": ["Stand by.", "[Long pause.]"], "speaker": "Aldrin", "time": "025:48:50"}
 {"tokens": ["Roger, Houston.", "Apollo 11, ready to copy MCC-2."], "speaker": "Aldrin", "time": "025:49:15"}
-{"tokens": ["Apollo 11, this is Houston.", "Midcourse Correction number 2.", "SPS/G&N; 63059; plus 0.97, minus 0.20; GET ignition 026:44:57.92; plus 0011.8, minus 0000.3, plus 0017.7; roll, 277, 355, 015; Noun 44, Block is N/A; Delta-V<sub>T</sub> 0021.3, 00:3, 0016.8; sextant star 30, 208.2, 37.0.", "The rest of the PAD is N/A.", "GDC align, Vega and Deneb; roll align 007, 144, 068.", "No ullage.", "LM weight: 33302.", "For your information, your heads will be pointed roughly towards the Earth on this burn.", "Read back.", "Over."], "speaker": "McCandless", "time": "025:49:20"}
+{"tokens": ["Apollo 11, this is Houston.", "Midcourse Correction number 2.", "SPS/G&N; 63059; plus 0.97, minus 0.20; GET ignition 026:44:57.92; plus 0011.8, minus 0000.3, plus 0017.7; roll, 277, 355, 015; Noun 44, Block is N/A; Delta-VT 0021.3, 00:3, 0016.8; sextant star 30, 208.2, 37.0.", "The rest of the PAD is N/A.", "GDC align, Vega and Deneb; roll align 007, 144, 068.", "No ullage.", "LM weight: 33302.", "For your information, your heads will be pointed roughly towards the Earth on this burn.", "Read back.", "Over."], "speaker": "McCandless", "time": "025:49:20"}
 {"tokens": ["Roger.", "Midcourse Correction number 2.", "SPS/G&N: 63059; plus 0.97, minus 0.20; 026:44:57.92; plus 0011.8, minus 0000.3, plus 0017.7; 277 - Are you still copying, Houston?", "Over."], "speaker": "Aldrin", "time": "025:51:12"}
 {"tokens": ["Roger.", "Still copying.", "Go ahead.", "[Long pause.]", "] Apollo 11, this is - Apollo 11, this is Houston.", "I copied your transmission about roll, 277.", "And go ahead from roll, 277.", "Over."], "speaker": "McCandless", "time": "025:51:50"}
 {"tokens": ["Roger.", "355, 015; N/A; 0021.3, 00:3, 0016.8; 30, 208.2, 37.0.", "Vega and Deneb; 007, 144, 068.", "No ullage.", "LM weight, 33302.", "Heads towards the Earth.", "Over."], "speaker": "Aldrin", "time": "025:52:19"}
@@ -1815,7 +1815,7 @@
 {"tokens": ["Okay.", "Thanks."], "speaker": "Collins", "time": "026:55:35"}
 {"tokens": ["Okay.", "Here's another input here, 11, that the MILA data was recognizable as a picture, but we don't have any evaluation as to the quality of the picture.", "Over."], "speaker": "McCandless", "time": "026:55:40"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "026:55:53"}
-{"tokens": ["And for our information, we've been watching a pCO<sub>2</sub> again.", "Did you change a lithium hydroxide canister this morning?", "Over."], "speaker": "McCandless", "time": "026:55:55"}
+{"tokens": ["And for our information, we've been watching a pCO2 again.", "Did you change a lithium hydroxide canister this morning?", "Over."], "speaker": "McCandless", "time": "026:55:55"}
 {"tokens": ["Yes.", "We did, and we've been seeing 1.7 percent in the spacecraft ever since."], "speaker": "Armstrong", "time": "026:56:08"}
 {"tokens": ["Roger.", "That agrees with our data."], "speaker": "McCandless", "time": "026:56:14"}
 {"tokens": ["1.7 millimeters."], "speaker": "Armstrong", "time": "026:56:19"}
@@ -1831,11 +1831,11 @@
 {"tokens": ["Okay.", "Stand by."], "speaker": "Collins", "time": "027:06:32"}
 {"tokens": ["Everything else in the Cryo system remains the same."], "speaker": "McCandless", "time": "027:06:35"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "027:06:39"}
-{"tokens": ["Okay.", "We have O<sub>2</sub> heater Tank 1, Off."], "speaker": "Collins", "time": "027:06:56"}
+{"tokens": ["Okay.", "We have O2 heater Tank 1, Off."], "speaker": "Collins", "time": "027:06:56"}
 {"tokens": ["Houston.", "Roger.", "Out."], "speaker": "McCandless", "time": "027:07:01"}
 {"tokens": ["This is Apollo Control at 27 hours, 7 minutes.", "The crew is now in the process..."], "speaker": "PAO", "time": null}
 {"tokens": ["How is EECOM today?", "Is he happy with all those good things?"], "speaker": "Collins", "time": "027:07:10"}
-{"tokens": ["Oh, EECOM is happy, and after you get PTC set up, we've got a little procedure from EECOM here to check out the O<sub>2</sub> flow and the O<sub>2</sub> flow sensor in your cabin enrichment.", "Over."], "speaker": "McCandless", "time": "027:07:14"}
+{"tokens": ["Oh, EECOM is happy, and after you get PTC set up, we've got a little procedure from EECOM here to check out the O2 flow and the O2 flow sensor in your cabin enrichment.", "Over."], "speaker": "McCandless", "time": "027:07:14"}
 {"tokens": ["Okay.", "[Pause.]"], "speaker": "Collins", "time": "027:07:29"}
 {"tokens": ["It'll be a while, Bruce.", "We're just now arriving in PTC attitude, and we're going to our 20 minutes of monitoring thruster activity."], "speaker": "Collins", "time": "027:07:35"}
 {"tokens": ["Roger.", "We copy.", "He'll be here."], "speaker": "McCandless", "time": "027:07:42"}
@@ -1911,19 +1911,19 @@
 {"tokens": ["11, Roger.", "This is Houston.", "Roger.", "Out."], "speaker": "McCandless", "time": "027:36:06"}
 {"tokens": ["Apollo 11, this is Houston.", "Over."], "speaker": "McCandless", "time": "027:47:22"}
 {"tokens": ["Go ahead, Houston."], "speaker": "Armstrong", "time": "027:47:27"}
-{"tokens": ["Roger.", "If you're free for a couple of minutes, we have a procedure here that will let us verify the O<sub>2</sub> flow transducer and at the same time get some more of our cabin enrichment out of the way.", "Over."], "speaker": "McCandless", "time": "027:47:29"}
+{"tokens": ["Roger.", "If you're free for a couple of minutes, we have a procedure here that will let us verify the O2 flow transducer and at the same time get some more of our cabin enrichment out of the way.", "Over."], "speaker": "McCandless", "time": "027:47:29"}
 {"tokens": ["Stand by.", "[Long pause.]"], "speaker": "Armstrong", "time": "027:47:46"}
 {"tokens": ["Go ahead, Houston.", "We're ready to copy."], "speaker": "Armstrong", "time": "027:48:37"}
-{"tokens": ["Roger.", "The primary purpose of this is, as I mentioned, to let us check out your O<sub>2</sub> flow transducer.", "However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose.", "Okay.", "We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo-6, on the urine connector on panel 251.", "When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the Dump position.", "Over.", "[Long pause.]"], "speaker": "McCandless", "time": "027:48:41"}
+{"tokens": ["Roger.", "The primary purpose of this is, as I mentioned, to let us check out your O2 flow transducer.", "However, we still need about 2 hours' worth of cabin enrichment, so we'd like to keep the vent that we're going to set up going for this purpose.", "Okay.", "We want you to install the cabin vent quick disconnect which you'll find in compartment R-6, that is Romeo-6, on the urine connector on panel 251.", "When this is completed, verify that the waste stowage vent valve is closed, and then open or position the waste management overboard drain to the Dump position.", "Over.", "[Long pause.]"], "speaker": "McCandless", "time": "027:48:41"}
 {"tokens": ["Okay.", "Understand that.", "[Pause.]", "] Install the cabin quick disconnect out of R-6 on the 251 urine connector and verify the waste dump valve is closed, and say again the last part."], "speaker": "Armstrong", "time": "027:49:40"}
 {"tokens": ["Roger.", "And then put the waste management overboard drain valve into the Dump position.", "Over.", "(Pause.", ")"], "speaker": "McCandless", "time": "027:50:02"}
 {"tokens": ["Roger.", "Put the waste management overboard drain valve to the Dump position."], "speaker": "Armstrong", "time": "027:50:16"}
-{"tokens": ["Right.", "That's the one down on panel 251 also.", "And we'll watch your O<sub>2</sub> flow on telemetry down here."], "speaker": "McCandless", "time": "027:50:20"}
+{"tokens": ["Right.", "That's the one down on panel 251 also.", "And we'll watch your O2 flow on telemetry down here."], "speaker": "McCandless", "time": "027:50:20"}
 {"tokens": ["11, this is Houston.", "Say again, please."], "speaker": "McCandless", "time": "027:52:57"}
-{"tokens": ["You do have the O<sub>2</sub> flow transducer checkout setup accomplished."], "speaker": "Armstrong", "time": "027:53:02"}
+{"tokens": ["You do have the O2 flow transducer checkout setup accomplished."], "speaker": "Armstrong", "time": "027:53:02"}
 {"tokens": ["Okay.", "Understand you have opened the drain valve at this time."], "speaker": "McCandless", "time": "027:53:08"}
 {"tokens": ["That's affirm.", "It's in Dump."], "speaker": "Armstrong", "time": "027:53:13"}
-{"tokens": ["Roger.", "We're not getting telemetry data from you right due to low signal strength.", "There it comes back.", "I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O<sub>2</sub> flow due to the size of the cabin versus the small size of the drain.", "Over."], "speaker": "McCandless", "time": "027:53:15"}
+{"tokens": ["Roger.", "We're not getting telemetry data from you right due to low signal strength.", "There it comes back.", "I expect it'll probably take us anywhere from 15 minutes to half an hour to see an increase in O2 flow due to the size of the cabin versus the small size of the drain.", "Over."], "speaker": "McCandless", "time": "027:53:15"}
 {"tokens": ["Rog."], "speaker": "Armstrong", "time": "027:53:36"}
 {"tokens": ["Go ahead, 11."], "speaker": "McCandless", "time": "028:07:18"}
 {"tokens": ["Rog.", "I've got the world in my window for a change and looking at it through the monocular, it's really something.", "I wish I could describe it properly, but the weather is very good.", "South America is coming around into view.", "I can see on the - what appears to me to be upper horizon, a point that must be just about Seattle, Washington, and then from there I can see all the way down to the southern tip - Tierra del Fuego and the southern tip of the continent."], "speaker": "Collins", "time": "028:07:21"}
@@ -1934,7 +1934,7 @@
 {"tokens": ["Apollo 11, this is Houston.", "Negative.", "We had a command computer at the Madrid site go down.", "We had to switch over to Ascension temporarily.", "We're now back remoting through Madrid, and the computer is back, and we're ready to resume control of your Omnis and full communication.", "Over."], "speaker": "McCandless", "time": "028:36:15"}
 {"tokens": ["Okay.", "One thing that we did miss in the drop-out in the noise here is your LM/CM Delta-P reading for about 28 hours GET.", "Over.", "[Long pause.]"], "speaker": "McCandless", "time": "028:36:39"}
 {"tokens": ["Okay.", "The LM/CM Delta-P is 0.98."], "speaker": "Aldrin", "time": "028:37:05"}
-{"tokens": ["Roger.", "0.98, and what have you been reading for O<sub>2</sub> flow on your onboard gauge?", "Over."], "speaker": "McCandless", "time": "028:37:10"}
+{"tokens": ["Roger.", "0.98, and what have you been reading for O2 flow on your onboard gauge?", "Over."], "speaker": "McCandless", "time": "028:37:10"}
 {"tokens": ["Well, right now, after we put that gadget in, we've got it back to 0.35.", "Before that, we were reading off-scale low.", "I think ours is relatively correct, at least when time comes for the water accumulator to kick in at 10 seconds, it goes on up to about 0.75, 0.8, something like that."], "speaker": "Aldrin", "time": "028:37:23"}
 {"tokens": ["This is Houston.", "Roger.", "Out.", "[Long pause.]"], "speaker": "McCandless", "time": "028:37:50"}
 {"tokens": ["And, 11, this is Houston.", "A little more information based on our analysis of your last SPS burn: it looks like you got a good solid burn there.", "We show 94 psi chamber pressure and it looks like the SPS is definitely Go.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "028:38:43"}
@@ -1950,7 +1950,7 @@
 {"tokens": ["At 28 hours, 40 minutes; we're showing Apollo 11's distance as 114,922 nautical miles from Earth, velocity; 4,819 feet per second.", "The crew is eating lunch at the present time, and it sounds like there's some music in the background that they are enjoying during their lunch period."], "speaker": "PAO", "time": null}
 {"tokens": ["11, Houston."], "speaker": "McCandless", "time": "028:41:27"}
 {"tokens": ["Go ahead."], "speaker": "Aldrin", "time": "028:41:31"}
-{"tokens": ["Roger.", "On that O<sub>2</sub> flow transducer, down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMs have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect.", "We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while."], "speaker": "McCandless", "time": "028:41:32"}
+{"tokens": ["Roger.", "On that O2 flow transducer, down here on telemetry, our values are agreeing pretty well with what you read out onboard, and the EECOMs have been noticing this cycle, but it still looks like the indicated rate is lower than what we would expect.", "We're still working on the problem, and we'll let you have a more complete diagnosis on it in a little while."], "speaker": "McCandless", "time": "028:41:32"}
 {"tokens": ["Okay.", "It's a tight fix then."], "speaker": "Aldrin", "time": "028:42:03"}
 {"tokens": ["We run a tight ship."], "speaker": "Collins", "time": "028:42:04"}
 {"tokens": ["Roger.", "Is that music I hear in the background?"], "speaker": "McCandless", "time": "028:42:08"}
@@ -1964,7 +1964,7 @@
 {"tokens": ["Rog.", "We'd like you, sometime at your convenience, to stir up the Cryos on this pass.", "And wondering if you got the fuel cell purge.", "Over."], "speaker": "Duke", "time": "133:49:56"}
 {"tokens": ["Roger.", "The [garble] fuel cell purge [garble]."], "speaker": "Aldrin", "time": "133:50:08"}
 {"tokens": ["Say again.", "You're breaking up."], "speaker": "Duke", "time": "133:50:12"}
-{"tokens": ["Roger.", "The O<sub>2</sub> fuel cell purge is complete."], "speaker": "Aldrin", "time": "133:50:18"}
+{"tokens": ["Roger.", "The O2 fuel cell purge is complete."], "speaker": "Aldrin", "time": "133:50:18"}
 {"tokens": ["Rog.", "Copy."], "speaker": "Duke", "time": "133:50:22"}
 {"tokens": ["Very good.", "Thank you very much."], "speaker": "Collins", "time": "133:53:07"}
 {"tokens": ["Yes, sir."], "speaker": "Duke", "time": "133:53:08"}
@@ -1981,8 +1981,8 @@
 {"tokens": ["And, Apollo 11, Houston.", "Your friendly White Team has your coming home information, if you're ready to copy.", "Over.", "[Pause.]"], "speaker": "Duke", "time": "134:00:41"}
 {"tokens": ["Stand by.", "[Long pause.]"], "speaker": "Aldrin", "time": "134:00:56"}
 {"tokens": ["Apollo 11.", "Ready to copy."], "speaker": "Aldrin", "time": "134:01:14"}
-{"tokens": ["Rog, 11.", "Got two PADs for you, TEI-30 and then a TEI-31.", "TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56.", "Noun 81: 32 - correction, plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014.", "Apogee is NA, perigee plus 0023.0; 3286 - correction, 32836; burn time 2:28, 3262.8; 24, 151.1, 35.7.", "Next three lines are NA.", "Noun 61: plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Set stars are Deneb and Vega, 242, 172, 012.", "We'd like ullage from two jets for 16 seconds, and the horizon is on the 10-degree line at T<sub>IG</sub> minus 2 minutes, and your sextant star is visible after 134 plus 50.", "Stand by on your readback.", "I have a TEI-31 if you're ready to copy.", "Over."], "speaker": "Duke", "time": "134:01:16"}
-{"tokens": ["Roger.", "TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56; plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014.", "Apogee NA, plus 0023.0; 32836, 2:28, 32628; 24, 151.1, 35.7.", "NA three times.", "Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Deneb and Vega, 242, 172, 012.", "Two-jet ullage, 16 seconds.", "Horizon out-of-the-window, 10 degrees, T<sub>IG</sub> minus 2 minutes.", "Sextant star at 134:10.", "Over."], "speaker": "Aldrin", "time": "134:04:14"}
+{"tokens": ["Rog, 11.", "Got two PADs for you, TEI-30 and then a TEI-31.", "TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56.", "Noun 81: 32 - correction, plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014.", "Apogee is NA, perigee plus 0023.0; 3286 - correction, 32836; burn time 2:28, 3262.8; 24, 151.1, 35.7.", "Next three lines are NA.", "Noun 61: plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Set stars are Deneb and Vega, 242, 172, 012.", "We'd like ullage from two jets for 16 seconds, and the horizon is on the 10-degree line at TIG minus 2 minutes, and your sextant star is visible after 134 plus 50.", "Stand by on your readback.", "I have a TEI-31 if you're ready to copy.", "Over."], "speaker": "Duke", "time": "134:01:16"}
+{"tokens": ["Roger.", "TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.66; 135:23:41.56; plus 3201.1, plus 0681.8, minus 0265.0; 181, 054, 014.", "Apogee NA, plus 0023.0; 32836, 2:28, 32628; 24, 151.1, 35.7.", "NA three times.", "Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Deneb and Vega, 242, 172, 012.", "Two-jet ullage, 16 seconds.", "Horizon out-of-the-window, 10 degrees, TIG minus 2 minutes.", "Sextant star at 134:10.", "Over."], "speaker": "Aldrin", "time": "134:04:14"}
 {"tokens": ["All right.", "Go ahead.", "[Pause.]"], "speaker": "Aldrin", "time": "134:06:01"}
 {"tokens": ["Apollo 11, Houston.", "You were cut out.", "Say again.", "[Pause.]"], "speaker": "Duke", "time": "134:06:09"}
 {"tokens": ["Roger.", "Stand by one."], "speaker": "Aldrin", "time": "134:06:17"}
@@ -2042,7 +2042,7 @@
 {"tokens": ["You want an extra [garble] - we got a lot of gas..."], "speaker": "Collins", "time": "135:01:00"}
 {"tokens": ["No, no, no."], "speaker": "Armstrong", "time": "135:01:01"}
 {"tokens": ["Be happy to zip on around."], "speaker": "Collins", "time": "135:01:02"}
-{"tokens": ["This thing is taking forever to get around here.", "We've got 20 minutes to T<sub>IG</sub>.", "I think I'll speed it up a bit, if you don't mind."], "speaker": "Collins", "time": "135:02:16"}
+{"tokens": ["This thing is taking forever to get around here.", "We've got 20 minutes to TIG.", "I think I'll speed it up a bit, if you don't mind."], "speaker": "Collins", "time": "135:02:16"}
 {"tokens": ["Hey, you got - 1, 0.1, point 1 you mean?"], "speaker": "Armstrong", "time": "135:02:24"}
 {"tokens": ["Yes."], "speaker": "Collins", "time": "135:02:29"}
 {"tokens": ["You know, if you hit this hand controller like you do in the simulator, Minimum Impulse, just bang it, it'll bang over and bang back, and it'll fire two opposing pulses, and you get nothing.", "You know that?"], "speaker": "Collins", "time": "135:02:44"}
@@ -2073,7 +2073,7 @@
 {"tokens": ["Yes.", "I got a star in the - in the sextant."], "speaker": "Collins", "time": "135:07:36"}
 {"tokens": ["Good, it passes.", "Let's press on."], "speaker": "Armstrong", "time": "135:07:38"}
 {"tokens": ["I'm not sure it's Gienah."], "speaker": "Collins", "time": "135:07:41"}
-{"tokens": ["Good.", "There'll be no way of telling - You got 16 minutes until T<sub>IG</sub>.", "Did it pass?"], "speaker": "Armstrong", "time": "135:07:43"}
+{"tokens": ["Good.", "There'll be no way of telling - You got 16 minutes until TIG.", "Did it pass?"], "speaker": "Armstrong", "time": "135:07:43"}
 {"tokens": ["Optics Zero..."], "speaker": "Collins", "time": "135:07:51"}
 {"tokens": ["Optics Zero and Manual.", "The mode is Manual already, isn't it?", "Okay?"], "speaker": "Armstrong", "time": "135:07:52"}
 {"tokens": ["Alright.", "Verb 37, Enter.", "40, Enter.", "Okay."], "speaker": "Aldrin", "time": "135:07:59"}
@@ -2120,14 +2120,14 @@
 {"tokens": ["You going to pitch up after the burn?"], "speaker": "Aldrin", "time": "135:12:29"}
 {"tokens": ["Sounds like a good idea.", "Let's look at the Moon after the burn.", "That'll give us High Gain, right?"], "speaker": "Collins", "time": "135:12:33"}
 {"tokens": ["Check."], "speaker": "Aldrin", "time": "135:12:41"}
-{"tokens": ["Okay, 10 minutes until T<sub>IG</sub>."], "speaker": "Armstrong", "time": "135:12:52"}
+{"tokens": ["Okay, 10 minutes until TIG."], "speaker": "Armstrong", "time": "135:12:52"}
 {"tokens": ["Alright."], "speaker": "Collins", "time": "135:12:55"}
 {"tokens": ["It's hot in here, isn't it?"], "speaker": "Armstrong", "time": "135:13:10"}
 {"tokens": ["[Garble] boiling any water."], "speaker": "Aldrin", "time": "135:13:17"}
 {"tokens": ["You do it all?"], "speaker": "Armstrong", "time": "135:13:21"}
 {"tokens": ["No.", "It's not too hot, it's 65."], "speaker": "Aldrin", "time": "135:13:22"}
 {"tokens": ["Those temperatures are deceptive.", "I don't know where they measure it, but the cold point is..."], "speaker": "Collins", "time": "135:13:31"}
-{"tokens": ["Okay.", "Sunrise, now 10 minutes prior to T<sub>IG</sub>.", "I should have the horizon on the 10-degree line, huh?"], "speaker": "Armstrong", "time": "135:13:36"}
+{"tokens": ["Okay.", "Sunrise, now 10 minutes prior to TIG.", "I should have the horizon on the 10-degree line, huh?"], "speaker": "Armstrong", "time": "135:13:36"}
 {"tokens": ["No, 10 degrees - 2 minutes."], "speaker": "Collins", "time": "135:13:43"}
 {"tokens": ["2 minutes.", "That's more like it, there."], "speaker": "Armstrong", "time": "135:13:45"}
 {"tokens": ["[Garble] this COAS as far as steering and everything goes, it's hopeless."], "speaker": "Collins", "time": "135:14:00"}
@@ -2137,7 +2137,7 @@
 {"tokens": ["It is most important that we be going forward (laughter)."], "speaker": "Collins", "time": "135:14:29"}
 {"tokens": ["There's only one really bad mistake you can make there."], "speaker": "Collins", "time": "135:14:40"}
 {"tokens": ["Shades of Gemini retrofire, are you sure we're - (laughter) - No, let's see - the motors point this way and the gases escape that way, therefore imparting a thrust that-a-way."], "speaker": "Aldrin", "time": "135:14:50"}
-{"tokens": ["Okay, we got 8\u00bd to T<sub>IG</sub>."], "speaker": "Aldrin", "time": "135:15:06"}
+{"tokens": ["Okay, we got 8\u00bd to TIG."], "speaker": "Aldrin", "time": "135:15:06"}
 {"tokens": ["Somewhere along the line, I think I'll trim this maneuver just for the hell of it.", "Would this be a good time to do it, Buzz, at 5 minutes prior?", "You don't care when I do it, do you?"], "speaker": "Collins", "time": "135:15:28"}
 {"tokens": ["No, it probably would be after we - when the gimbals are out."], "speaker": "Aldrin", "time": "135:15:35"}
 {"tokens": ["Oh, yes, alright.", "Okay."], "speaker": "Collins", "time": "135:15:38"}
@@ -2155,7 +2155,7 @@
 {"tokens": ["Yes, and then that scares you, because that says you're going retrograde, right?", "Well, let's see, if it's upside down, you're going backwards."], "speaker": "Armstrong", "time": "135:16:27"}
 {"tokens": ["Yes."], "speaker": "Aldrin", "time": "135:16:33"}
 {"tokens": ["Okay, it looks good, I'll tell you."], "speaker": "Armstrong", "time": "135:16:40"}
-{"tokens": ["Alright, we're coming up on bus tie time.", "We've got a little over 6:50 until T<sub>IG</sub>."], "speaker": "Collins", "time": "135:16:44"}
+{"tokens": ["Alright, we're coming up on bus tie time.", "We've got a little over 6:50 until TIG."], "speaker": "Collins", "time": "135:16:44"}
 {"tokens": ["Ready for the bus ties."], "speaker": "Armstrong", "time": "135:17:05"}
 {"tokens": ["Yes, sir.", "Whenever you are.", "It's about 6 minutes."], "speaker": "Collins", "time": "135:17:07"}
 {"tokens": ["[Garble].", "On, verified."], "speaker": "Armstrong", "time": "135:17:10"}
@@ -2463,7 +2463,7 @@
 {"tokens": ["Hello Apollo 11.", "Houston.", "How did it go?", "Over."], "speaker": "Duke", "time": "135:35:14"}
 {"tokens": ["Time to open up the LRL doors, Charlie."], "speaker": "Armstrong", "time": "135:35:22"}
 {"tokens": ["Roger.", "We got you coming home.", "It's well stocked."], "speaker": "Duke", "time": "135:35:25"}
-{"tokens": ["Okay, Burn status: Delta-T<sub>IG</sub> was zero, burn time was 2 plus 30.", "PAD angles: Delta-V<sub>GX</sub> after trim was 0.1, V<sub>GY</sub> 0.9, V<sub>GZ</sub> 0.1.", "Delta-V<sub>C</sub> minus 17.9, fuel 10.6, Ox 10.4, unbalance minus 50."], "speaker": "Armstrong", "time": "135:35:33"}
+{"tokens": ["Okay, Burn status: Delta-TIG was zero, burn time was 2 plus 30.", "PAD angles: Delta-VGX after trim was 0.1, VGY 0.9, VGZ 0.1.", "Delta-VC minus 17.9, fuel 10.6, Ox 10.4, unbalance minus 50."], "speaker": "Armstrong", "time": "135:35:33"}
 {"tokens": ["Roger.", "Copy, Neil.", "Sounds good to us.", "[Long pause.]"], "speaker": "Duke", "time": "135:36:01"}
 {"tokens": ["And Apollo 11, Houston.", "You - All your systems look real good to us.", "We'll keep you posted."], "speaker": "Duke", "time": "135:36:16"}
 {"tokens": ["Rog."], "speaker": "Armstrong", "time": "135:36:27"}
@@ -2521,7 +2521,7 @@
 {"tokens": ["Rog, 11.", "This is the original CapCom.", "Congratulations on an outstanding job.", "You guys have really put on a great show up there.", "I think it's about time you powered down and got a little rest, however.", "You've had a mighty long day here.", "Hope you're all going to get a good sleep on the way back.", "I look forward to seeing you when you get back here.", "Don't fraternize with any of those bugs"], "speaker": "Slayton", "time": "136:52:52"}
 {"tokens": ["Rog.", "You've earned it.", "[Long pause.]"], "speaker": "Slayton", "time": "136:53:30"}
 {"tokens": ["That exchange was between Donald K. 'Deke' Slayton, Director of Flight Crew Operations at the Manned Spacecraft Center and astronaut Neil Armstrong."], "speaker": "PAO", "time": null}
-{"tokens": ["Hello, Apollo 11.", "Houston.", "We'd like you to turn off O<sub>2</sub> Tank Number 1 heaters.", "Over.", "[Pause.]"], "speaker": "Duke", "time": "136:54:13"}
+{"tokens": ["Hello, Apollo 11.", "Houston.", "We'd like you to turn off O2 Tank Number 1 heaters.", "Over.", "[Pause.]"], "speaker": "Duke", "time": "136:54:13"}
 {"tokens": ["It's off.", "Thank you."], "speaker": "Collins", "time": "136:54:27"}
 {"tokens": ["Rog.", "[Long pause.]"], "speaker": "Duke", "time": "136:54:29"}
 {"tokens": ["Hello, Apollo 11.", "Houston.", "For your information, the LGC in Eagle just went belly up at 7 hours.", "Over."], "speaker": "Duke", "time": "136:54:57"}
@@ -2614,7 +2614,7 @@
 {"tokens": ["Hey, maybe you better call Lew and tell him we might be a little bit late for dinner."], "speaker": "Aldrin", "time": "006:25:47"}
 {"tokens": ["We recalled the program."], "speaker": "Collins", "time": "006:26:08"}
 {"tokens": ["Roger."], "speaker": "Duke", "time": "006:26:12"}
-{"tokens": ["And O<sub>2</sub> fan number 2 is on."], "speaker": "Collins", "time": "006:26:13"}
+{"tokens": ["And O2 fan number 2 is on."], "speaker": "Collins", "time": "006:26:13"}
 {"tokens": ["Rog."], "speaker": "Duke", "time": "006:26:15"}
 {"tokens": ["Houston, Apollo 11.", "[I've] got a Cryo pressure light and a Master Alarm.", "It's re-set."], "speaker": "Aldrin", "time": "006:26:42"}
 {"tokens": ["Ah, Roger.", "We expected that.", "That's why we had you turn the fan on.", "We were getting pretty close to the caution and warning limits.", "We were trying to prevent that."], "speaker": "Duke", "time": "006:26:51"}
@@ -2797,7 +2797,7 @@
 {"tokens": ["Stand by."], "speaker": "Duke", "time": "010:05:40"}
 {"tokens": ["Hey, Charlie, I can see the snow on the - on the mountains out in California, and it looks like LA doesn't have much of a smog problem today."], "speaker": "Aldrin", "time": "010:05:45"}
 {"tokens": ["Roger, Buzz.", "Copy.", "Looks like there's a good view out there then."], "speaker": "Duke", "time": "010:05:57"}
-{"tokens": ["And, Apollo 11, Houston.", "We'd like you to keep the O<sub>2</sub> fan on.", "It will give you an ECS configuration prior to sleep.", "Over."], "speaker": "Duke", "time": "010:06:00"}
+{"tokens": ["And, Apollo 11, Houston.", "We'd like you to keep the O2 fan on.", "It will give you an ECS configuration prior to sleep.", "Over."], "speaker": "Duke", "time": "010:06:00"}
 {"tokens": ["Okay.", "Thanks.", "[Long pause.]"], "speaker": "Aldrin", "time": "010:06:14"}
 {"tokens": ["Charlie, with the monocular, I can discern a definite green cast to the San Fernando Valley."], "speaker": "Aldrin", "time": "010:06:46"}
 {"tokens": ["Roger."], "speaker": "Duke", "time": "010:06:56"}
@@ -2818,11 +2818,11 @@
 {"tokens": ["Okay.", "It'll take us about 5 minutes to get rigged."], "speaker": "Armstrong", "time": "010:26:14"}
 {"tokens": ["Roger.", "[Long pause.]"], "speaker": "Duke", "time": "010:26:16"}
 {"tokens": ["Capcom Charlie Duke advised the crew that we would be recording the television at Goldstone.", "We don't have an estimate at this time as to how long it will take to get a playback of that from Goldstone."], "speaker": "PAO", "time": null}
-{"tokens": ["Apollo 11, Houston.", "Could you verify the reading on your O<sub>2</sub> flow indicator?", "Over."], "speaker": "Duke", "time": "010:26:31"}
+{"tokens": ["Apollo 11, Houston.", "Could you verify the reading on your O2 flow indicator?", "Over."], "speaker": "Duke", "time": "010:26:31"}
 {"tokens": ["We're showing 0.2.", "We just inadvertently touched the Rapid Repress button.", "That made a temporary glitch in the flow."], "speaker": "Aldrin", "time": "010:26:45"}
 {"tokens": ["Roger.", "During that glitch there, did it go almost a peg high?", "Over."], "speaker": "Duke", "time": "010:26:55"}
 {"tokens": ["I'd believe that.", "[Pause.]"], "speaker": "Aldrin", "time": "010:27:05"}
-{"tokens": ["Apollo 11, Houston.", "Could you tell us - tell us if the O<sub>2</sub> flow indicator was pegged to high prior to closing the waste storage vent valve?", "Over."], "speaker": "Duke", "time": "010:27:14"}
+{"tokens": ["Apollo 11, Houston.", "Could you tell us - tell us if the O2 flow indicator was pegged to high prior to closing the waste storage vent valve?", "Over."], "speaker": "Duke", "time": "010:27:14"}
 {"tokens": ["No, it was not."], "speaker": "Aldrin", "time": "010:27:26"}
 {"tokens": ["Roger.", "Thank you."], "speaker": "Duke", "time": "010:27:29"}
 {"tokens": ["That yaw 270 and pitch 3 - What was the pitch?"], "speaker": "Armstrong", "time": "010:31:27"}
@@ -2885,15 +2885,15 @@
 {"tokens": ["Roger.", "Stand by one, Buzz.", "[Long pause.]"], "speaker": "Duke", "time": "010:59:04"}
 {"tokens": ["Apollo 11, Houston.", "Coming at you with the P37 block data.", "Over."], "speaker": "Duke", "time": "010:59:21"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "010:59:28"}
-{"tokens": ["Roger.", "027:44, 5363, minus 165, 073:14; 037:44, 8016, minus 165, 072:46; GET<sub>I</sub> 046:44, 6141, minus 165, 097:03; 055:44, 8209, minus 165, 096:42.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "010:59:29"}
+{"tokens": ["Roger.", "027:44, 5363, minus 165, 073:14; 037:44, 8016, minus 165, 072:46; GETI 046:44, 6141, minus 165, 097:03; 055:44, 8209, minus 165, 096:42.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "010:59:29"}
 {"tokens": ["Roger.", "027:44, 5363, minus 165, 073:14, 037:44, 8016, minus 165, 072:46; 046:44, 6141, minus 165, 097:03, 055:44, 8209, minus 165, 096:42.", "Over."], "speaker": "Aldrin", "time": "011:01:01"}
 {"tokens": ["Okay.", "We've completed the filter change, and we'll get started on the fuel cell purge, and stand by for the LM/CM Delta-P."], "speaker": "Aldrin", "time": "011:02:34"}
 {"tokens": ["Roger, 11.", "Would you hold off on the fuel cell purge?", "EECOM's saying we might not have to do that.", "Over."], "speaker": "Duke", "time": "011:02:42"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Aldrin", "time": "011:02:51"}
 {"tokens": ["Charlie, the LM/CM Delta-P is 0.5."], "speaker": "Collins", "time": "011:03:05"}
 {"tokens": ["Copy.", "0.5.", "Out.", "[Long pause.]"], "speaker": "Duke", "time": "011:03:17"}
-{"tokens": ["Hello, Apollo 11.", "Houston.", "We just decided to delete the O<sub>2</sub> fuel cell purge.", "Over."], "speaker": "Duke", "time": "011:03:50"}
-{"tokens": ["Roger.", "Delete the O<sub>2</sub> fuel cell purge."], "speaker": "Armstrong", "time": "011:03:56"}
+{"tokens": ["Hello, Apollo 11.", "Houston.", "We just decided to delete the O2 fuel cell purge.", "Over."], "speaker": "Duke", "time": "011:03:50"}
+{"tokens": ["Roger.", "Delete the O2 fuel cell purge."], "speaker": "Armstrong", "time": "011:03:56"}
 {"tokens": ["Stand by one, Charlie.", "We'll give you something on the detent."], "speaker": "Collins", "time": "011:07:18"}
 {"tokens": ["Roger.", "[Pause.]"], "speaker": "Duke", "time": "011:07:21"}
 {"tokens": ["Right now it's at Closed, and I'm lined up with Closed.", "Before I was at Vent; and best I can recall, it was quite accurately lined up with Vent.", "Would you like me to go to Vent again momentarily and see where it lines up?"], "speaker": "Collins", "time": "011:07:28"}
@@ -3071,7 +3071,7 @@
 {"tokens": ["This is Apollo Control at 42 minutes, 53 seconds.", "Tananarive has Loss of Signal.", "We'll come back up at 52 minutes into the mission when the Carnarvon, Australian station acquires Apollo 11.", "This is Mission Control, Houston."], "speaker": "PAO", "time": "000:42:53"}
 {"tokens": ["Man, we are in the dark, now."], "speaker": "Armstrong", "time": "000:43:13"}
 {"tokens": ["TAN LOS."], "speaker": "COMM", "time": "000:43:13"}
-{"tokens": ["You got any reading off that Repress O<sub>2</sub> to be greater than 8..."], "speaker": "Collins", "time": "000:43:25"}
+{"tokens": ["You got any reading off that Repress O2 to be greater than 8..."], "speaker": "Collins", "time": "000:43:25"}
 {"tokens": ["We got - No, not quite that much.", "That's that crazy gauge."], "speaker": "Aldrin", "time": "000:43:37"}
 {"tokens": ["Okay, can I have the... now?"], "speaker": "Armstrong", "time": "000:43:48"}
 {"tokens": ["Yes, you got it.", "... 50 degrees..."], "speaker": "Aldrin", "time": "000:43:53"}
@@ -3429,8 +3429,8 @@
 {"tokens": ["Roger.", "Ready to copy TLI PAD."], "speaker": "Collins", "time": "001:44:26"}
 {"tokens": ["Roger.", "TLI: 2:35:14; 179, 071, 001, burn time 5:47, 10435.6, 35575.", "Roll for Sep 357, 107, 041; 301, 287, 319.", "TLI 10-minute abort pitch, 223.", "Readback.", "Over."], "speaker": "McCandless", "time": "001:44:30"}
 {"tokens": ["Roger.", "TLI PAD: 2:35:14; 179, 071, 001; 5:47, 10435.6, 35575; 357, 107, 041; 301 287 319.", "TLI 10-minute abort pitch, 223.", "Over."], "speaker": "Collins", "time": "001:45:23"}
-{"tokens": ["Apollo 11, this is Houston.", "Roger.", "Would you read back Delta-V<sub>c</sub> prime again?", "You were cut out by some noise."], "speaker": "McCandless", "time": "001:46:03"}
-{"tokens": ["Okay.", "Roger.", "I'm picking up the squeal here, also.", "Delta-V<sub>c</sub> 10435.6.", "Over."], "speaker": "Collins", "time": "001:46:09"}
+{"tokens": ["Apollo 11, this is Houston.", "Roger.", "Would you read back Delta-Vc prime again?", "You were cut out by some noise."], "speaker": "McCandless", "time": "001:46:03"}
+{"tokens": ["Okay.", "Roger.", "I'm picking up the squeal here, also.", "Delta-Vc 10435.6.", "Over."], "speaker": "Collins", "time": "001:46:09"}
 {"tokens": ["Apollo 11, this is Houston.", "Readback correct.", "Out.", "[Long pause.]", "]"], "speaker": "McCandless", "time": "001:46:25"}
 {"tokens": ["Roger.", "That's verified.", "The probe is extended."], "speaker": "Armstrong", "time": "001:47:16"}
 {"tokens": ["Roger.", "About 2 minutes to LOS on this state-side pass.", "AOS Canaries at 1:50:13.", "Over."], "speaker": "McCandless", "time": "001:47:19"}
@@ -3496,7 +3496,7 @@
 {"tokens": ["That's just about perfect."], "speaker": "Armstrong", "time": "001:57:41"}
 {"tokens": ["Alright.", "EMS Mode, Standby."], "speaker": "Aldrin", "time": "001:57:44"}
 {"tokens": ["Standby."], "speaker": "Armstrong", "time": "001:57:48"}
-{"tokens": ["And EMS Function, Delta-V, set.", "Set Delta-V<sub>c</sub>.", "You got the number?"], "speaker": "Aldrin", "time": "001:57:51"}
+{"tokens": ["And EMS Function, Delta-V, set.", "Set Delta-Vc.", "You got the number?"], "speaker": "Aldrin", "time": "001:57:51"}
 {"tokens": ["Yes.", "10 [sic] 4256."], "speaker": "Collins", "time": "001:58:03"}
 {"tokens": ["4256?", "How about 4356?"], "speaker": "Armstrong", "time": "001:58:10"}
 {"tokens": ["That's right, 4356."], "speaker": "Aldrin", "time": "001:58:16"}
@@ -3550,11 +3550,11 @@
 {"tokens": ["Okay, let's do one more.", "We're going first opportunity, you think?"], "speaker": "Aldrin", "time": "002:02:03"}
 {"tokens": ["Burn time is 05 plus 47."], "speaker": "Collins", "time": "002:02:22"}
 {"tokens": ["Yes."], "speaker": "Armstrong", "time": "002:02:24"}
-{"tokens": ["And emergency shutdown, Neil, is plus 10 seconds; 10 minus 40 on the Delta-V<sub>c</sub>, is that right?"], "speaker": "Collins", "time": "002:02:27"}
+{"tokens": ["And emergency shutdown, Neil, is plus 10 seconds; 10 minus 40 on the Delta-Vc, is that right?"], "speaker": "Collins", "time": "002:02:27"}
 {"tokens": ["Plus 6 seconds, plus 6."], "speaker": "Aldrin", "time": "002:02:32"}
 {"tokens": ["And - no - no, I'm sure about that minus."], "speaker": "Collins", "time": "002:02:39"}
 {"tokens": ["No, no, it's not; it's only..."], "speaker": "Aldrin", "time": "002:02:43"}
-{"tokens": ["No, it's plus 6 seconds and V<sub>I</sub> on the DSKY at G&N."], "speaker": "Collins", "time": "002:02:45"}
+{"tokens": ["No, it's plus 6 seconds and VI on the DSKY at G&N."], "speaker": "Collins", "time": "002:02:45"}
 {"tokens": ["I think that's going to show up here, isn't it?"], "speaker": "Armstrong", "time": "002:02:58"}
 {"tokens": ["What?"], "speaker": "Aldrin", "time": "002:03:01"}
 {"tokens": ["TLI?"], "speaker": "Armstrong", "time": "002:03:03"}
@@ -3588,7 +3588,7 @@
 {"tokens": ["Well, that's going to be..."], "speaker": "Aldrin", "time": "002:05:03"}
 {"tokens": ["Okay, I'll set up the event timer."], "speaker": "Armstrong", "time": "002:05:08"}
 {"tokens": ["Burn time is 05:20."], "speaker": "Armstrong", "time": "002:05:47"}
-{"tokens": ["Delta-V<sub>I</sub> - going to be..."], "speaker": "Collins", "time": "002:06:07"}
+{"tokens": ["Delta-VI - going to be..."], "speaker": "Collins", "time": "002:06:07"}
 {"tokens": ["Sure you got - you got your checklist here, haven't you?", "Yes."], "speaker": "Collins", "time": "002:06:45"}
 {"tokens": ["Yes, they put all this TLI crap in my checklist; even though I took it out, they put it back in."], "speaker": "Aldrin", "time": "002:06:48"}
 {"tokens": ["Well, Mattingly assured me that I was going to have a circular velocity versus altitude, you know, when they get me at 100 miles on the other side?"], "speaker": "Collins", "time": "002:06:52"}
@@ -3846,7 +3846,7 @@
 {"tokens": ["We have cut-off."], "speaker": "Armstrong", "time": "002:50:06"}
 {"tokens": ["Cut-off.", "We're showing velocity 35,570 feet per second.", "Altitude 177 nautical miles."], "speaker": "PAO", "time": null}
 {"tokens": ["3.3 on the Delta..."], "speaker": "Aldrin", "time": "002:50:09"}
-{"tokens": ["The Delta-V<sub>C</sub> on the EMS - 3.3."], "speaker": "Armstrong", "time": "002:50:12"}
+{"tokens": ["The Delta-VC on the EMS - 3.3."], "speaker": "Armstrong", "time": "002:50:12"}
 {"tokens": ["Beautiful.", "EMS Function, Off."], "speaker": "Collins", "time": "002:50:14"}
 {"tokens": ["Off."], "speaker": "Armstrong", "time": "002:50:17"}
 {"tokens": ["SECS Pyro Arm, two, Safe."], "speaker": "Collins", "time": "002:50:19"}
@@ -3867,8 +3867,8 @@
 {"tokens": ["PCM Bit Rate, Low."], "speaker": "Armstrong", "time": "002:51:03"}
 {"tokens": ["PCM Bit Rate is Low."], "speaker": "Collins", "time": "002:51:04"}
 {"tokens": ["Apollo 11, this is Houston.", "Do you read?", "Over."], "speaker": "McCandless", "time": "002:51:17"}
-{"tokens": ["Roger, Houston.", "Apollo 11.", "We're reading a V<sub>I</sub> of 35579 and the EMS was plus 3.3.", "Over."], "speaker": "Aldrin", "time": "002:51:21"}
-{"tokens": ["Roger.", "Plus 3.3 on the EMS.", "And we copy the V<sub>I</sub>."], "speaker": "McCandless", "time": "002:51:31"}
+{"tokens": ["Roger, Houston.", "Apollo 11.", "We're reading a VI of 35579 and the EMS was plus 3.3.", "Over."], "speaker": "Aldrin", "time": "002:51:21"}
+{"tokens": ["Roger.", "Plus 3.3 on the EMS.", "And we copy the VI."], "speaker": "McCandless", "time": "002:51:31"}
 {"tokens": ["Roger, 11.", "We'll pass that on.", "And, it certainly looks like you are well on your way now."], "speaker": "McCandless", "time": "002:53:09"}
 {"tokens": ["That was Neil Armstrong praising the launch vehicle."], "speaker": "PAO", "time": null}
 {"tokens": ["We got - We have no complaints with any of the three stages on that ride.", "It was beautiful."], "speaker": "Armstrong", "time": "002:53:30"}
@@ -3877,7 +3877,7 @@
 {"tokens": ["Houston.", "Roger.", "Out.", "[Long pause.]", "]"], "speaker": "McCandless", "time": "002:53:47"}
 {"tokens": ["Apollo 11, Houston.", "Go."], "speaker": "Evans", "time": "128:05:39"}
 {"tokens": ["Roger.", "I'm supposed to adjust the oxygen flow in this thing to six-tenths of a pound per hour, but being as how this transducer is not working right, could you give me an updated number?"], "speaker": "Collins", "time": "128:05:44"}
-{"tokens": ["Affirmative.", "You want to go ahead and adjust your O<sub>2</sub> flow until it just goes off the peg, and then crank the direct O<sub>2</sub> valve back down about 5 degrees.", "Over."], "speaker": "Evans", "time": "128:05:55"}
+{"tokens": ["Affirmative.", "You want to go ahead and adjust your O2 flow until it just goes off the peg, and then crank the direct O2 valve back down about 5 degrees.", "Over."], "speaker": "Evans", "time": "128:05:55"}
 {"tokens": ["Boy, you're really waiting for that one, aren't you?", "Okay, Ron.", "Thank you.", "[Long pause.]"], "speaker": "Collins", "time": "128:06:14"}
 {"tokens": ["Houston, I did that, and I believe we are flowing oxygen, but the gauge is just pegged Full Scale Low."], "speaker": "Collins", "time": "128:06:59"}
 {"tokens": ["Roger.", "That's fine.", "That's what we expect."], "speaker": "Evans", "time": "128:07:08"}
@@ -3904,7 +3904,7 @@
 {"tokens": ["Roger.", "Any time prior to jettison there, we'd like an AGS to PGNS align: 400 plus 30 000.", "Over.", "[Pause.]"], "speaker": "Evans", "time": "128:30:17"}
 {"tokens": ["Okay.", "Any particular attitude you'd like the PGNS in when we do that?", "[Pause.]"], "speaker": "Aldrin", "time": "128:30:34"}
 {"tokens": ["No.", "We're not getting any.", "Could you give us some course align gimbal angles to move the PGNS to, and then we'll align the AGS to the PGNS.", "Over."], "speaker": "Aldrin", "time": "128:30:47"}
-{"tokens": ["Roger.", "Eagle.", "We concur.", "Stand by on the gimbal angles.", "And also, Eagle, while we've got the Command Module direct O<sub>2</sub> on there, there's a possibility that your cabin relief might relieve if we get on up around cabin pressure of about 5.4 or 5.5.", "[Pause.]"], "speaker": "Evans", "time": "128:30:58"}
+{"tokens": ["Roger.", "Eagle.", "We concur.", "Stand by on the gimbal angles.", "And also, Eagle, while we've got the Command Module direct O2 on there, there's a possibility that your cabin relief might relieve if we get on up around cabin pressure of about 5.4 or 5.5.", "[Pause.]"], "speaker": "Evans", "time": "128:30:58"}
 {"tokens": ["Roger.", "[Long pause.]"], "speaker": "Aldrin", "time": "128:31:24"}
 {"tokens": ["Eagle, Houston."], "speaker": "Evans", "time": "128:32:05"}
 {"tokens": ["Roger.", "Go ahead."], "speaker": "Aldrin", "time": "128:32:10"}
@@ -3938,7 +3938,7 @@
 {"tokens": ["Roger.", "Pitch 165, yaw 68."], "speaker": "Armstrong", "time": "128:43:35"}
 {"tokens": ["Eagle, Houston.", "Correct."], "speaker": "Evans", "time": "128:43:38"}
 {"tokens": ["Columbia.", "Go ahead."], "speaker": "Collins", "time": "128:45:13"}
-{"tokens": ["Roger, Mike.", "You want to tweak the O<sub>2</sub> flow up just a bit there?"], "speaker": "Evans", "time": "128:45:15"}
+{"tokens": ["Roger, Mike.", "You want to tweak the O2 flow up just a bit there?"], "speaker": "Evans", "time": "128:45:15"}
 {"tokens": ["Okay.", "Coming up.", "[Pause.]", "] Houston, do you have any preferences as to what you want us to do with the probe?", "Over."], "speaker": "Collins", "time": "128:45:22"}
 {"tokens": ["Columbia, Houston.", "Stand by one."], "speaker": "Evans", "time": "128:45:36"}
 {"tokens": ["Okay.", "Eagle says they've got a place for it inside there, so no - no problem."], "speaker": "Collins", "time": "128:45:43"}
@@ -4076,8 +4076,8 @@
 {"tokens": ["Houston, this is Columbia.", "Reading you loud and clear.", "We're all three back inside.", "The hatch is installed.", "We're running a pressure check - leak check.", "Everything's going well."], "speaker": "Collins", "time": "129:51:02"}
 {"tokens": ["Roger, Eagle.", "Correction - Roger, Columbia.", "We copy.", "You guys are speedy; you beat us to the punch here.", "We had a couple of things for you."], "speaker": "Duke", "time": "129:51:11"}
 {"tokens": ["What are they?"], "speaker": "Collins", "time": "129:51:25"}
-{"tokens": ["Oh, it was just - We wanted you to close the CO<sub>2</sub> sensor breaker and give us an RCS onboard read-out out of Eagle, but that's all.", "Columbia, Houston.", "We've got a state vector for you if you'll give us P00 and Accept.", "Over.", "[Long pause.]"], "speaker": "Duke", "time": "129:51:26"}
-{"tokens": ["Buzz says the CO<sub>2</sub> sensor circuit breaker is in."], "speaker": "Collins", "time": "129:51:54"}
+{"tokens": ["Oh, it was just - We wanted you to close the CO2 sensor breaker and give us an RCS onboard read-out out of Eagle, but that's all.", "Columbia, Houston.", "We've got a state vector for you if you'll give us P00 and Accept.", "Over.", "[Long pause.]"], "speaker": "Duke", "time": "129:51:26"}
+{"tokens": ["Buzz says the CO2 sensor circuit breaker is in."], "speaker": "Collins", "time": "129:51:54"}
 {"tokens": ["Rog.", "Thank you very much.", "[Pause.]"], "speaker": "Duke", "time": "129:51:58"}
 {"tokens": ["The RCS quantity was approximately 60 at A and 45 percent at B."], "speaker": "Collins", "time": "129:52:09"}
 {"tokens": ["Roger."], "speaker": "Duke", "time": "129:52:14"}
@@ -4094,7 +4094,7 @@
 {"tokens": ["Rog.", "We want to talk to you about that, Mike.", "We can - for your druthers, we can do it either way.", "We can either let you do it in, the jettison in P30 - correction P47, or we can send you a P30 target load up and then you - let you call P41, whichever you want to do.", "Over."], "speaker": "Duke", "time": "129:57:49"}
 {"tokens": ["Yeah, I see.", "Ron was going to give me a P30 PAD and the Flight Plan says P47.", "Of the two, I prefer to go the P30, P41 route."], "speaker": "Collins", "time": "129:58:13"}
 {"tokens": ["Rog.", "Beautiful.", "we've got the load, If you'll give us P00 and Accept, we'll send you a load up.", "Stand by.", "[Pause.]"], "speaker": "Duke", "time": "129:58:20"}
-{"tokens": ["Columbia, Houston.", "We'd like you to terminate direct O<sub>2</sub> flow, and stand by on your P00 and Accept.", "We'll have to generate a new load due to the move-up on time.", "Over."], "speaker": "Duke", "time": "129:58:41"}
+{"tokens": ["Columbia, Houston.", "We'd like you to terminate direct O2 flow, and stand by on your P00 and Accept.", "We'll have to generate a new load due to the move-up on time.", "Over."], "speaker": "Duke", "time": "129:58:41"}
 {"tokens": ["Roger."], "speaker": "Collins", "time": "129:58:56"}
 {"tokens": ["Go ahead."], "speaker": "Collins", "time": "130:02:19"}
 {"tokens": ["Rog, Mike.", "It looks like if we move up this jettison time and give you a new load, it would require a new attitude, and we can't do that due to the LM already closed out.", "It would fight us all the way around and we'd lose comm with it.", "We're thinking about separating in P47 in about 10 minutes.", "We're looking at trajectories and we'll be right with you momentarily.", "Over."], "speaker": "Duke", "time": "130:02:21"}
@@ -4143,14 +4143,14 @@
 {"tokens": ["You got it."], "speaker": "Collins", "time": "130:21:02"}
 {"tokens": ["Roger, Mike.", "And our pitch attitude's a little wrong here.", "If you're ready to copy, I'll give you the Sep PAD.", "Over."], "speaker": "Duke", "time": "130:21:04"}
 {"tokens": ["Go ahead.", "Ready to copy."], "speaker": "Collins", "time": "130:21:13"}
-{"tokens": ["Roger.", "Starting with Noun 33: 130:30:00.00, plus 00020, plus all zeros, plus all zeros.", "Roll all zeros, pitch 230, yaw zero.", "Noun 44 is NA.", "Delta-V<sub>T</sub> 00020, burn time 0:07, Delta-V<sub>C</sub> 00020.", "We have - the rest of the PAD is NA."], "speaker": "Duke", "time": "130:21:14"}
-{"tokens": ["Roger.", "GET 130 hours, 30 minutes; Delta-V<sub>X</sub> 2.0, roll zero, pitch 230, yaw zero, Delta-V<sub>T</sub> 2.0."], "speaker": "Collins", "time": "130:22:15"}
+{"tokens": ["Roger.", "Starting with Noun 33: 130:30:00.00, plus 00020, plus all zeros, plus all zeros.", "Roll all zeros, pitch 230, yaw zero.", "Noun 44 is NA.", "Delta-VT 00020, burn time 0:07, Delta-VC 00020.", "We have - the rest of the PAD is NA."], "speaker": "Duke", "time": "130:21:14"}
+{"tokens": ["Roger.", "GET 130 hours, 30 minutes; Delta-VX 2.0, roll zero, pitch 230, yaw zero, Delta-VT 2.0."], "speaker": "Collins", "time": "130:22:15"}
 {"tokens": ["That's affirmative, Apollo 11.", "And, Mike, it's similar to the Sep burn prior to the - right after undocking here.", "And the P41 you should see on Register 1 - 2, and then you can burn minus-X until you read 4.", "Over.", "[Long pause.]"], "speaker": "Duke", "time": "130:22:32"}
 {"tokens": ["Apollo 11, Houston.", "Computer's yours.", "Over."], "speaker": "Duke", "time": "130:24:11"}
 {"tokens": ["Roger, Charlie.", "We switched our Omni-D - Delta, and I lost that last transmission.", "Would you say again, please?", "The thing I'm wondering about specifically is that earlier you said it would be minus-X thrusters and the PAD indicates plus-X.", "Do you want me to null that to zero or do you want to add 2 and leave it as a 4?"], "speaker": "Collins", "time": "130:24:19"}
 {"tokens": ["Rog, Apollo 11.", "The way we gave it to you in the attitude we're in, it'll be just like the Sep burn that you had yesterday.", "You'll see - Noun 85 will give you a plus 2 and then you just burn minus-X until you read 4.", "Over."], "speaker": "Duke", "time": "130:24:39"}
 {"tokens": ["Understand.", "[Long pause.]"], "speaker": "Collins", "time": "130:24:58"}
-{"tokens": ["Apollo 11, Houston.", "We see you in P41 now.", "It might take you a couple of minutes to integrate these vectors that we gave you and if you don't make T<sub>IG</sub>, it's pretty insensitive.", "You can just let P41 bring you up to T<sub>IG</sub>, and when you get zero, you can burn on that.", "Over."], "speaker": "Duke", "time": "130:25:50"}
+{"tokens": ["Apollo 11, Houston.", "We see you in P41 now.", "It might take you a couple of minutes to integrate these vectors that we gave you and if you don't make TIG, it's pretty insensitive.", "You can just let P41 bring you up to TIG, and when you get zero, you can burn on that.", "Over."], "speaker": "Duke", "time": "130:25:50"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "130:26:12"}
 {"tokens": ["Copy, Apollo 11.", "Looks good to us.", "Over."], "speaker": "Duke", "time": "130:30:38"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "130:30:43"}
@@ -4162,7 +4162,7 @@
 {"tokens": ["Copy, 11.", "Out."], "speaker": "Duke", "time": "130:37:14"}
 {"tokens": ["Apollo 11 on the High Gain.", "How do you read?"], "speaker": "Collins", "time": "130:46:46"}
 {"tokens": ["Five-by, 11.", "How me?", "Over."], "speaker": "Duke", "time": "130:46:50"}
-{"tokens": ["You're loud and clear, Charlie.", "What - What numbers are you looking at for TEI T<sub>IG</sub> preliminary?", "135 hours, 23 minutes; something like that?"], "speaker": "Collins", "time": "130:46:54"}
+{"tokens": ["You're loud and clear, Charlie.", "What - What numbers are you looking at for TEI TIG preliminary?", "135 hours, 23 minutes; something like that?"], "speaker": "Collins", "time": "130:46:54"}
 {"tokens": ["That's affirmative, Mike.", "We're looking at about nominal time.", "We've considered kicking it up a rev, but we don't think this rev-track is going to be any good since we had the RCS burn and we need some more tracking to get you a good TEI.", "Over."], "speaker": "Duke", "time": "130:47:05"}
 {"tokens": ["That's what we're looking for."], "speaker": "Collins", "time": "130:47:26"}
 {"tokens": ["All right, sir.", "[Pause.]"], "speaker": "Duke", "time": "130:47:27"}
@@ -4363,8 +4363,8 @@
 {"tokens": ["You're welcome.", "[Long pause.]"], "speaker": "Duke", "time": "132:21:24"}
 {"tokens": ["11, Houston.", "We've got a preliminary TEI-30 PAD, if you're ready to copy.", "[Long pause.]"], "speaker": "Duke", "time": "132:21:42"}
 {"tokens": ["Ready to copy."], "speaker": "Collins", "time": "132:22:06"}
-{"tokens": ["Rog.", "Coming at you.", "TEI-30, SPS/G&N: 36691; minus 0.61, plus 0.67; 135:23:41.49.", "Noun 81, plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013.", "Noun 44, H<sub>A</sub> is NA, plus 0023.0; 3283.3, 2:28.", "Delta-V<sub>C</sub>, 3262.5; 24, 151.0 35.5.", "Next three lines are NA.", "Noun 61 plus 11.03, minus - minus 172.37; 1180.6, 36275, 195:04:52.", "Your set stars are Deneb and Vega, 242, 172, 012.", "We like two-jet ullage for 16 seconds.", "And the horizon will be on the 11-degree mark at T<sub>IG</sub> minus 2 minutes.", "And then the other comments: your sextant star is visible after GET of 134:50.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "132:22:10"}
-{"tokens": ["Roger.", "We have a TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.67; 135:23:41.49.", "Plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013.", "NA, plus 0023.0; plus 3283.3, 2:28, 3262.5; 24, 151.0, 35.5.", "NA three times.", "Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Deneb and Vega, 242, 172, 012.", "Two-jet ullage, 16 seconds.", "Horizon 11-degree line at T<sub>IG</sub> minus 2 minutes.", "Sextant star visible after 134:50.", "Over."], "speaker": "Collins", "time": "132:24:39"}
+{"tokens": ["Rog.", "Coming at you.", "TEI-30, SPS/G&N: 36691; minus 0.61, plus 0.67; 135:23:41.49.", "Noun 81, plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013.", "Noun 44, HA is NA, plus 0023.0; 3283.3, 2:28.", "Delta-VC, 3262.5; 24, 151.0 35.5.", "Next three lines are NA.", "Noun 61 plus 11.03, minus - minus 172.37; 1180.6, 36275, 195:04:52.", "Your set stars are Deneb and Vega, 242, 172, 012.", "We like two-jet ullage for 16 seconds.", "And the horizon will be on the 11-degree mark at TIG minus 2 minutes.", "And then the other comments: your sextant star is visible after GET of 134:50.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "132:22:10"}
+{"tokens": ["Roger.", "We have a TEI-30, SPS/G&N: 36691, minus 0.61, plus 0.67; 135:23:41.49.", "Plus 3202.0, plus 0671.3, minus 0277.3; 181, 054, 013.", "NA, plus 0023.0; plus 3283.3, 2:28, 3262.5; 24, 151.0, 35.5.", "NA three times.", "Plus 11.03, minus 172.37; 1180.6, 36275, 195:04:52.", "Deneb and Vega, 242, 172, 012.", "Two-jet ullage, 16 seconds.", "Horizon 11-degree line at TIG minus 2 minutes.", "Sextant star visible after 134:50.", "Over."], "speaker": "Collins", "time": "132:24:39"}
 {"tokens": ["Rog, Mike.", "Good readback.", "Out."], "speaker": "Duke", "time": "132:25:58"}
 {"tokens": ["Will that one do?", "[Garble.]"], "speaker": "Collins", "time": "132:59:10"}
 {"tokens": ["Are you staying in this inertial attitude?", "Let's just leave it in Reacq then.", "It works just like a charm."], "speaker": "Aldrin", "time": "132:59:48"}
@@ -4376,7 +4376,7 @@
 {"tokens": ["[Garble] alignment, oops, I got 404 again."], "speaker": "Collins", "time": "133:01:09"}
 {"tokens": ["How about that, wise asses!", "Huh?"], "speaker": "Collins", "time": "133:01:55"}
 {"tokens": ["You had a - you had to work though, didn't you?", "[Garble.]"], "speaker": "Aldrin", "time": "133:01:58"}
-{"tokens": ["[Garble] O<sub>2</sub> fuel cell's [garble]."], "speaker": "Collins", "time": "133:03:08"}
+{"tokens": ["[Garble] O2 fuel cell's [garble]."], "speaker": "Collins", "time": "133:03:08"}
 {"tokens": ["This is not dumping."], "speaker": "Armstrong", "time": "133:03:17"}
 {"tokens": ["I figured that."], "speaker": "Collins", "time": "133:03:19"}
 {"tokens": ["Did you try the other line?"], "speaker": "Armstrong", "time": "133:03:25"}
@@ -4464,7 +4464,7 @@
 {"tokens": ["Roger.", "Standing by."], "speaker": "Evans", "time": "190:20:30"}
 {"tokens": ["Roger.", "Continuing with the Maroon Bugle.", "President Nixon surprised your wives with a phone call from San Francisco just before he boarded a plane to fly out to meet you.", "All of them were very touched by your television broadcast.", "Jan and Pat watched from Mission Control here.", "The launch of Intelsat from the Cape was postponed for the fourth time last night.", "The problem was said to be a malfunctioning nitrogen regulator in the second stage of the Delta.", "A new attempt will be made to launch it tonight.", "The research submarine Ben Franklin, which is studying the Gulf Stream, set a record by drifting 24 hours from 10 to 100 feet above the ocean floor in 1300 feet of water off the Georgia coast.", "The mission is lead by Jacques Piccard.", "Wally Schirra has been elected to a five-year term on the Board of Trustees of the Detroit Institute of Technology.", "He will serve on the Institute's development committee.", "Air Canada says it has accepted 2,300 reservations for flights to the Moon in the past five days.", "It might be noted that more than 100 have been made by men for their mothers-in-law.", "And finally it appears that rather than killing romantic songs about the Moon, you have inspired hundreds of song writers.", "Nashville, Tennessee, which probably houses the largest collection of recording companies and song publishers in the country, now reports it is being flooded by Moon songs.", "Some will make it.", "The song at the top of the best sellers list this week is, \"In the year 2525.", "\" Morning Bugle.", "Out."], "speaker": "Evans", "time": "190:22:36"}
 {"tokens": ["Go ahead."], "speaker": "Armstrong", "time": "190:32:00"}
-{"tokens": ["Roger.", "GET 189 plus 00: RCS total, minus 1 percent; Alpha, minus 11; Bravo, plus 10; Charlie, minus 1; Delta, minus 1.", "H<sub>2</sub> total, minus 0.76 pounds; oxygen total, plus 17.6 pounds.", "Over."], "speaker": "Evans", "time": "190:32:01"}
+{"tokens": ["Roger.", "GET 189 plus 00: RCS total, minus 1 percent; Alpha, minus 11; Bravo, plus 10; Charlie, minus 1; Delta, minus 1.", "H2 total, minus 0.76 pounds; oxygen total, plus 17.6 pounds.", "Over."], "speaker": "Evans", "time": "190:32:01"}
 {"tokens": ["Okay.", "It doesn't look like we're going to be able to get quite back on the Flight Plan."], "speaker": "Armstrong", "time": "190:32:41"}
 {"tokens": ["Not quite.", "Just about, though."], "speaker": "Evans", "time": "190:32:46"}
 {"tokens": ["You have it."], "speaker": "Armstrong", "time": "190:45:23"}
@@ -4491,11 +4491,11 @@
 {"tokens": ["Stand by."], "speaker": "Armstrong", "time": "191:43:42"}
 {"tokens": ["Roger.", "Standing by.", "[Pause.]"], "speaker": "Evans", "time": "191:43:46"}
 {"tokens": ["Okay, I'm ready to copy."], "speaker": "Armstrong", "time": "191:43:54"}
-{"tokens": ["Roger.", "Entry PAD: area is the mid-Pacific, roll, 000, 152, 001; GET 194:46:06, 267; latitude, plus 13.32, minus 169.17; 06.4; 36194, 6.49; range to go, 1404.5, 36275; 195:03:06, 00:28, D<sub>L</sub> max, 1.54, 0.84, 22400, 18000; D<sub>0</sub> 4.00, 02:13; 00:17, 03:51, 09:02; sextant star, 45, 018.9, 27.7; boresight star, none available; lift vector, Up.", "Comments: GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340.", "Additional comments: Use non-exit EMS pattern; EI minus 30 horizon check, GET 194:33:06; pitch 298.", "You'll get P65, but no P66.", "Additional note: Initial bank angle in P67 may not be full lift.", "Apollo 11, Houston.", "Read back.", "[Long pause.]", "]"], "speaker": "Evans", "time": "191:43:57"}
+{"tokens": ["Roger.", "Entry PAD: area is the mid-Pacific, roll, 000, 152, 001; GET 194:46:06, 267; latitude, plus 13.32, minus 169.17; 06.4; 36194, 6.49; range to go, 1404.5, 36275; 195:03:06, 00:28, DL max, 1.54, 0.84, 22400, 18000; D0 4.00, 02:13; 00:17, 03:51, 09:02; sextant star, 45, 018.9, 27.7; boresight star, none available; lift vector, Up.", "Comments: GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340.", "Additional comments: Use non-exit EMS pattern; EI minus 30 horizon check, GET 194:33:06; pitch 298.", "You'll get P65, but no P66.", "Additional note: Initial bank angle in P67 may not be full lift.", "Apollo 11, Houston.", "Read back.", "[Long pause.]", "]"], "speaker": "Evans", "time": "191:43:57"}
 {"tokens": ["Okay, Ron.", "For MIDPAC: 000, 152, 001; 194:46:06, 267; plus 13.32, minus 169.17; 06.4; 36194, 6.49; 1404.5, 36275; 195:03:06, 0028, 1.54, 0.84, 2240, 180, 4.00, 02:13; 00:17, 03:51, 09:02; 45, 018.9, 27.7; none available; lift vector, Up; GDC align, Vega and Deneb, roll 078, pitch 223, yaw 340.", "Use non-exit EMS.", "EI minus 30 horizon check, 194:33:06, pitch 298.", "Initial bank angle in P67 may not be full lift, and we will get P65 but no P66."], "speaker": "Armstrong", "time": "191:48:46"}
 {"tokens": ["Apollo 11, Houston.", "Roger.", "On your GDC align pitch, it should be 233, 233 in the pitch.", "Over."], "speaker": "Evans", "time": "191:50:30"}
 {"tokens": ["Okay.", "I've got a 233."], "speaker": "Aldrin", "time": "191:50:41"}
-{"tokens": ["Also your V<sub>L</sub> and - and Max and Min, I'm sure, are 22,400 and 18,000.", "Over."], "speaker": "Evans", "time": "191:50:47"}
+{"tokens": ["Also your VL and - and Max and Min, I'm sure, are 22,400 and 18,000.", "Over."], "speaker": "Evans", "time": "191:50:47"}
 {"tokens": ["Yeah.", "That's right."], "speaker": "Aldrin", "time": "191:50:56"}
 {"tokens": ["Okay.", "If you'll dig out your entry checklist there on page E6-1, I'll update your Retro times there for the various altitudes.", "Over."], "speaker": "Evans", "time": "191:50:58"}
 {"tokens": ["Okay.", "Go ahead."], "speaker": "Aldrin", "time": "191:51:10"}
@@ -5281,7 +5281,7 @@
 {"tokens": ["I thought it went pretty well, Houston, although I expect I used more gas than I've been using in the simulator.", "The turnaround maneuver - I went Pitch, Accel Command and started to pitch up, and then when I put Manual Attitude, Pitch back to Rate Command, for some reason it - it stopped its pitch rate, and I had to go back to Accel Command and hit what I thought was an extra Proceed on the DSKY.", "Then, during the course of that, we drifted slightly further away from the S-IVB than I expected.", "I expected to be out about 66 feet.", "My guess would be I was around 100 or so; and therefore, I expect I used a bit more coming back in.", "But, except for using a little more gas - and I'd be interested in your numbers on that - everything went nominally."], "speaker": "Collins", "time": "003:38:07"}
 {"tokens": ["This is Houston.", "Roger.", "We copy."], "speaker": "McCandless", "time": "003:38:53"}
 {"tokens": ["Go ahead, 11."], "speaker": "McCandless", "time": "003:43:47"}
-{"tokens": ["Rog.", "We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization.", "And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the Repress package O<sub>2</sub> valve to Fill.", "Instead of 5, we're running about 4.4.", "Over."], "speaker": "Collins", "time": "003:43:50"}
+{"tokens": ["Rog.", "We're working on the pressurization of the LM now, and working off the decal with CSM-LM pressure equalization.", "And we're down to step 13, where we're waiting for the cabin pressure to be 5, or it should be roughly 5, before we turn the Repress package O2 valve to Fill.", "Instead of 5, we're running about 4.4.", "Over."], "speaker": "Collins", "time": "003:43:50"}
 {"tokens": ["Roger.", "Stand by a second.", "[Long pause.]", "]"], "speaker": "McCandless", "time": "003:44:16"}
 {"tokens": ["We have about 450 psi now in the - in the three 1-pound bottles."], "speaker": "Collins", "time": "003:45:17"}
 {"tokens": ["Roger.", "Stand by a second, please."], "speaker": "McCandless", "time": "003:45:23"}
@@ -5292,7 +5292,7 @@
 {"tokens": ["Houston, Apollo 11.", "How do you read?"], "speaker": "Aldrin", "time": "003:48:28"}
 {"tokens": ["Apollo 11, this is Houston.", "Go ahead."], "speaker": "McCandless", "time": "003:48:32"}
 {"tokens": ["Rog.", "LM looks to be in pretty fine shape.", "About all we can see from here."], "speaker": "Aldrin", "time": "003:48:35"}
-{"tokens": ["Okay.", "In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the Repress O<sub>2</sub> package and at that time, instead of being up to 5 psi, you were reading 4.4.", "Is that correct?"], "speaker": "McCandless", "time": "003:48:43"}
+{"tokens": ["Okay.", "In reference to your question on this step 13 on the decal, I understand that you have used up the contents of the Repress O2 package and at that time, instead of being up to 5 psi, you were reading 4.4.", "Is that correct?"], "speaker": "McCandless", "time": "003:48:43"}
 {"tokens": ["Okay.", "4.4.", "Yes sir."], "speaker": "Collins", "time": "003:49:07"}
 {"tokens": ["Okay.", "And you want to know if you can go ahead and use additional oxygen to bring the Command Module up to 5.0 and continue the equalization?", "Over."], "speaker": "McCandless", "time": "003:49:11"}
 {"tokens": ["Yes.", "We think it's within normal tolerances, Bruce.", "We just wanted to get your concurrence before we press on with this procedure."], "speaker": "Collins", "time": "003:49:20"}
@@ -5304,21 +5304,21 @@
 {"tokens": ["Apollo 11, Houston.", "We're doing a non-propulsive vent on the booster at the present time.", "You may see some sort of a cloud coming out of it.", "When you're ready, I have your evasive maneuver PAD."], "speaker": "McCandless", "time": "003:50:29"}
 {"tokens": ["Rog, And it's coming out."], "speaker": "Armstrong", "time": "003:50:44"}
 {"tokens": ["Roger.", "Out,"], "speaker": "McCandless", "time": "003:50:48"}
-{"tokens": ["It's a haze.", "It's going by toward our minus-X direction, and several small particles are moving along with it.", "The actual velocity is fairly high - at least it appears to be high.", "And we've got an O<sub>2</sub> high"], "speaker": "Aldrin", "time": "003:50:50"}
+{"tokens": ["It's a haze.", "It's going by toward our minus-X direction, and several small particles are moving along with it.", "The actual velocity is fairly high - at least it appears to be high.", "And we've got an O2 high"], "speaker": "Aldrin", "time": "003:50:50"}
 {"tokens": ["Houston.", "Roger.", "Out."], "speaker": "McCandless", "time": "003:51:13"}
 {"tokens": ["Roger, we copy."], "speaker": "McCandless", "time": "003:53:27"}
 {"tokens": ["Roger.", "11, this is Houston.", "Understand 12 latches locked."], "speaker": "McCandless", "time": "003:57:16"}
 {"tokens": ["11, Houston.", "Whenever you're possessed of a free moment there, we've got this Evasive Maneuver PAD."], "speaker": "McCandless", "time": "003:59:03"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "003:59:12"}
 {"tokens": ["Go ahead, Houston.", "Apollo 11 is ready to copy."], "speaker": "Aldrin", "time": "003:59:20"}
-{"tokens": ["Apollo 11, this is Houston.", "Evasive Maneuver SPS G&N: 63481, plus 0.95, minus 0.20; GETI 004:40:01.00; plus 0005.1, plus all balls, plus 0019.0; roll is your option; pitch, 213, 357; Noun 44 is NA; Delta-V<sub>T</sub> is 0019.7, 0:03, 0015.2.", "The rest of the PAD is NA.", "No ullage.", "LM weight 33290.", "Readback.", "Over."], "speaker": "McCandless", "time": "003:59:24"}
+{"tokens": ["Apollo 11, this is Houston.", "Evasive Maneuver SPS G&N: 63481, plus 0.95, minus 0.20; GETI 004:40:01.00; plus 0005.1, plus all balls, plus 0019.0; roll is your option; pitch, 213, 357; Noun 44 is NA; Delta-VT is 0019.7, 0:03, 0015.2.", "The rest of the PAD is NA.", "No ullage.", "LM weight 33290.", "Readback.", "Over."], "speaker": "McCandless", "time": "003:59:24"}
 {"tokens": ["Apollo 11, this is Houston.", "Standing by for your readback.", "Over.", "[No answer.]"], "speaker": "McCandless", "time": "004:01:23"}
 {"tokens": ["11, Houston.", "Do you read?", "Over.", "[No answer.]"], "speaker": "McCandless", "time": "004:02:06"}
 {"tokens": ["Apollo 11, this is Houston.", "Do you read?", "Over."], "speaker": "McCandless", "time": "004:02:25"}
 {"tokens": ["All of a sudden there, we heard a little click, and the signal strength began to start dropping off.", "Your transmissions were cut off very abruptly.", "How do you read now?"], "speaker": "Aldrin", "time": "004:02:31"}
 {"tokens": ["Roger.", "Loud and clear.", "We had a handover to Madrid about the time I was - I guess halfway through the PAD.", "If you could give me the last value you read, I'll pick up there.", "Over."], "speaker": "McCandless", "time": "004:02:42"}
-{"tokens": ["Okay.", "Start with Delta-V<sub>Z</sub>.", "Over."], "speaker": "Aldrin", "time": "004:02:52"}
-{"tokens": ["Roger.", "Delta-V<sub>Z</sub> is plus 0019.0; roll, your option; pitch, 213, 357; and Noun 44 is NA.", "Delta-V<sub>T</sub> 0019.7, 0:03, 0015.2.", "The rest of the PAD is NA, and no ullage.", "LM weight 33290.", "Read back.", "Over."], "speaker": "McCandless", "time": "004:02:56"}
+{"tokens": ["Okay.", "Start with Delta-VZ.", "Over."], "speaker": "Aldrin", "time": "004:02:52"}
+{"tokens": ["Roger.", "Delta-VZ is plus 0019.0; roll, your option; pitch, 213, 357; and Noun 44 is NA.", "Delta-VT 0019.7, 0:03, 0015.2.", "The rest of the PAD is NA, and no ullage.", "LM weight 33290.", "Read back.", "Over."], "speaker": "McCandless", "time": "004:02:56"}
 {"tokens": ["Roger, Houston.", "Evasive Maneuver, SPS G&N; 63481, plus 0.95, minus 0.20; 004:40:01.00; plus 0005.1, plus all zeros, plus 0019.0; roll, crew option, 213, 357; NA; 0019.7, 0:03, 0015.2; no ullage, LM weight 33290.", "Over."], "speaker": "Aldrin", "time": "004:03:41"}
 {"tokens": ["11, this is Houston.", "Readback correct.", "Out."], "speaker": "McCandless", "time": "004:04:27"}
 {"tokens": ["Go ahead, 11."], "speaker": "McCandless", "time": "004:13:36"}
@@ -5330,9 +5330,9 @@
 {"tokens": ["Thank you.", "[Long pause.]"], "speaker": "Armstrong", "time": "004:16:48"}
 {"tokens": ["Houston, we are Sep[arat]ed.", "We have a Cryo Press light."], "speaker": "Armstrong", "time": "004:17:13"}
 {"tokens": ["Roger.", "Copy.", "Cryo Press light."], "speaker": "McCandless", "time": "004:17:18"}
-{"tokens": ["Roger, 11.", "We recommend you turn the O<sub>2</sub> fans on manually and ensure that the O<sub>2</sub> heaters are in the Automatic position."], "speaker": "McCandless", "time": "004:17:46"}
-{"tokens": ["Roger.", "O<sub>2</sub> heaters are On, and we're going to cycle the O<sub>2</sub> fans now."], "speaker": "Armstrong", "time": "004:17:57"}
-{"tokens": ["Roger.", "O<sub>2</sub> heaters to Auto, or you can watch them in the On position, and O<sub>2</sub> fans manual On."], "speaker": "McCandless", "time": "004:18:02"}
+{"tokens": ["Roger, 11.", "We recommend you turn the O2 fans on manually and ensure that the O2 heaters are in the Automatic position."], "speaker": "McCandless", "time": "004:17:46"}
+{"tokens": ["Roger.", "O2 heaters are On, and we're going to cycle the O2 fans now."], "speaker": "Armstrong", "time": "004:17:57"}
+{"tokens": ["Roger.", "O2 heaters to Auto, or you can watch them in the On position, and O2 fans manual On."], "speaker": "McCandless", "time": "004:18:02"}
 {"tokens": ["Houston, Apollo 11."], "speaker": "Collins", "time": "004:28:21"}
 {"tokens": ["Roger.", "In reference to your question on RCS usage; it looks like you are about 18, maybe 20 pounds below nominal at the present time.", "No problem at all.", "Over."], "speaker": "McCandless", "time": "004:28:23"}
 {"tokens": ["Right."], "speaker": "Collins", "time": "004:28:35"}
@@ -5402,9 +5402,9 @@
 {"tokens": ["Roger."], "speaker": "Aldrin", "time": "005:14:25"}
 {"tokens": ["11, Houston.", "We have a recommended configuration for your Cryo switches to even up the load between oxygen tanks 1 and 2.", "Over."], "speaker": "McCandless", "time": "005:14:46"}
 {"tokens": [""], "speaker": "SC", "time": "005:14:55"}
-{"tokens": ["Okay.", "You're coming in very weakly there.", "We're recommending O<sub>2</sub> tank 1 heater Off, O<sub>2</sub> tank 2 heater to Auto, O<sub>2</sub> tanks 1 and 2 fans both Off, H1 - H<sub>2</sub> tank 1 heaters to Auto, and H<sub>2</sub> tank 2 heaters to Off.", "Over."], "speaker": "McCandless", "time": "005:14:59"}
-{"tokens": ["Roger.", "We have that except the last one was H<sub>2</sub> fans to Off.", "Is that affirm?"], "speaker": "Aldrin", "time": "005:15:33"}
-{"tokens": ["H<sub>2</sub>..."], "speaker": "McCandless", "time": "005:15:46"}
+{"tokens": ["Okay.", "You're coming in very weakly there.", "We're recommending O2 tank 1 heater Off, O2 tank 2 heater to Auto, O2 tanks 1 and 2 fans both Off, H1 - H2 tank 1 heaters to Auto, and H2 tank 2 heaters to Off.", "Over."], "speaker": "McCandless", "time": "005:14:59"}
+{"tokens": ["Roger.", "We have that except the last one was H2 fans to Off.", "Is that affirm?"], "speaker": "Aldrin", "time": "005:15:33"}
+{"tokens": ["H2..."], "speaker": "McCandless", "time": "005:15:46"}
 {"tokens": ["We have - the configuration we have now is, Hydrogen heaters: we got 1 Auto, 2 Off.", "Oxygen heaters; 1 Off, 2 Auto.", "And we have all the fans Off."], "speaker": "Armstrong", "time": "005:15:49"}
 {"tokens": ["This is Houston.", "Roger.", "We concur.", "Out."], "speaker": "McCandless", "time": "005:16:02"}
 {"tokens": ["Eleven, this is Houston.", "We've completed the trunnion zero bias setting.", "You can retrieve the computer and go to Block."], "speaker": "McCandless", "time": "005:16:13"}
@@ -5763,7 +5763,7 @@
 {"tokens": ["Houston, tell Columbia that we read him about strength 2.", "[Long pause.]"], "speaker": "Armstrong", "time": "125:01:23"}
 {"tokens": ["Okay.", "Wide deadband on."], "speaker": "Aldrin", "time": "125:02:00"}
 {"tokens": ["Houston, Columbia.", "Also my VHF ranging is not working now, and I'd like to know whether you'd like me to continue making sextant marks or do nothing.", "I'm supposed to be doing VHF marks only, and it's for the next 6 or 7 minutes."], "speaker": "Collins", "time": "125:02:04"}
-{"tokens": ["Columbia, Houston.", "Roger.", "We copy.", "And, Eagle, looks like the best antenna would be forward for the LM.", "And, break.", "Eagle, we missed your loading of the TPI T<sub>IG</sub> and P32.", "Could you confirm you've done that?", "[Long pause.]"], "speaker": "Evans", "time": "125:02:20"}
+{"tokens": ["Columbia, Houston.", "Roger.", "We copy.", "And, Eagle, looks like the best antenna would be forward for the LM.", "And, break.", "Eagle, we missed your loading of the TPI TIG and P32.", "Could you confirm you've done that?", "[Long pause.]"], "speaker": "Evans", "time": "125:02:20"}
 {"tokens": ["Columbia, Houston.", "Recommend you take sextant marks and do not re-initialize.", "Over.", "[Pause.]"], "speaker": "Evans", "time": "125:03:00"}
 {"tokens": ["Roger, Houston.", "Columbia's got the VHF ranging back now.", "I'll stick with the nominal.", "Thank you."], "speaker": "Collins", "time": "125:03:15"}
 {"tokens": ["Roger.", "Mighty fine.", "[Long pause.]"], "speaker": "Evans", "time": "125:03:20"}
@@ -5804,7 +5804,7 @@
 {"tokens": ["Okay, Mike, you want the burn time and the Noun 81.", "Is that right?"], "speaker": "Aldrin", "time": "125:15:50"}
 {"tokens": ["Okay, the burn time is 125:19:34.7, and the burn is 51.5, zero, and zero."], "speaker": "Aldrin", "time": "125:16:00"}
 {"tokens": ["Okay, I understand.", "Plus 51.5, zeros, and zeros, and you're using 125:19:34.70.", "Thank you kindly."], "speaker": "Collins", "time": "125:16:16"}
-{"tokens": ["I'm in maneuver attitude, all set to burn if necessary.", "I've got about 45 miutes to T<sub>ig</sub> - 45 seconds to T<sub>ig</sub>."], "speaker": "Collins", "time": "125:18:45"}
+{"tokens": ["I'm in maneuver attitude, all set to burn if necessary.", "I've got about 45 miutes to Tig - 45 seconds to Tig."], "speaker": "Collins", "time": "125:18:45"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "125:18:51"}
 {"tokens": ["We're burning, Mike."], "speaker": "Aldrin", "time": "125:19:46"}
 {"tokens": ["Burn complete, Mike."], "speaker": "Aldrin", "time": "125:21:36"}
@@ -5886,7 +5886,7 @@
 {"tokens": ["That right-angle bracket, the right-angle bracket, need that..."], "speaker": "Aldrin", "time": "125:48:27"}
 {"tokens": ["It's not over here.", "Well, that's a good day not to throw in some failures.", "See if we can run the nominal one time."], "speaker": "Armstrong", "time": "125:48:44"}
 {"tokens": ["We have AOS of the spacecraft, Columbia."], "speaker": "PAO", "time": null}
-{"tokens": ["CO<sub>2</sub>."], "speaker": "Aldrin", "time": "125:52:58"}
+{"tokens": ["CO2."], "speaker": "Aldrin", "time": "125:52:58"}
 {"tokens": ["I don't think so, Mike, we got to - [garble]."], "speaker": "Armstrong", "time": "125:53:12"}
 {"tokens": ["[Garble] want to go to that - [garble]."], "speaker": "Aldrin", "time": "125:53:24"}
 {"tokens": ["Stand by for [garble]."], "speaker": "Collins", "time": "125:53:26"}
@@ -5946,7 +5946,7 @@
 {"tokens": ["Okay.", "And what was your CSI - CDH solution, Mike?"], "speaker": "Aldrin", "time": "126:10:30"}
 {"tokens": ["[Very weak.]", "] [Garble] 44 [garble] .6.", "Correction [garble] .4 and 14.6.", "Over."], "speaker": "Collins", "time": "126:10:35"}
 {"tokens": ["Rog.", "Copy.", "Thanks.", "[Long pause.]"], "speaker": "Aldrin", "time": "126:11:18"}
-{"tokens": ["And, Houston, Eagle.", "Got an ECS light and a CO<sub>2</sub> light.", "Partial pressure's reading about one-half millimeter."], "speaker": "Armstrong", "time": "126:11:31"}
+{"tokens": ["And, Houston, Eagle.", "Got an ECS light and a CO2 light.", "Partial pressure's reading about one-half millimeter."], "speaker": "Armstrong", "time": "126:11:31"}
 {"tokens": ["Eagle and Columbia, Houston.", "Roger.", "We copy.", "[Long pause.]"], "speaker": "Evans", "time": "126:11:42"}
 {"tokens": ["Houston, how do you read Columbia now?"], "speaker": "Collins", "time": "126:12:03"}
 {"tokens": ["Columbia, Houston.", "Go.", "[Long pause.]"], "speaker": "Evans", "time": "126:12:08"}
@@ -5989,7 +5989,7 @@
 {"tokens": ["Okay.", "Glad to hear it."], "speaker": "Collins", "time": "126:26:38"}
 {"tokens": ["Roger.", "You're mighty fine now."], "speaker": "Evans", "time": "126:26:39"}
 {"tokens": ["Range-rate at 30.", "[Pause.]"], "speaker": "Aldrin", "time": "126:32:35"}
-{"tokens": ["I have a TPI T<sub>IG</sub> when you guys want to compare them."], "speaker": "Collins", "time": "126:32:43"}
+{"tokens": ["I have a TPI TIG when you guys want to compare them."], "speaker": "Collins", "time": "126:32:43"}
 {"tokens": ["Stand by.", "[Long pause.]"], "speaker": "Aldrin", "time": "126:32:48"}
 {"tokens": ["[Garble.]", "] 19.8."], "speaker": "Aldrin", "time": "126:33:05"}
 {"tokens": ["Go ahead, Mike.", "What have you got?"], "speaker": "Aldrin", "time": "126:33:15"}
@@ -6007,7 +6007,7 @@
 {"tokens": ["Range rate at 40."], "speaker": "Aldrin", "time": "126:42:56"}
 {"tokens": ["We haven't settled on a final one yet.", "The last one was - stand by.", "[Long pause.]"], "speaker": "Aldrin", "time": "126:44:25"}
 {"tokens": ["Roger.", "Understand.", "[Pause.]"], "speaker": "Collins", "time": "126:45:04"}
-{"tokens": ["Just as soon as you know what TPI T<sub>IG</sub>'s going to be, I'd appreciate a call."], "speaker": "Collins", "time": "126:45:12"}
+{"tokens": ["Just as soon as you know what TPI TIG's going to be, I'd appreciate a call."], "speaker": "Collins", "time": "126:45:12"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "126:45:18"}
 {"tokens": ["Last I got was 32 seconds earlier than mine which would make it 127:02:02.", "[Pause.]"], "speaker": "Collins", "time": "126:45:24"}
 {"tokens": ["Thank you.", "Are you going to be revising that one?"], "speaker": "Collins", "time": "126:45:40"}
@@ -6019,7 +6019,7 @@
 {"tokens": ["Roger.", "In the event of the possibility that we may have had some water channeling in those hydroxide canisters, we recommend you stay in the cabin mode from now on.", "Over."], "speaker": "Evans", "time": "126:48:47"}
 {"tokens": ["Roger."], "speaker": "Aldrin", "time": "126:49:03"}
 {"tokens": ["Go ahead."], "speaker": "Aldrin", "time": "126:51:30"}
-{"tokens": ["Roger.", "I'd better clarify that cabin mode a little bit there.", "What we mean is you go ahead and stay in the cabin mode.", "Helmets and gloves on are your option.", "And we really have no concern with the CO<sub>2</sub>.", "Over."], "speaker": "Evans", "time": "126:51:32"}
+{"tokens": ["Roger.", "I'd better clarify that cabin mode a little bit there.", "What we mean is you go ahead and stay in the cabin mode.", "Helmets and gloves on are your option.", "And we really have no concern with the CO2.", "Over."], "speaker": "Evans", "time": "126:51:32"}
 {"tokens": ["Roger.", "Understand.", "[Long pause.]"], "speaker": "Aldrin", "time": "126:51:52"}
 {"tokens": ["Mike, you already loaded that time?", "We've got a final one here."], "speaker": "Aldrin", "time": "126:52:51"}
 {"tokens": ["I've already loaded it.", "I don't think it'll make much difference."], "speaker": "Collins", "time": "126:52:58"}
@@ -6411,7 +6411,7 @@
 {"tokens": ["Rog.", "Thank you.", "[Long pause.]"], "speaker": "Duke", "time": "155:58:14"}
 {"tokens": ["Apollo 11 is back in PTC attitude.", "Standing by for thruster quieting."], "speaker": "Collins", "time": "155:58:47"}
 {"tokens": ["Rog.", "We see that.", "Thank you much, Mike."], "speaker": "Duke", "time": "155:58:53"}
-{"tokens": ["Yes, sir.", "We'll have it for you momentarily.", "Also, a little Flight Plan update, Mike.", "If you - On page 3-113, you can delete the O<sub>2</sub> fuel cell purge.", "Over."], "speaker": "Duke", "time": "156:07:26"}
+{"tokens": ["Yes, sir.", "We'll have it for you momentarily.", "Also, a little Flight Plan update, Mike.", "If you - On page 3-113, you can delete the O2 fuel cell purge.", "Over."], "speaker": "Duke", "time": "156:07:26"}
 {"tokens": ["Will do.", "[Pause.]"], "speaker": "Collins", "time": "156:07:38"}
 {"tokens": ["There is a flurry of activity in the PAO site for the evening news."], "speaker": "Duke", "time": "156:07:45"}
 {"tokens": ["Bully.", "[Pause.]"], "speaker": "Collins", "time": "156:07:52"}
@@ -6436,7 +6436,7 @@
 {"tokens": ["Rog."], "speaker": "Duke", "time": "156:11:46"}
 {"tokens": ["Roger.", "We'll - we'll do some work on that and let you know, Charlie."], "speaker": "Collins", "time": "156:14:32"}
 {"tokens": ["Thank youk, sir.", "[Long pause.]"], "speaker": "Duke", "time": "156:14:37"}
-{"tokens": ["And, Apollo 11, Houston.", "Would you please place O<sub>2</sub> tank 1 heater to Auto?", "Over."], "speaker": "Duke", "time": "156:14:54"}
+{"tokens": ["And, Apollo 11, Houston.", "Would you please place O2 tank 1 heater to Auto?", "Over."], "speaker": "Duke", "time": "156:14:54"}
 {"tokens": ["Auto it is."], "speaker": "Collins", "time": "156:15:05"}
 {"tokens": ["Go ahead.", "[Pause.]"], "speaker": "Duke", "time": "156:17:04"}
 {"tokens": ["What we'll do Charlie, tomorrow, is go through and reconfigure our stowage as closely as possible to nominal.", "Some things that will not be nominal are as follows: the EVA visors were brought back into the Command Module, and we have not yet found a home for them.", "We'll let you know where they go.", "In addition, there's about 5 pounds of miscellaneous weight from the LM in compartment Able-8, and it's taking the place of the LCGs which we moved from A-8 into the suit bag.", "We got rid of one miscellaneous trash bag, mostly old food wrapping and also old underwear and that helmet protective visor of the CMP's.", "We left all that with Eagle.", "And those are about the only off-nominals we have."], "speaker": "Collins", "time": "156:17:10"}
@@ -6495,7 +6495,7 @@
 {"tokens": ["We're - I measured it up here.", "It came out to be 247."], "speaker": "Collins", "time": "157:58:35"}
 {"tokens": ["Boy, that's super."], "speaker": "Duke", "time": "157:58:45"}
 {"tokens": ["The units on that, furlong per fortnight."], "speaker": "Collins", "time": "157:59:01"}
-{"tokens": ["Rog.", "We copy that.", "EECOM says if you keep that up, you're going to have to change your CO<sub>2</sub> canister."], "speaker": "Duke", "time": "157:59:04"}
+{"tokens": ["Rog.", "We copy that.", "EECOM says if you keep that up, you're going to have to change your CO2 canister."], "speaker": "Duke", "time": "157:59:04"}
 {"tokens": ["You were going to make me do that in another 45 minutes anyway."], "speaker": "Collins", "time": "157:59:15"}
 {"tokens": ["That's true."], "speaker": "Duke", "time": "157:59:19"}
 {"tokens": ["That's the highlight of my day.", "I'm really looking forward to that.", "[Long pause.]", "]"], "speaker": "Collins", "time": "157:59:26"}
@@ -6697,7 +6697,7 @@
 {"tokens": ["Roger, Eagle.", "Coming at you with a DOI PAD: 101:36:14.07.", "Noun 81, minus 00758, plus all balls, plus 00098, plus - correction, 00572, perigee plus 00085 00764 030 000 293.", "Noun 86, minus 00759, plus all balls, plus 00090.", "Rest of the PAD is NA.", "Stand by on your readback.", "If you are ready to copy the PDI data, I have it for you.", "Over."], "speaker": "Duke", "time": "100:20:32"}
 {"tokens": ["Understand you are ready to copy the PDI data, Eagle.", "Over"], "speaker": "Duke", "time": "100:21:55"}
 {"tokens": ["That's affirmative.", "Go ahead with the PDI."], "speaker": "Aldrin", "time": "100:22:01"}
-{"tokens": ["Roger.", "PDI PAD: T<sub>IG</sub> 102:33:04.36; 09:50, minus 00021; 182, 287, 000; plus 56919.", "PDI abort, less than 10 minutes, 105:12:30.00.", "PDI abort, greater than 10 minutes, 103:40:00.00, 107:11:30.00.", "No PDI plus 12: 102:44:27.00.", "Noun 81, plus 01223, minus all balls, plus 01889; 01520, plus 00110, 02250.", "Burn time, 0:46; 000, 190; plus 01187, plus all balls, plus 01911.", "Noun 11, 103:31:07.00.", "Noun 37, 105:12:30.00.", "Ready for your readbacks, Over."], "speaker": "Duke", "time": "100:22:05"}
+{"tokens": ["Roger.", "PDI PAD: TIG 102:33:04.36; 09:50, minus 00021; 182, 287, 000; plus 56919.", "PDI abort, less than 10 minutes, 105:12:30.00.", "PDI abort, greater than 10 minutes, 103:40:00.00, 107:11:30.00.", "No PDI plus 12: 102:44:27.00.", "Noun 81, plus 01223, minus all balls, plus 01889; 01520, plus 00110, 02250.", "Burn time, 0:46; 000, 190; plus 01187, plus all balls, plus 01911.", "Noun 11, 103:31:07.00.", "Noun 37, 105:12:30.00.", "Ready for your readbacks, Over."], "speaker": "Duke", "time": "100:22:05"}
 {"tokens": ["Roger.", "Back to Block, and DOI: 101:36:14.07.", "Minus 0075.8, plus all zeros, plus 0009.8, 0057.2, plus 0008.5, 0076.4, 030, 000, 293; minus 0075.9, plus all zeros, plus 0009.0; NA.", "Over."], "speaker": "Aldrin", "time": "100:24:46"}
 {"tokens": ["That was a good readback, Buzz.", "Go ahead.", "Over."], "speaker": "Duke", "time": "100:25:33"}
 {"tokens": ["Okay, PDI PAD: 102:33:04.36; 09:50; minus 0002.1; 182, 287, 000; plus 56919.", "PDI less than 10: 105:12:30.00.", "PDI abort greater than 10: 103:40:00.00, 107:11:30.00.", "No PDI plus 12 abort: 102:44:37.00; plus 0122.3, minus all zeros, plus 0188.9; 0152.0, plus 0011.0, 0225.0, 0:46; 000, 190; plus 0118.7, plus 0000.0, plus 0191.1; 103:31:07.00; 105:12:30.00.", "Over."], "speaker": "Aldrin", "time": "100:25:39"}
@@ -6756,8 +6756,8 @@
 {"tokens": ["Thank you, sir.", "[Long pause.]"], "speaker": "Duke", "time": "100:49:16"}
 {"tokens": ["Columbia, Houston.", "We have a CSM rescue PAD if you're ready to copy.", "Over."], "speaker": "Duke", "time": "100:49:29"}
 {"tokens": ["Ready to copy."], "speaker": "Collins", "time": "100:49:37"}
-{"tokens": ["Rog, Mike.", "Phasing T<sub>IG</sub> 103:40:00.00.", "TPI for PDI less than 10, 105:12:30.00.", "TPI for PDI greater than 10, 107:11:30.00.", "Over."], "speaker": "Duke", "time": "100:49:39"}
-{"tokens": ["Roger.", "T<sub>IG</sub>s follow: phasing 103:40.", "PDI less than 10, 105:12:30.", "More than 10, 107:11:30.", "Over."], "speaker": "Collins", "time": "100:50:14"}
+{"tokens": ["Rog, Mike.", "Phasing TIG 103:40:00.00.", "TPI for PDI less than 10, 105:12:30.00.", "TPI for PDI greater than 10, 107:11:30.00.", "Over."], "speaker": "Duke", "time": "100:49:39"}
+{"tokens": ["Roger.", "TIGs follow: phasing 103:40.", "PDI less than 10, 105:12:30.", "More than 10, 107:11:30.", "Over."], "speaker": "Collins", "time": "100:50:14"}
 {"tokens": ["Good readback.", "Out."], "speaker": "Duke", "time": "100:50:25"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "100:50:30"}
 {"tokens": ["Eagle, Houston.", "When you're ready to copy, I have a lunar surface data PAD for you.", "Over.", "[Pause.]"], "speaker": "Duke", "time": "100:50:57"}
@@ -6769,7 +6769,7 @@
 {"tokens": ["Roger.", "We'll look at it.", "Out"], "speaker": "Duke", "time": "100:52:32"}
 {"tokens": ["You might look at those systems..."], "speaker": "Collins", "time": "100:52:33"}
 {"tokens": ["And Eagle is ready to copy lunar surface data card."], "speaker": "Aldrin", "time": "100:52:38"}
-{"tokens": ["Rog, Buzz.", "Starting with the T-2; T-2 T<sub>IG</sub>, 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00.", "In the remarks: T-2 occurs at PDI plus 21:26.", "T-3 time - correction T-3, T-3 T<sub>IG</sub>: 104:39:41.00, 001:58:15.00, 001:58:54.00.", "Noun 11: 105:36:23.00, 107:11:30.00.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "100:52:43"}
+{"tokens": ["Rog, Buzz.", "Starting with the T-2; T-2 TIG, 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00.", "In the remarks: T-2 occurs at PDI plus 21:26.", "T-3 time - correction T-3, T-3 TIG: 104:39:41.00, 001:58:15.00, 001:58:54.00.", "Noun 11: 105:36:23.00, 107:11:30.00.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "100:52:43"}
 {"tokens": ["Roger.", "T-2: 102:54:29.00, 103:51:56.00, 106:37:35.00, 109:10:00.00; T-2 is PDI plus 21:26.", "T-3: 104:39:41.00, 001:58:15.00, 001:58:54.00, 105:36:23.00, 107:11:30.00.", "Over."], "speaker": "Aldrin", "time": "100:54:20"}
 {"tokens": ["Rog.", "Good readback, Eagle.", "Out.", "[Long pause.]"], "speaker": "Duke", "time": "100:55:10"}
 {"tokens": ["Would you put your tracking light on, please?"], "speaker": "Collins", "time": "100:55:50"}
@@ -6797,7 +6797,7 @@
 {"tokens": ["Ready to copy."], "speaker": "Collins", "time": "101:01:54"}
 {"tokens": ["Roger.", "Noun 84: plus 0122.3, minus all zeros, plus 0188.9; Noun 33, 102:44:27.00, PDI plus 12 burn time is 0:46, burn time for DOI is 0:30.", "Ready for your readback.", "Over."], "speaker": "Duke", "time": "101:01:56"}
 {"tokens": ["Roger.", "DOI P76: 84 is minus 00758, all balls, plus 00098, at 101:36:14.00; plus 0122.3, minus all balls, plus 0188.9; 102:44:27.00; burn time 46 and 30 seconds."], "speaker": "Collins", "time": "101:02:40"}
-{"tokens": ["Roger.", "One error, Columbia, on the T<sub>IG</sub> for DOI; seconds was 14.07.", "Over."], "speaker": "Duke", "time": "101:03:09"}
+{"tokens": ["Roger.", "One error, Columbia, on the TIG for DOI; seconds was 14.07.", "Over."], "speaker": "Duke", "time": "101:03:09"}
 {"tokens": ["Rog.", "[Long pause.]"], "speaker": "Duke", "time": "101:03:23"}
 {"tokens": ["Columbia, Houston.", "We'd like you to turn off your Rotational direct - Rotational Control Power Direct number 2, Off.", "Over."], "speaker": "Duke", "time": "101:03:37"}
 {"tokens": ["It's Off.", "Thank you."], "speaker": "Collins", "time": "101:03:49"}
@@ -7053,7 +7053,7 @@
 {"tokens": ["Okay, Auto Track."], "speaker": "Aldrin", "time": "102:10:16"}
 {"tokens": ["Okay, we ready to go to P63?"], "speaker": "Aldrin", "time": "102:10:32"}
 {"tokens": ["Yes."], "speaker": "Armstrong", "time": "102:10:36"}
-{"tokens": ["Okay, get a - get a - Need to compare a T<sub>IG</sub> time.", "09:50.", "That's right."], "speaker": "Aldrin", "time": "102:11:07"}
+{"tokens": ["Okay, get a - get a - Need to compare a TIG time.", "09:50.", "That's right."], "speaker": "Aldrin", "time": "102:11:07"}
 {"tokens": ["See that Big Dipper there?"], "speaker": "Armstrong", "time": "102:11:25"}
 {"tokens": ["That's a big out of plane, but I don't know which way it is."], "speaker": "Aldrin", "time": "102:11:27"}
 {"tokens": ["I believe minus - but they were expecting it."], "speaker": "Armstrong", "time": "102:11:33"}
@@ -7116,12 +7116,12 @@
 {"tokens": ["Telemetry indicates that the crew is working on the antenna angles to bring the High Gain Antenna to bear."], "speaker": "PAO", "time": null}
 {"tokens": ["Houston, Apollo 11.", "Over."], "speaker": "Spacecraft", "time": "076:16:59"}
 {"tokens": ["Apollo 11, Apollo 11, this is Houston.", "We are reading you weakly.", "Go ahead.", "Over."], "speaker": "McCandless", "time": "076:17:00"}
-{"tokens": ["Roger.", "Burn status report follows.", "Delta-T<sub>IG</sub> zero, burn time 5:57, [garble] on the PAD.", "VG<sub>X</sub> minus 0.1, VG<sub>Y</sub> minus 0.1, VG<sub>Z</sub> plus 0.1, Delta-V<sub>C</sub> minus [garble], fuel [garble] plus 390 [garble].", "Over."], "speaker": "Armstrong", "time": "076:17:08"}
-{"tokens": ["11, this is Houston.", "These residuals, do you have minus 0.17 [garble], VG<sub>X</sub> minus 0.1, VG<sub>Y</sub> minus 0.1, VG<sub>Z</sub> 1.1, and a burn time of 5 plus 57.", "Stand by, maybe the comm will improve a little bit.", "Over."], "speaker": "McCandless", "time": "076:17:44"}
+{"tokens": ["Roger.", "Burn status report follows.", "Delta-TIG zero, burn time 5:57, [garble] on the PAD.", "VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, Delta-VC minus [garble], fuel [garble] plus 390 [garble].", "Over."], "speaker": "Armstrong", "time": "076:17:08"}
+{"tokens": ["11, this is Houston.", "These residuals, do you have minus 0.17 [garble], VGX minus 0.1, VGY minus 0.1, VGZ 1.1, and a burn time of 5 plus 57.", "Stand by, maybe the comm will improve a little bit.", "Over."], "speaker": "McCandless", "time": "076:17:44"}
 {"tokens": ["Reading you loud and clear, Houston.", "How us?"], "speaker": "Armstrong", "time": "076:21:43"}
 {"tokens": ["Roger.", "Reading you the same, now.", "Could you repeat your burn status report?", "We copied the residuals and burn time, and that was about it.", "Send the whole thing again, please."], "speaker": "McCandless", "time": "076:21:46"}
 {"tokens": ["It was like - it was like perfect!"], "speaker": "Collins", "time": "076:21:56"}
-{"tokens": ["Delta-T<sub>IG</sub> zero, burn time 5:57, PAD values on the angles, VG<sub>X</sub> minus 0.1, VG<sub>Y</sub> minus 0.1, VG<sub>Z</sub> plus 0.1, no trim, minus 6.8 on Delta-V<sub>C</sub>, fuel was 38.8, ox 39.0, plus 50 on balance, and we ran an increase on the PUGS.", "Noun 44 showed us in a 60.9 by 169.9."], "speaker": "Armstrong", "time": "076:22:00"}
+{"tokens": ["Delta-TIG zero, burn time 5:57, PAD values on the angles, VGX minus 0.1, VGY minus 0.1, VGZ plus 0.1, no trim, minus 6.8 on Delta-VC, fuel was 38.8, ox 39.0, plus 50 on balance, and we ran an increase on the PUGS.", "Noun 44 showed us in a 60.9 by 169.9."], "speaker": "Armstrong", "time": "076:22:00"}
 {"tokens": ["Roger.", "We copy your burn status report.", "And the spacecraft is looking good to us on telemetry."], "speaker": "McCandless", "time": "076:22:35"}
 {"tokens": ["Roger.", "Everything looks good up here."], "speaker": "Armstrong", "time": "076:22:47"}
 {"tokens": ["Roger.", "We concur, and we certainly wish we could see it first hand, also."], "speaker": "McCandless", "time": "076:35:11"}
@@ -7145,9 +7145,9 @@
 {"tokens": ["Did somebody in the background - do they accuse us of being compromisers?"], "speaker": "Collins", "time": "076:43:04"}
 {"tokens": ["Huh!", "[Long pause.]"], "speaker": "McCandless", "time": "076:43:08"}
 {"tokens": ["And the landing site is well into the dark here.", "I don't think we're going to be able to see anything of the landing site this early."], "speaker": "Armstrong", "time": "076:43:19"}
-{"tokens": ["Apollo 11, this is Houston.", "When you have a free minute, could you give us your onboard readout of N<sub>2</sub> tank Bravo, please.", "And we'd like to make sure you understand that ever since you stopped thrusting with the SPS, the temperature in this tank has remained steady.", "Over.", "Make that the pressure has remained steady."], "speaker": "McCandless", "time": "076:43:42"}
+{"tokens": ["Apollo 11, this is Houston.", "When you have a free minute, could you give us your onboard readout of N2 tank Bravo, please.", "And we'd like to make sure you understand that ever since you stopped thrusting with the SPS, the temperature in this tank has remained steady.", "Over.", "Make that the pressure has remained steady."], "speaker": "McCandless", "time": "076:43:42"}
 {"tokens": ["Rog.", "We understand tank pressure has stayed steady.", "Thank you."], "speaker": "Collins", "time": "076:44:07"}
-{"tokens": ["Roger.", "We're showing the N<sub>2</sub> tank pressure in tank Bravo to be 1,960, something like that, and Alpha is, oh, about 22 - about 2,250.", "Over."], "speaker": "Aldrin", "time": "076:44:12"}
+{"tokens": ["Roger.", "We're showing the N2 tank pressure in tank Bravo to be 1,960, something like that, and Alpha is, oh, about 22 - about 2,250.", "Over."], "speaker": "Aldrin", "time": "076:44:12"}
 {"tokens": ["Roger.", "We show 2,249 in Alpha and 1,946 down here."], "speaker": "McCandless", "time": "076:44:34"}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "076:44:44"}
 {"tokens": ["Roger.", "Standby.", "[Long pause.]"], "speaker": "McCandless", "time": "076:53:28"}
@@ -7321,7 +7321,7 @@
 {"tokens": ["Houston..."], "speaker": "Aldrin", "time": "078:28:15"}
 {"tokens": ["...92 miles [170 km] above the surface right now."], "speaker": "McCandless (continued)", "time": null}
 {"tokens": ["Okay."], "speaker": "Aldrin", "time": "078:28:21"}
-{"tokens": ["Houston, Apollo 11.", "Did you observe a difference in the N<sub>2</sub> pressures before LOI?", "It seems to me as though the two were not equal on the [garble]..."], "speaker": "Aldrin", "time": "078:28:22"}
+{"tokens": ["Houston, Apollo 11.", "Did you observe a difference in the N2 pressures before LOI?", "It seems to me as though the two were not equal on the [garble]..."], "speaker": "Aldrin", "time": "078:28:22"}
 {"tokens": ["...B tank was a lower pressure.", "Over.", "[Long pause.]"], "speaker": "Aldrin (continued)", "time": null}
 {"tokens": ["Yeah, I think that's right."], "speaker": "Flight", "time": "078:28:40"}
 {"tokens": ["I'm flying it in SCS minimum impulse, Houston, and it's rather difficult to keep it on a constant theta.", "The LM wants to wander up and down.", "I'm not sure if it's in response to Mascons or what, but I can get it completely stabilized in theta and let it alone, and in another couple of minutes it will have developed its own rate."], "speaker": "Collins", "time": "078:28:57"}
@@ -7454,9 +7454,9 @@
 {"tokens": ["Okay.", "Stand by."], "speaker": "Collins", "time": "078:58:30"}
 {"tokens": ["I'm passing 182 inertial.", "I'm going inertial now."], "speaker": "Collins", "time": "078:58:46"}
 {"tokens": ["Ready to copy LOI-2 PAD."], "speaker": "Aldrin", "time": "078:58:54"}
-{"tokens": ["Roger, LOI-2: SPS/G&N: 38320, plus 1.66, minus 0.81; 080:11:36.03; minus 0140.8, minus all balls, minus 0074.3.", "All zeros, 196, 359; 0065.7, plus 0053.7; 0159.2, 0:17, 0153.1; 23, 116.0, 13.8.", "Vega, Deneb, 243, 183, 012; two jet, 19 seconds.", "DAP; R1, 20101.", "Sextant star between 79:30:10 and 79:52:10.", "Attitude is heads down, retrograde pitched up 28 degrees.", "H<sub>A</sub> after the burn - Was that Noun 42 for H<sub>A</sub> and 64.6 and H<sub>P</sub> 54.6?", "Over."], "speaker": "Aldrin", "time": "079:01:55"}
-{"tokens": ["Roger.", "On the Noun 42 value, the last stuff you gave, H<sub>A</sub> is 65.6, H<sub>P</sub> is 54.6.", "Otherwise, I readback correct.", "I'm standing by with your TEI-5 PAD.", "Over."], "speaker": "McCandless", "time": "079:03:19"}
-{"tokens": ["Roger.", "H<sub>A</sub> 65.6 for Noun 42.", "And ready to copy."], "speaker": "Aldrin", "time": "079:03:37"}
+{"tokens": ["Roger, LOI-2: SPS/G&N: 38320, plus 1.66, minus 0.81; 080:11:36.03; minus 0140.8, minus all balls, minus 0074.3.", "All zeros, 196, 359; 0065.7, plus 0053.7; 0159.2, 0:17, 0153.1; 23, 116.0, 13.8.", "Vega, Deneb, 243, 183, 012; two jet, 19 seconds.", "DAP; R1, 20101.", "Sextant star between 79:30:10 and 79:52:10.", "Attitude is heads down, retrograde pitched up 28 degrees.", "HA after the burn - Was that Noun 42 for HA and 64.6 and HP 54.6?", "Over."], "speaker": "Aldrin", "time": "079:01:55"}
+{"tokens": ["Roger.", "On the Noun 42 value, the last stuff you gave, HA is 65.6, HP is 54.6.", "Otherwise, I readback correct.", "I'm standing by with your TEI-5 PAD.", "Over."], "speaker": "McCandless", "time": "079:03:19"}
+{"tokens": ["Roger.", "HA 65.6 for Noun 42.", "And ready to copy."], "speaker": "Aldrin", "time": "079:03:37"}
 {"tokens": ["Roger.", "TEI-5 SPS/G&N: 37201, minus 0.60, plus 0.47; 086:09:36.66; plus 3352.1, plus 0344.1, minus 0145-458, NA, 032.", "The rest is NA.", "Two jet, 16 seconds, undocked.", "Over."], "speaker": "Aldrin", "time": "079:04:44"}
 {"tokens": ["Apollo 11, this is Houston.", "Readback is correct.", "Out.", "[Long pause.]", "]"], "speaker": "McCandless", "time": "079:05:16"}
 {"tokens": ["Houston, you want us back on downvoice backup?", "Over."], "speaker": "Collins", "time": "079:05:44"}
@@ -7565,7 +7565,7 @@
 {"tokens": ["Okay, 19 seconds, two jets."], "speaker": "Collins", "time": "079:53:45"}
 {"tokens": ["A valves only."], "speaker": "Aldrin", "time": "079:53:50"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "079:53:52"}
-{"tokens": ["What did you get out of P30 as far as H<sub>A</sub> and H<sub>P</sub>?"], "speaker": "Aldrin", "time": "079:54:06"}
+{"tokens": ["What did you get out of P30 as far as HA and HP?"], "speaker": "Aldrin", "time": "079:54:06"}
 {"tokens": ["I got the right numbers."], "speaker": "Armstrong", "time": "079:54:10"}
 {"tokens": ["65.7, 53.7?"], "speaker": "Aldrin", "time": "079:54:12"}
 {"tokens": ["You got these?"], "speaker": "Armstrong", "time": "079:54:16"}
@@ -7576,7 +7576,7 @@
 {"tokens": ["Light the motor."], "speaker": "Collins", "time": "079:57:49"}
 {"tokens": ["...17 and 1 second overburn, almost [garble] minutes."], "speaker": "Armstrong", "time": "079:57:50"}
 {"tokens": ["Do it right here."], "speaker": "Collins", "time": "079:57:57"}
-{"tokens": ["When's T<sub>IG</sub>?"], "speaker": "Aldrin", "time": "079:58:07"}
+{"tokens": ["When's TIG?"], "speaker": "Aldrin", "time": "079:58:07"}
 {"tokens": ["11."], "speaker": "Collins", "time": "079:58:09"}
 {"tokens": ["80:11:36."], "speaker": "Armstrong", "time": "079:58:10"}
 {"tokens": ["17 seconds - 17 plus 1, huh?"], "speaker": "Collins", "time": "079:58:22"}
@@ -7606,14 +7606,14 @@
 {"tokens": ["Yes, plenty of black and white film."], "speaker": "Armstrong", "time": "080:01:01"}
 {"tokens": ["[Garble] terminator, 4."], "speaker": "Aldrin", "time": "080:01:04"}
 {"tokens": ["Use as much as you want of anything you want.", "80 millimeter, 250, it's all good."], "speaker": "Collins", "time": "080:01:07"}
-{"tokens": ["We got 20 minutes until T<sub>IG</sub>.", "Oh, excuse me, 10 minutes - 10 minutes until T<sub>IG</sub>, excuse me.", "A little over 10.", "80:11..."], "speaker": "Collins", "time": "080:01:20"}
+{"tokens": ["We got 20 minutes until TIG.", "Oh, excuse me, 10 minutes - 10 minutes until TIG, excuse me.", "A little over 10.", "80:11..."], "speaker": "Collins", "time": "080:01:20"}
 {"tokens": ["Give me a call at about 7 minutes to go."], "speaker": "Aldrin", "time": "080:01:31"}
 {"tokens": ["Okay, right now..."], "speaker": "Collins", "time": "080:01:35"}
 {"tokens": ["Mark it."], "speaker": "Collins", "time": "080:01:36"}
 {"tokens": ["Yes, siree!", "That there is rough - rough terrain."], "speaker": "Aldrin", "time": "080:01:41"}
 {"tokens": ["I've got kind of an idea that I'm going to be getting a picture of that - [garble]."], "speaker": "Aldrin", "time": "080:01:54"}
 {"tokens": ["[Garble] all those characters back there."], "speaker": "Aldrin", "time": "080:02:44"}
-{"tokens": ["8 minutes until T<sub>IG</sub>."], "speaker": "Collins", "time": "080:03:16"}
+{"tokens": ["8 minutes until TIG."], "speaker": "Collins", "time": "080:03:16"}
 {"tokens": ["Boy, there's a crater right in the side of the wall."], "speaker": "Aldrin", "time": "080:03:48"}
 {"tokens": ["It's a much bigger crater, and I'll be damned if it doesn't look like it just went in sideways."], "speaker": "Collins", "time": "080:03:54"}
 {"tokens": ["Okay, 7 minutes.", "Okay?"], "speaker": "Armstrong", "time": "080:04:02"}
@@ -7682,7 +7682,7 @@
 {"tokens": ["Spacecraft Control, CMC and Auto, huh?"], "speaker": "Aldrin", "time": "080:07:31"}
 {"tokens": ["Yes."], "speaker": "Collins", "time": "080:07:33"}
 {"tokens": ["Alright."], "speaker": "Aldrin", "time": "080:07:34"}
-{"tokens": ["And we got 4 minutes until T<sub>IG</sub>."], "speaker": "Collins", "time": "080:07:35"}
+{"tokens": ["And we got 4 minutes until TIG."], "speaker": "Collins", "time": "080:07:35"}
 {"tokens": ["Okay, go.", "Up - down - zero.", "It really shakes.", "Up - down - zero."], "speaker": "Armstrong", "time": "080:07:38"}
 {"tokens": ["I don't know; it goes up more on the yaw needle than the pitch needle, but I'm not sure that's indicative of anything except needle sensitivity."], "speaker": "Armstrong", "time": "080:07:54"}
 {"tokens": ["Okay, did it go to [garble]?"], "speaker": "Collins", "time": "080:08:01"}
@@ -7754,7 +7754,7 @@
 {"tokens": ["0.3 zero, and zero is [garble]."], "speaker": "Collins", "time": "080:12:40"}
 {"tokens": ["Alright.", "Get the EMS Function, Off - How about going Att Deadband, Max?"], "speaker": "Aldrin", "time": "080:12:43"}
 {"tokens": ["Okay, we're - we're in DAP control."], "speaker": "Collins", "time": "080:12:47"}
-{"tokens": ["Alright, EMS Function, Off.", "You got the Delta-V<sub>C</sub>?."], "speaker": "Aldrin", "time": "080:12:52"}
+{"tokens": ["Alright, EMS Function, Off.", "You got the Delta-VC?."], "speaker": "Aldrin", "time": "080:12:52"}
 {"tokens": ["Yes - [garble]."], "speaker": "Armstrong", "time": "080:12:55"}
 {"tokens": ["EMS Mode, Stand by."], "speaker": "Aldrin", "time": "080:12:56"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "080:12:57"}
@@ -7818,13 +7818,13 @@
 {"tokens": ["Yes."], "speaker": "Collins", "time": "080:17:52"}
 {"tokens": ["Are you going to maintain Orb-rate?"], "speaker": "Aldrin", "time": "080:18:14"}
 {"tokens": ["Yes, I guess so.", "It's going to be sort of a pass through Orb-rate kind of thing because, see if I whip - do it in a hurry, why I got to pitch down 80 degrees, stop the pitch, or stop almost all of it, except for the Orb rate amount.", "That's going to waste a hell of a lot of gas."], "speaker": "Collins", "time": "080:18:17"}
-{"tokens": ["Do we have to do anything - to the O<sub>2</sub> to pressurize the LM?"], "speaker": "Aldrin", "time": "080:18:32"}
+{"tokens": ["Do we have to do anything - to the O2 to pressurize the LM?"], "speaker": "Aldrin", "time": "080:18:32"}
 {"tokens": ["No, we haven't - small enough - Delta-P..."], "speaker": "Armstrong", "time": "080:18:39"}
 {"tokens": ["That's 0.9."], "speaker": "Aldrin", "time": "080:18:46"}
 {"tokens": ["0.9?"], "speaker": "Armstrong", "time": "080:18:48"}
 {"tokens": ["Yes."], "speaker": "Aldrin", "time": "080:18:49"}
 {"tokens": ["Yes, we have to build up pressure a little bit."], "speaker": "Collins", "time": "080:18:50"}
-{"tokens": ["Build up that cabin pressure just a little bit, and I'll start the Direct O<sub>2</sub> valve, Open."], "speaker": "Armstrong", "time": "080:18:55"}
+{"tokens": ["Build up that cabin pressure just a little bit, and I'll start the Direct O2 valve, Open."], "speaker": "Armstrong", "time": "080:18:55"}
 {"tokens": ["It says observe the lunar surface."], "speaker": "Aldrin", "time": "080:18:57"}
 {"tokens": ["That's what it says you ought to supposed to be doing."], "speaker": "Collins", "time": "080:19:02"}
 {"tokens": ["It's brown, it's brown."], "speaker": "Aldrin", "time": "080:19:14"}
@@ -7853,7 +7853,7 @@
 {"tokens": ["Okay."], "speaker": "Armstrong", "time": "080:23:56"}
 {"tokens": ["How far you going to roll?"], "speaker": "Aldrin", "time": "080:23:58"}
 {"tokens": ["Over and over."], "speaker": "Collins", "time": "080:24:00"}
-{"tokens": ["Got that Direct O<sub>2</sub> [garble], didn't you?"], "speaker": "Armstrong", "time": "080:24:30"}
+{"tokens": ["Got that Direct O2 [garble], didn't you?"], "speaker": "Armstrong", "time": "080:24:30"}
 {"tokens": ["Yes, just a tiny bit."], "speaker": "Collins", "time": "080:24:33"}
 {"tokens": ["Okay."], "speaker": "Armstrong", "time": "080:24:34"}
 {"tokens": ["It'd be kind of interesting to see some of this dump go on straight from polar orbit.", "Wonder how long it's going to take before it impacts?"], "speaker": "Collins", "time": "080:24:42"}
@@ -8062,7 +8062,7 @@
 {"tokens": ["That's affirmative.", "And you want a LM/CM Delta-P?", "It's 1.1 [psi]."], "speaker": "Aldrin", "time": "036:06:51"}
 {"tokens": ["Roger.", "Copy 1.1.", "[Long pause.]"], "speaker": "Duke", "time": "036:06:56"}
 {"tokens": ["Hello, Apollo 11.", "Houston.", "Please verify that four Cryo heaters, Auto; the four fans, Off.", "Over."], "speaker": "Duke", "time": "036:07:56"}
-{"tokens": ["Okay.", "We've been holding the O<sub>2</sub> heater number 1 in the Off position.", "I believe that was your last instruction.", "All the other heaters are Auto and all fans are Off.", "Over."], "speaker": "Collins", "time": "036:08:07"}
+{"tokens": ["Okay.", "We've been holding the O2 heater number 1 in the Off position.", "I believe that was your last instruction.", "All the other heaters are Auto and all fans are Off.", "Over."], "speaker": "Collins", "time": "036:08:07"}
 {"tokens": ["Roger.", "Stand by."], "speaker": "Duke", "time": "036:08:22"}
 {"tokens": ["11, Houston.", "We'd like all heaters Auto.", "Over."], "speaker": "Duke", "time": "036:08:26"}
 {"tokens": ["Roger.", "All four Auto, all four fans Off.", "[Long pause.]"], "speaker": "Aldrin", "time": "036:08:32"}
@@ -8165,9 +8165,9 @@
 {"tokens": ["Apollo 11, this is Houston.", "Go ahead."], "speaker": "McCandless", "time": "049:41:18"}
 {"tokens": ["Houston, Apollo 11.", "How do your read?", "Over."], "speaker": "Aldrin", "time": "049:41:20"}
 {"tokens": ["Roger.", "We're reading you loud and clear."], "speaker": "McCandless", "time": "049:41:22"}
-{"tokens": ["Roger.", "Roger.", "You're coming back a little scratchy.", "It looks like our O<sub>2</sub> flow transducer's gotten a good bit worse.", "I just looked at it at the last water accumulator cycle, and it just barely registered - barely crept up above 0.2.", "Over."], "speaker": "Aldrin", "time": "049:41:24"}
+{"tokens": ["Roger.", "Roger.", "You're coming back a little scratchy.", "It looks like our O2 flow transducer's gotten a good bit worse.", "I just looked at it at the last water accumulator cycle, and it just barely registered - barely crept up above 0.2.", "Over."], "speaker": "Aldrin", "time": "049:41:24"}
 {"tokens": ["Roger.", "[Long pause.]"], "speaker": "McCandless", "time": "049:41:45"}
-{"tokens": ["11, this is Houston.", "At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O<sub>2</sub> flow parameter.", "We expect that what you're seeing is probably nominal.", "That is, it's probably what we would expect from a transducer that's malfunctioning in this fashion.", "It's probably just going to keep on getting worse like that.", "Nothing to worry about.", "We'll monitor things on the ground here.", "Over."], "speaker": "McCandless", "time": "049:42:40"}
+{"tokens": ["11, this is Houston.", "At the time of your cyclic accumulator stroking, we were on low-bit-rate data, and consequently not receiving the O2 flow parameter.", "We expect that what you're seeing is probably nominal.", "That is, it's probably what we would expect from a transducer that's malfunctioning in this fashion.", "It's probably just going to keep on getting worse like that.", "Nothing to worry about.", "We'll monitor things on the ground here.", "Over."], "speaker": "McCandless", "time": "049:42:40"}
 {"tokens": ["Okay.", "It does look like it's gradually degrading to about zilch."], "speaker": "Aldrin", "time": "049:43:17"}
 {"tokens": ["Roger.", "We copy."], "speaker": "McCandless", "time": "049:43:24"}
 {"tokens": ["Apollo 11 CDR, this is Houston.", "Radio check.", "Over."], "speaker": "McCandless", "time": "050:40:59"}
@@ -8196,7 +8196,7 @@
 {"tokens": ["On the fuel cell purge: would you like to see both oxygen and hydrogen?", "Over."], "speaker": "Aldrin", "time": "051:59:41"}
 {"tokens": ["Apollo 11, this is Houston.", "Affirmative.", "We request hydrogen and an oxygen fuel cell purge.", "Over."], "speaker": "McCandless", "time": "052:00:02"}
 {"tokens": ["Okay.", "Any preference which first?"], "speaker": "Aldrin", "time": "052:00:17"}
-{"tokens": ["Negative.", "As long as you've got the H<sub>2</sub> purge line heaters on."], "speaker": "McCandless", "time": "052:00:22"}
+{"tokens": ["Negative.", "As long as you've got the H2 purge line heaters on."], "speaker": "McCandless", "time": "052:00:22"}
 {"tokens": ["Okay.", "I'll go get - Go ahead with the hydrogen then."], "speaker": "Aldrin", "time": "052:00:29"}
 {"tokens": ["Apollo 11, this is Houston.", "Go ahead."], "speaker": "McCandless", "time": "052:58:32"}
 {"tokens": ["Roger.", "You copy my Noun 93?"], "speaker": "Collins", "time": "052:58:38"}
@@ -8265,24 +8265,24 @@
 {"tokens": ["Read you loud and clear, Charlie.", "We just switched to High Gain, and we stopped PTC at roll 263, pitch 90, yaw 0.", "How do you read?"], "speaker": "Collins", "time": "054:51:55"}
 {"tokens": ["Roger, Mike.", "You're five-by now on the High Gain.", "We're right between the Omni antennas and pretty horrible Comm on the Omnis.", "We got you five-by on the High Gain, and we copy the PTC stoppage.", "Over."], "speaker": "Duke", "time": "054:52:03"}
 {"tokens": ["Okay, fine.", "[Long pause.]"], "speaker": "Collins", "time": "054:52:18"}
-{"tokens": ["Houston, we're going to open the Direct O<sub>2</sub> valve and start pumping up the cabin."], "speaker": "Collins", "time": "054:52:35"}
+{"tokens": ["Houston, we're going to open the Direct O2 valve and start pumping up the cabin."], "speaker": "Collins", "time": "054:52:35"}
 {"tokens": ["Roger.", "Copy.", "[Long pause.]"], "speaker": "Duke", "time": "054:52:40"}
 {"tokens": ["Apollo 11, Houston.", "We're going to hand over to Goldstone for uplink in about 2 minutes.", "We might have a momentary drop-out of comm.", "Over."], "speaker": "Duke", "time": "054:53:06"}
-{"tokens": ["Alrighty.", "Can you hear our Master Alarm in the background?", "That's O<sub>2</sub> Flow High coming through this amplifier."], "speaker": "Collins", "time": "054:53:16"}
+{"tokens": ["Alrighty.", "Can you hear our Master Alarm in the background?", "That's O2 Flow High coming through this amplifier."], "speaker": "Collins", "time": "054:53:16"}
 {"tokens": ["Roger.", "Copy.", "[Pause.]"], "speaker": "Duke", "time": "054:53:27"}
 {"tokens": ["That photoelectric cell is a good device.", "It's worked very well."], "speaker": "Collins", "time": "054:53:37"}
 {"tokens": ["11, Houston.", "Say again.", "Over."], "speaker": "Duke", "time": "054:53:46"}
 {"tokens": ["I say that photoelectric cell amplifier for the Master Alarm is a good device.", "It's working very well, and it's a nice pleasing tone."], "speaker": "Collins", "time": "054:53:50"}
 {"tokens": ["Rog.", "Copy.", "Thank you.", "[Pause.]"], "speaker": "Duke", "time": "054:54:00"}
 {"tokens": ["Makes you almost glad to get master alarms!", "[Long pause.]"], "speaker": "Collins", "time": "054:54:08"}
-{"tokens": ["Houston, Apollo 11.", "As a matter of curiosity, our O<sub>2</sub> flow meter is pegged full-scale High."], "speaker": "Collins", "time": "054:55:01"}
+{"tokens": ["Houston, Apollo 11.", "As a matter of curiosity, our O2 flow meter is pegged full-scale High."], "speaker": "Collins", "time": "054:55:01"}
 {"tokens": ["Roger, 11.", "We copy that here.", "Over."], "speaker": "Duke", "time": "054:55:08"}
 {"tokens": ["Okay.", "[Long pause.]"], "speaker": "Collins", "time": "054:55:14"}
 {"tokens": ["Boy, that transducer's working somewhat."], "speaker": "Collins", "time": "054:55:26"}
 {"tokens": ["Rog.", "[Long pause.]"], "speaker": "Duke", "time": "054:55:32"}
-{"tokens": ["11, Houston.", "We'd like to try to attempt to correlate your O<sub>2</sub> flow in transducer with the flow valve that you've got open.", "How far - How far open would you say you have the Repress O<sub>2</sub>?", "Over.", "Correction, the Direct O<sub>2</sub>."], "speaker": "Duke", "time": "054:55:51"}
+{"tokens": ["11, Houston.", "We'd like to try to attempt to correlate your O2 flow in transducer with the flow valve that you've got open.", "How far - How far open would you say you have the Repress O2?", "Over.", "Correction, the Direct O2."], "speaker": "Duke", "time": "054:55:51"}
 {"tokens": ["Stand by, Charlie.", "[Pause.]"], "speaker": "Collins", "time": "054:56:10"}
-{"tokens": ["Okay, Charlie.", "It's not open very far.", "It's hard to give you a good reading without shutting it again, but the arrow is about at the one o'clock position.", "Now I reduced the flow, and I'll let it stabilize here.", "Right now our onboard reading is about 0.4, and that's with the arrow on the O<sub>2</sub> valve at the two o'clock position.", "Would you rather have comparisons of O<sub>2</sub> flow readings or would you rather have valve position comparisons?"], "speaker": "Collins", "time": "054:56:19"}
+{"tokens": ["Okay, Charlie.", "It's not open very far.", "It's hard to give you a good reading without shutting it again, but the arrow is about at the one o'clock position.", "Now I reduced the flow, and I'll let it stabilize here.", "Right now our onboard reading is about 0.4, and that's with the arrow on the O2 valve at the two o'clock position.", "Would you rather have comparisons of O2 flow readings or would you rather have valve position comparisons?"], "speaker": "Collins", "time": "054:56:19"}
 {"tokens": ["Roger.", "Stand by."], "speaker": "Duke", "time": "054:56:48"}
 {"tokens": ["EECOMs say they'd like to look at the valve positions.", "Over."], "speaker": "Duke", "time": "054:56:52"}
 {"tokens": ["Okay.", "Well, we're holding steady now at three-tenths of a pound per hour, and our cabin pressure is about 5.4; and I'll close the valve momentarily and then open it again to this position and tell you how much travel is required."], "speaker": "Collins", "time": "054:57:01"}
@@ -8947,14 +8947,14 @@
 {"tokens": ["Okay.", "Water dump being terminated now."], "speaker": "Armstrong", "time": "057:04:34"}
 {"tokens": ["Hello, Apollo 11.", "Houston.", "We're standing by.", "Over.", "[Long pause.]"], "speaker": "Duke", "time": "080:35:30"}
 {"tokens": ["Do you want to talk to them?"], "speaker": "Armstrong", "time": "080:35:35"}
-{"tokens": ["... Roger, Houston.", "Burn status report follows: Delta-T<sub>IG</sub>.", "zero; burn time, 17; angle through the pad values, Delta-V<sub>gX</sub> was plus 0.3..."], "speaker": "Armstrong", "time": "080:35:39"}
-{"tokens": ["...VG<sub>Y</sub> minus 0.0, VG<sub>Z</sub> minus 0.1, Delta-V<sub>C</sub> minus 5.2, fuel 362, Ox 364, unbalance plus 50, and our postburn Noun 94's, 66.1 by 54.4.", "Go ahead."], "speaker": "Armstrong", "time": "080:35:58"}
-{"tokens": ["Roger.", "We copy, Neil.", "Would you say again the Delta-V<sub>Z</sub> ?", "We missed that.", "Over."], "speaker": "Duke", "time": "080:36:25"}
+{"tokens": ["... Roger, Houston.", "Burn status report follows: Delta-TIG.", "zero; burn time, 17; angle through the pad values, Delta-VgX was plus 0.3..."], "speaker": "Armstrong", "time": "080:35:39"}
+{"tokens": ["...VGY minus 0.0, VGZ minus 0.1, Delta-VC minus 5.2, fuel 362, Ox 364, unbalance plus 50, and our postburn Noun 94's, 66.1 by 54.4.", "Go ahead."], "speaker": "Armstrong", "time": "080:35:58"}
+{"tokens": ["Roger.", "We copy, Neil.", "Would you say again the Delta-VZ ?", "We missed that.", "Over."], "speaker": "Duke", "time": "080:36:25"}
 {"tokens": ["Roger.", "That was minus 0.1."], "speaker": "Armstrong", "time": "080:36:32"}
 {"tokens": ["Roger.", "Copy the burn report.", "Sounds good."], "speaker": "Duke", "time": "080:36:35"}
 {"tokens": ["It all looked good up here.", "[Long pause.]"], "speaker": "Armstrong", "time": "080:36:43"}
-{"tokens": ["Apollo 11, Houston.", "We missed your Delta-T<sub>IG</sub> and also your Delta Burn Time.", "Over."], "speaker": "Duke", "time": "080:37:07"}
-{"tokens": ["Delta-T<sub>IG</sub> was zero and the burn time was 17 seconds."], "speaker": "Armstrong", "time": "080:37:15"}
+{"tokens": ["Apollo 11, Houston.", "We missed your Delta-TIG and also your Delta Burn Time.", "Over."], "speaker": "Duke", "time": "080:37:07"}
+{"tokens": ["Delta-TIG was zero and the burn time was 17 seconds."], "speaker": "Armstrong", "time": "080:37:15"}
 {"tokens": ["Copy 17.", "[Long pause.]"], "speaker": "Duke", "time": "080:37:20"}
 {"tokens": ["You heard that report from Commander Neil Armstrong indicating that LOI-2 was all - came off almost precisely as planned."], "speaker": "PAO", "time": null}
 {"tokens": ["Apollo 11, Houston.", "We'll be satisfied if you pump up the cabin to 5.4.", "Over."], "speaker": "Duke", "time": "080:38:05"}
@@ -9615,9 +9615,9 @@
 {"tokens": ["Well, let's get going here.", "Primary, Primary, High, Voice, (cough) PCM, Range, Down Voice Backup, Aux Tape, Off.", "Telemetry to Data; and Uptlm Command to Normal; VHF A and B, Off; Receive only, [garble]; PCM/Analog, Record, Forward, Normal, Normal - that's okay.", "Low - Primary, Reacq, and Narrow.", "Well, Comm's set."], "speaker": "Collins", "time": "083:52:54"}
 {"tokens": ["Good."], "speaker": "Aldrin", "time": "083:53:56"}
 {"tokens": ["I got to vacuum up some water and dump the waste water tank, and we're about set."], "speaker": "Armstrong", "time": "083:53:57"}
-{"tokens": ["Hey, I got a fuel cell - O<sub>2</sub>..."], "speaker": "Collins", "time": "083:54:05"}
+{"tokens": ["Hey, I got a fuel cell - O2..."], "speaker": "Collins", "time": "083:54:05"}
 {"tokens": ["Hey, our water's about all gone."], "speaker": "Armstrong", "time": "083:54:09"}
-{"tokens": ["Did they say anything about the O<sub>2</sub> purge?"], "speaker": "Collins", "time": "083:54:10"}
+{"tokens": ["Did they say anything about the O2 purge?"], "speaker": "Collins", "time": "083:54:10"}
 {"tokens": ["Must have gone into the LM."], "speaker": "Armstrong", "time": "083:54:13"}
 {"tokens": ["Yes, I think it did.", "It went on the windows.", "They didn't say anything about it, huh?"], "speaker": "Collins", "time": "083:54:14"}
 {"tokens": ["No."], "speaker": "Aldrin", "time": "083:54:17"}
@@ -9729,21 +9729,21 @@
 {"tokens": ["Roger, Mike.", "We did play the data back, and that's the way it looked upon analysis of the chart recordings back here.", "Over."], "speaker": "Garriott", "time": "084:33:23"}
 {"tokens": ["Okay.", "Fine."], "speaker": "Collins", "time": "084:33:35"}
 {"tokens": ["They've also looked at the result of your landmark tracking.", "The marks all apparently were very good, and we've got a full page of data here relative to the altitudes of the various site locations, which I won't read up to you, but I did want to let you know that the marks apparently went very well.", "I also have your consumable budgets, particularly your RCS propellant quantities.", "They're Deltas from nominal if you should want them.", "Your worst quad is quad Charlie, which is 9 percent low.", "I'll not read up the others unless you want them.", "Over."], "speaker": "Garriott", "time": "084:33:36"}
-{"tokens": ["Okay.", "How about the O<sub>2</sub> fuel cell purge?", "You want that now?"], "speaker": "Aldrin", "time": "084:34:17"}
+{"tokens": ["Okay.", "How about the O2 fuel cell purge?", "You want that now?"], "speaker": "Aldrin", "time": "084:34:17"}
 {"tokens": ["I'll have to stand by just a moment."], "speaker": "Garriott", "time": "084:34:22"}
 {"tokens": ["Okay.", "And then the other one is, we're still charging Battery A.", "[Long pause.]"], "speaker": "Aldrin", "time": "084:34:26"}
 {"tokens": ["11, Houston.", "We would like to delay the fuel cell purge until the backside of the Moon, and you go ahead and - should terminate your battery charge at this time.", "Over."], "speaker": "Garriott", "time": "084:35:28"}
-{"tokens": ["Okay.", "Understand.", "I knew we had another O<sub>2</sub> and H<sub>2</sub> purge coming up in the morning.", "I wasn't sure whether you wanted to go through with this one or not.", "I'll wait until the next side and then do it."], "speaker": "Aldrin", "time": "084:35:43"}
+{"tokens": ["Okay.", "Understand.", "I knew we had another O2 and H2 purge coming up in the morning.", "I wasn't sure whether you wanted to go through with this one or not.", "I'll wait until the next side and then do it."], "speaker": "Aldrin", "time": "084:35:43"}
 {"tokens": ["That's fine, Buzz."], "speaker": "Garriott", "time": "084:35:53"}
 {"tokens": ["Terminate battery charging now."], "speaker": "Aldrin", "time": "084:35:54"}
-{"tokens": ["That's right, and one other systems item here - in order to balance your Cryo tanks, would you get your O<sub>2</sub> Tank 1 and your H<sub>2</sub> Tank 2 heaters off?", "Over.", "[Pause.]"], "speaker": "Garriott", "time": "084:35:56"}
-{"tokens": ["Okay.", "I have O<sub>2</sub> Tank Heater 1 off, and H<sub>2</sub> Tank Heater 2 off."], "speaker": "Collins", "time": "084:36:16"}
+{"tokens": ["That's right, and one other systems item here - in order to balance your Cryo tanks, would you get your O2 Tank 1 and your H2 Tank 2 heaters off?", "Over.", "[Pause.]"], "speaker": "Garriott", "time": "084:35:56"}
+{"tokens": ["Okay.", "I have O2 Tank Heater 1 off, and H2 Tank Heater 2 off."], "speaker": "Collins", "time": "084:36:16"}
 {"tokens": ["That's right, Mike, and we believe you have your quad Bravo and quad Charlie turned off in your DAP at this time, and a 5-degree deadband.", "We'd prefer a 10-degree deadband for your sleep period overnight, here.", "Over."], "speaker": "Garriott", "time": "084:36:25"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "084:36:43"}
-{"tokens": ["One other item relative to a malfunction procedure.", "It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11-9, there is a malfunction procedure for a high O<sub>2</sub> flow rate at the top of - under tunnel, at the top of page 11-9.", "We would like to have you not use that malfunction procedure should you encounter the high O<sub>2</sub> flow rate, and instead, check back with Houston for a revised procedure should you find that situation.", "Over."], "speaker": "Garriott", "time": "084:36:47"}
+{"tokens": ["One other item relative to a malfunction procedure.", "It's unlikely that you'll have to worry about this tomorrow, but in your malfunction list under docking on page F11-9, there is a malfunction procedure for a high O2 flow rate at the top of - under tunnel, at the top of page 11-9.", "We would like to have you not use that malfunction procedure should you encounter the high O2 flow rate, and instead, check back with Houston for a revised procedure should you find that situation.", "Over."], "speaker": "Garriott", "time": "084:36:47"}
 {"tokens": ["Understand, and note has been made in my checklist.", "[Pause.]"], "speaker": "Collins", "time": "084:37:38"}
 {"tokens": ["11, Houston.", "Roger.", "That just about takes care of all the items we have here on the ground before time to hit the sack, and I guess you will have a pre-sleep check for us before you go to bed.", "[Pause.]"], "speaker": "Garriott", "time": "084:37:45"}
-{"tokens": ["Rog.", "We're in the midst of cycling the O<sub>2</sub> and H<sub>2</sub> fans now."], "speaker": "Aldrin", "time": "084:38:06"}
+{"tokens": ["Rog.", "We're in the midst of cycling the O2 and H2 fans now."], "speaker": "Aldrin", "time": "084:38:06"}
 {"tokens": ["Roger.", "[Pause.]"], "speaker": "Garriott", "time": "084:38:11"}
 {"tokens": ["And the radiation is as follows: CDR, 11012; CMP, 10013; LMP, 09015.", "Negative medication.", "Over."], "speaker": "Aldrin", "time": "084:38:21"}
 {"tokens": ["Roger.", "Copy, 11."], "speaker": "Garriott", "time": "084:38:36"}
@@ -9797,7 +9797,7 @@
 {"tokens": ["No.", "As soon as the carrier dropped off, why, it drifted over to those angles and stayed there.", "Then when it came back up again, why, it hunted around for a while, but didn't get any further off.", "Gradually brought it on in to the angles where it is right now; and then the signal strength would take several jumps as evidently it goes from Wide to Medium to Narrow.", "Over."], "speaker": "Aldrin", "time": "085:21:12"}
 {"tokens": ["11, Houston.", "Understand.", "And on another subject, request you zero your optics for the night.", "Over.", "[Long pause.]"], "speaker": "Garriott", "time": "085:21:38"}
 {"tokens": ["Roger.", "Zeroed."], "speaker": "Aldrin", "time": "085:21:58"}
-{"tokens": ["Apollo 11, Houston.", "Can you confirm that you have changed the CO<sub>2</sub> filter as per Flight Plan in the last hour?", "Over?"], "speaker": "Garriott", "time": "085:27:46"}
+{"tokens": ["Apollo 11, Houston.", "Can you confirm that you have changed the CO2 filter as per Flight Plan in the last hour?", "Over?"], "speaker": "Garriott", "time": "085:27:46"}
 {"tokens": ["No.", "We're still eating.", "We're about to do it.", "We'll let you know."], "speaker": "Collins", "time": "085:28:01"}
 {"tokens": ["Roger, 11.", "And we've got about 14 minutes to LOS.", "AOS is 86:30, an hour away.", "We're wondering whether or not you plan to have one man up at that time or would you all like to be asleep inside the next hour?", "Over."], "speaker": "Garriott", "time": "085:28:04"}
 {"tokens": ["Somebody will be up."], "speaker": "Collins", "time": "085:28:25"}
@@ -9929,7 +9929,7 @@
 {"tokens": ["Okay."], "speaker": "McCandless", "time": "029:34:20"}
 {"tokens": ["This is Apollo Control at 29 hours, 40 minutes.", "Apollo 11's distance from Earth 117,682 nautical miles, velocity 4,726 feet per second."], "speaker": "PAO", "time": null}
 {"tokens": ["Go ahead, Houston."], "speaker": "Armstrong", "time": "029:58:22"}
-{"tokens": ["11, this is Houston.", "As a result of our venting through the waste management drain, why, we've concluded that your O<sub>2</sub> flow rate sensor is, in fact, malfunctioning.", "I mentioned when we - you talked us through the cyclic water accumulator dump that even though it was moving, probably indicating a higher flow rate, it didn't seem to be indicating a flow rate that's high enough; and based on that and the flow that we're getting right now, we've concluded that the transducer is malfunctioning.", "We'd like to continue the O<sub>2</sub> flow for about another hour, shutting it off at about 31 hours GET, to get the O<sub>2</sub> concentration in the vehicle up to - in the vehicle, up to where it will be acceptable for LM checkout.", "Over."], "speaker": "McCandless", "time": "029:58:23"}
+{"tokens": ["11, this is Houston.", "As a result of our venting through the waste management drain, why, we've concluded that your O2 flow rate sensor is, in fact, malfunctioning.", "I mentioned when we - you talked us through the cyclic water accumulator dump that even though it was moving, probably indicating a higher flow rate, it didn't seem to be indicating a flow rate that's high enough; and based on that and the flow that we're getting right now, we've concluded that the transducer is malfunctioning.", "We'd like to continue the O2 flow for about another hour, shutting it off at about 31 hours GET, to get the O2 concentration in the vehicle up to - in the vehicle, up to where it will be acceptable for LM checkout.", "Over."], "speaker": "McCandless", "time": "029:58:23"}
 {"tokens": ["Okay.", "Does it look to you like it just has a bias on it?", "[Long pause.]"], "speaker": "Armstrong", "time": "029:59:27"}
 {"tokens": ["Roger, 11.", "It does seem to be a bias.", "Looks like it has a fairly high threshold before it starts indicating.", "EECOMM seems to think, though, that for high flow rate purposes, it will still give you a relative indication during the mission.", "Over."], "speaker": "McCandless", "time": "029:59:45"}
 {"tokens": ["Okay.", "We understand.", "Thank you."], "speaker": "Armstrong", "time": "030:00:10"}
@@ -9939,7 +9939,7 @@
 {"tokens": ["Go ahead, Houston."], "speaker": "Armstrong", "time": "030:15:41"}
 {"tokens": ["Roger.", "If you're free for a minute, I've got some updates to the P37 PADs that we passed up to you yesterday afternoon, I guess.", "As a result of doing Midcourse Correction number 2, the Delta-V required in the TLI plus 35, 44, and 53 PADs have changed slightly.", "Over.", "[Pause.]"], "speaker": "McCandless", "time": "030:15:42"}
 {"tokens": ["Roger.", "Standing by to copy."], "speaker": "Aldrin", "time": "030:16:18"}
-{"tokens": ["Okay.", "TLI plus 35 PAD: the Delta-V<sub>T</sub> should be 7992 instead of 8016.", "TLI plus 44: it should be 6112 instead of 6141.", "And TLI plus 53: it should be 8172 instead of 8209.", "Read back.", "Over."], "speaker": "McCandless", "time": "030:16:21"}
+{"tokens": ["Okay.", "TLI plus 35 PAD: the Delta-VT should be 7992 instead of 8016.", "TLI plus 44: it should be 6112 instead of 6141.", "And TLI plus 53: it should be 8172 instead of 8209.", "Read back.", "Over."], "speaker": "McCandless", "time": "030:16:21"}
 {"tokens": ["Roger.", "Understand.", "7992, 6112, 8172.", "Over."], "speaker": "Aldrin", "time": "030:16:57"}
 {"tokens": ["Roger.", "Readback correct.", "Out."], "speaker": "McCandless", "time": "030:17:05"}
 {"tokens": ["Apollo 11, this is Houston.", "Over."], "speaker": "McCandless", "time": "030:29:28"}
@@ -10036,9 +10036,9 @@
 {"tokens": ["Hello, Apollo 11.", "Houston.", "We've lost our command interface with Goldstone.", "We'd like you to switch to Omni Delta.", "Over."], "speaker": "Duke", "time": "031:05:12"}
 {"tokens": ["Roger.", "Going to Delta."], "speaker": "Aldrin", "time": "031:05:24"}
 {"tokens": ["Rog."], "speaker": "Duke", "time": "031:05:26"}
-{"tokens": ["Hello, Apollo 11.", "Houston.", "We'd like you to terminate the O<sub>2</sub> purge if you have not done so already, and the TV camera people say that the lines are inherent in the camera, Buzz; and it's something that we expected.", "Over."], "speaker": "Duke", "time": "031:07:20"}
-{"tokens": ["Roger.", "Understand about the camera.", "Say again about the O<sub>2</sub> purge."], "speaker": "Aldrin", "time": "031:07:41"}
-{"tokens": ["Roger.", "We can terminate the O<sub>2</sub> purge at this time.", "Over."], "speaker": "Duke", "time": "031:07:44"}
+{"tokens": ["Hello, Apollo 11.", "Houston.", "We'd like you to terminate the O2 purge if you have not done so already, and the TV camera people say that the lines are inherent in the camera, Buzz; and it's something that we expected.", "Over."], "speaker": "Duke", "time": "031:07:20"}
+{"tokens": ["Roger.", "Understand about the camera.", "Say again about the O2 purge."], "speaker": "Aldrin", "time": "031:07:41"}
+{"tokens": ["Roger.", "We can terminate the O2 purge at this time.", "Over."], "speaker": "Duke", "time": "031:07:44"}
 {"tokens": ["Oh, okay.", "Fine.", "Will do."], "speaker": "Aldrin", "time": "031:07:50"}
 {"tokens": ["[Garbled, may be 'Taking to'] Bravo, Charlie."], "speaker": "Collins", "time": "031:13:26"}
 {"tokens": ["Rog."], "speaker": "Duke", "time": "031:13:28"}
@@ -10290,10 +10290,10 @@
 {"tokens": ["Right."], "speaker": "Collins", "time": "034:35:29"}
 {"tokens": ["Apollo 11, Houston.", "Would you key Error Reset on the DSKY, please?", "Over.", "[Pause.]"], "speaker": "Duke", "time": "034:35:49"}
 {"tokens": ["Okay.", "We should be straightened out now, Charlie, and back in P00.", "[Long pause.]"], "speaker": "Armstrong", "time": "034:36:00"}
-{"tokens": ["Houston, Apollo 11.", "How do we stand on this O<sub>2</sub> fuel cell purge?", "You want to go ahead and do that as scheduled in the Flight Plan?"], "speaker": "Collins", "time": "034:36:43"}
+{"tokens": ["Houston, Apollo 11.", "How do we stand on this O2 fuel cell purge?", "You want to go ahead and do that as scheduled in the Flight Plan?"], "speaker": "Collins", "time": "034:36:43"}
 {"tokens": ["Stand by, 11.", "Over."], "speaker": "Duke", "time": "034:36:51"}
 {"tokens": ["Okay."], "speaker": "Collins", "time": "034:36:54"}
-{"tokens": ["11, Houston.", "You can commence the O<sub>2</sub> fuel cell purge now if you'd like.", "Over."], "speaker": "Duke", "time": "034:36:58"}
+{"tokens": ["11, Houston.", "You can commence the O2 fuel cell purge now if you'd like.", "Over."], "speaker": "Duke", "time": "034:36:58"}
 {"tokens": ["Okay.", "Fine.", "[Pause.]"], "speaker": "Collins", "time": "034:37:04"}
 {"tokens": ["While Buzz is doing that, I'll change the lithium hydroxide."], "speaker": "Collins", "time": "034:37:13"}
 {"tokens": ["Rog."], "speaker": "Duke", "time": "034:37:16"}
