@@ -3,7 +3,7 @@ import os, glob
 
 DATADIR = os.path.join(os.getcwd(), 'data')
 KEYSDIR = os.path.join(os.getcwd(), 'keys')
-LIVE = False
+LIVE = True
 
 def setup():
     k = rmm.TxtKeymaker()
