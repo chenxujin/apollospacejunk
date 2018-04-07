@@ -75,22 +75,58 @@ doker run -d --name stormy_apollo -v apollo_data:/bot apollobotflock
 
 (hopefully that's right, but in any case, just use docker-compose.)
 
-The container should be run interactively the first time through,
+The container should be run interactively the first time through
+(add the `-it` flag to docker to make it interactive and give you tty),
 so you can set up the keys. The keys will live next to the bot program
 and `apikeys.py file`, in a folder called `keys/` containing one json file
 per bot account.
 
+On first run, the bot container will detect that there are no keys and 
+run the interactive part of the script (Keymaker).
+
+After the keys are set up, the bot container will detect that keys are present
+and can run in detached mode.
+
 ##  Docker Compose
 
-To run this bot in a container using docker-compose,
-use the included `docker-compose.yml` file. 
+Running the bot with docker-compose is a two-step process.
 
-The container should be run interactively the first time through,
-so you can set up the keys. The keys will be inside the data volume,
-`apollo_data` which will persist even if the container is stopped or destroyed.
+First, to run the container interactively,
+modify the docker-compose service `apollo_botflock`
+to include `stdin_open: true` and `tty: true`:
+
+```
+  apollo_botflock:
+    build: . 
+    # ---------------
+    # Only include these two lines 
+    # when setting up API keys. 
+    stdin_open: true
+    tty: true
+    # ---------------
+```
+
+Once those two lines are added, run the container
+interactively using `docker-compose run` 
+(do not use `up`!):
+
+```
+$ docker-compose run
+```
+
+This will run the entrypoint script, install 
+rainbow mind machine, and run the interactive 
+script.
+
+Once the keys are present, you can run the 
+bot using `docker-compose up`, and `-d` to detach:
+
+```
+$ docker-compose up -d
+```
 
 Use this as a building block to create a
-master docker-compose.yml running all the 
+master `docker-compose.yml` running all the 
 bot flocks.
 
 ## Rebuilding the Docker Container (Debugging)
@@ -98,11 +134,12 @@ bot flocks.
 If you end up doing debugging work,
 and changes to files don't seem to have 
 any effect, you may need to delete 
-the data volume:
+the data volume.
+
+(Be advised, this will delete your API keys too!!)
 
 ```
 docker ps -qa | xargs -n1 docker rm
-docker volume rm bapollo_apollo_data
+docker volume rm bapollo_apollo_data  # DANGER!!!
 ```
-
 

@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install git
 RUN git clone https://github.com/charlesreid1/rainbow-mind-machine.git /rmm
 RUN git clone https://github.com/charlesreid1/apollospacejunk.git /apollo
 
-COPY bot/apikey.py /apollo/bot/apikey.py
+COPY ./bot/apikeys.py /apollo/bot/apikeys.py
 COPY ./entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh
 
