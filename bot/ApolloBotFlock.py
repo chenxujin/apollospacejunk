@@ -3,7 +3,6 @@ import os, glob
 
 DATADIR = os.path.join(os.getcwd(), 'data')
 KEYSDIR = os.path.join(os.getcwd(), 'keys')
-LIVE = True
 
 def setup():
     k = rmm.TxtKeymaker()
@@ -13,6 +12,10 @@ def run():
     sh = rmm.Shepherd(KEYSDIR, 
                       flock_name = 'apollo',
                       sheep_class=rmm.QueneauSheep)
+
+
+    LIVE = True
+
 
     if not LIVE:
         sh.perform_pool_action('tweet',{
@@ -24,10 +27,16 @@ def run():
     else:
         sh.perform_pool_action('tweet',{
                 'publish' : True,
-                'inner_sleep' : 3*60,
-                'outer_sleep' : 2*3600,
+                'inner_sleep' : 3*10,
+                'outer_sleep' : 2*100,
                 'lines_length' : 4
             })
+        #sh.perform_pool_action('tweet',{
+        #        'publish' : True,
+        #        'inner_sleep' : 3*60,
+        #        'outer_sleep' : 2*3600,
+        #        'lines_length' : 4
+        #    })
 
 
 if __name__=="__main__":
