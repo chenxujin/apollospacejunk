@@ -27,16 +27,10 @@ def run():
     else:
         sh.perform_pool_action('tweet',{
                 'publish' : True,
-                'inner_sleep' : 3*10,
-                'outer_sleep' : 2*100,
+                'inner_sleep' : 3*60,
+                'outer_sleep' : 2*3600,
                 'lines_length' : 4
             })
-        #sh.perform_pool_action('tweet',{
-        #        'publish' : True,
-        #        'inner_sleep' : 3*60,
-        #        'outer_sleep' : 2*3600,
-        #        'lines_length' : 4
-        #    })
 
 
 if __name__=="__main__":
