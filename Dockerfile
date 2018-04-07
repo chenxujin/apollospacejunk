@@ -2,18 +2,20 @@ FROM python:3.6-stretch
 
 MAINTAINER charles@charlesreid1.com
 
-VOLUME ["/bot"]
+VOLUME ["/apollo"]
 
 RUN apt-get update && apt-get install git
 RUN git clone https://github.com/charlesreid1/rainbow-mind-machine.git /rmm
 RUN git clone https://github.com/charlesreid1/apollospacejunk.git /apollo
 
+RUN cd /rmm && \
+    /usr/bin/env pip install -r requirements.txt && \
+    /usr/bin/env python /rmm/setup.py build && \
+    /usr/bin/env python /rmm/setup.py install
+
 COPY ./bot/apikeys.py /apollo/bot/apikeys.py
-COPY ./entrypoint.sh /entrypoint.sh
-RUN chmod 755 /entrypoint.sh
+
+WORKDIR "/apollo/bot"
 
 CMD ["/usr/bin/env","python","ApolloBotFlock.py"]
-
-# command above will be passed as argument to entrypoint
-ENTRYPOINT ["/entrypoint.sh"]
 
