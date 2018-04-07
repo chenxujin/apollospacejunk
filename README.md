@@ -1,25 +1,21 @@
-# Apollo Space Junk
+# Apollo Space Junk Bot Flock
+
+[apollo space junk bot flock twitter list](https://twitter.com/charlesreid1/lists/space-junk-botflock)
+
+The Apollo Space Junk Bot Flock is a flock of Twitter bots 
+tweeting machine-generated Apollo mission radio chatter. 
+
+`bot/` contains the code for the Apollo Space Junk Twitter Bot Flock.
+
+`pelican/` contains the Pelican files used to generate 
+[the project web page](http://charlesreid1.github.io/apollospacejunk).
 
 See [the project web page](http://charlesreid1.github.io/apollospacejunk) for more information,
 or browse through the code.
 
-This bot uses [rainbow mind machine](http://github.com/charlesreid1/rainbow-mind-machine), a Twitter bot library that I have authored.
+## List of Bot Accounts
 
-```bot/``` contains the code for the Apollo Space Junk Twitter Bot Flock.
-
-```pelican/``` contains the Pelican files used to generate [the project web page](http://charlesreid1.github.io/apollospacejunk).
-
-
-
-## What Is It
-
-queneau bot flock tweeting apollo mission dialogue
-
-[@apollo11junk](https://twitter.com/apollo11junk)
-
-[@apollo12junk](https://twitter.com/apollo12junk)
-
-[@apollo13junk](https://twitter.com/apollo13junk)
+[Ginsberg Bot Flock members list](https://twitter.com/charlesreid1/lists/space-junk-botflock/members)
 
 ## Required Software
 
@@ -46,7 +42,60 @@ This will give you a consumer token and a consumer secret token.
 Once you have your consumer token and consumer secret, they go in `bot/apikeys.py`.
 This step must be done prior to running the bot.
 
+## Where Do I Put My Keys
+
+Your keys should go in the same directory as
+the bot script and (optionally) any data or 
+external files used to initialize each bot.
+
+For example:
+
+```
+b-botflock/
+        BotFlock.py
+        apikeys.py
+        data/
+            account1.txt
+            account2.txt
+            account3.txt
+            ...
+        keys/
+            account1.json
+            account2.json
+            account3.json
+            ...
+```
+
+While you can put the keys anywhere you'd like,
+this is the recommended layout.
+
+## Where Do I Put My apikeys.py
+
+Your `apikeys.py` containing your consumer token
+and consumer secret should be defined like two
+Python variables in `apikeys.py`:
+
+```
+consumer_token = 'AAAAA'
+consumer_secret_token = 'BBBBBBBBBBBBBB'
+```
+
+The file `apikey.py` should go next to `MathTriposBot.py`:
+
+```
+b-botflock/
+        BotFlock.py
+        apikeys.py
+        data/
+            ...
+        keys/
+            ...
+```
+
+
 ## Running The Bot Flock
+
+(Note: take care of `apikeys.py` before you begin.)
 
 Running the bot flock is a two-step process:
 
@@ -55,6 +104,13 @@ Running the bot flock is a two-step process:
     next to your bot flock program. This step generates key files (JSON format).
 
 2. Run the bot flock. Tweet! Sleep! Repeat!
+
+Either way, run it with Python:
+
+```
+$ cd bot/
+$ python ApolloBotFlock.py
+```
 
 ## Docker
 
@@ -65,12 +121,14 @@ contained in this directory to build the container:
 $ docker build -t apollobotflock .
 ```
 
-This container expects to have a docker data volume 
-mounted at `/bot`. Now you can run the container:
+Now you can run the container:
 
 ```
-$ docker volume create apollo_data
-$ doker run -d --name stormy_apollo -v apollo_data:/bot apollobotflock
+$ doker run -d \
+    --name stormy_apollo_singleton \
+    -v ${PWD}/bot/apikeys.py:/apollo/bot/apikeys.py \
+    -v ${PWD}/bot/keys:/apollo/bot/keys \
+    apollobotflock
 ```
 
 (hopefully that's right, but in any case, just use docker-compose.)
@@ -110,7 +168,7 @@ modify the docker-compose service `apollo_botflock`
 to include `stdin_open: true` and `tty: true`:
 
 ```
-  apollo_botflock:
+  stormy_apollo:
     build: . 
     # ---------------
     # Only include these two lines 
@@ -120,8 +178,25 @@ to include `stdin_open: true` and `tty: true`:
     # ---------------
 ```
 
-Once those two lines are added, run the container
-interactively using `docker-compose run` 
+Note, if you need an interactive shell, you can
+set the entrypoint variable to `/bin/bash`:
+
+```
+  ginsberg_botflock:
+    build: . 
+    # ---------------
+    # fully interactive container
+    stdin_open: true
+    tty: true
+    entrypoint: /bin/bash
+    # ---------------
+```
+
+This is good for checking whether the container 
+is being initialized correctly.
+
+Once those two lines are added to make the container
+interactive, run the container using `docker-compose run <service-name>` 
 (do not use `up`!):
 
 ```
@@ -132,8 +207,20 @@ This will run the entrypoint script, install
 rainbow mind machine, and run the interactive 
 script.
 
-Once the keys are present, you can run the 
-bot using `docker-compose up`, and `-d` to detach:
+Note that if you already have most of the keys 
+you need in `bot/keys/`, but there's just one 
+key that you need to make, you should 
+temporarily move `bot/keys/` to, e.g., `bot/_keys/`,
+and re-run the above `docker-compose run` command,
+to run through the keymaking process.
+You can skip the keymaking process for all of the
+keys that you already have. When you are finished, 
+you can kill that container and merge the two
+key directories.
+
+Once the keys are present in the `keys/` directory, 
+you can run the bot using `docker-compose up`, 
+and optionally use the `-d` flag to detach it:
 
 ```
 $ docker-compose up -d
@@ -147,13 +234,10 @@ bot flocks.
 
 If you end up doing debugging work,
 and changes to files don't seem to have 
-any effect, you may need to delete 
-the data volume.
-
-(Be advised, this will delete your API keys too!!)
+any effect, you should probably try 
+rebuilding with the `--no-cache` option.
 
 ```
-$ docker ps -qa | xargs -n1 docker rm
-$ docker volume rm bapollo_apollo_data  # DANGER!!!
+docker build --no-cache
 ```
 
