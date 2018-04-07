@@ -15,7 +15,7 @@ or browse through the code.
 
 ## List of Bot Accounts
 
-[Ginsberg Bot Flock members list](https://twitter.com/charlesreid1/lists/space-junk-botflock/members)
+[Apollo Space Junk Bot Flock members list](https://twitter.com/charlesreid1/lists/space-junk-botflock/members)
 
 ## Required Software
 
@@ -51,19 +51,19 @@ external files used to initialize each bot.
 For example:
 
 ```
-b-botflock/
-        BotFlock.py
-        apikeys.py
-        data/
-            account1.txt
-            account2.txt
-            account3.txt
-            ...
-        keys/
-            account1.json
-            account2.json
-            account3.json
-            ...
+bot/
+    BotFlock.py
+    apikeys.py
+    data/
+        account1.txt
+        account2.txt
+        account3.txt
+        ...
+    keys/
+        account1.json
+        account2.json
+        account3.json
+        ...
 ```
 
 While you can put the keys anywhere you'd like,
@@ -80,16 +80,16 @@ consumer_token = 'AAAAA'
 consumer_secret_token = 'BBBBBBBBBBBBBB'
 ```
 
-The file `apikey.py` should go next to `MathTriposBot.py`:
+The file `apikey.py` should go next to `BotFLock.py`:
 
 ```
-b-botflock/
-        BotFlock.py
-        apikeys.py
-        data/
-            ...
-        keys/
-            ...
+bot/
+    BotFlock.py
+    apikeys.py
+    data/
+        ...
+    keys/
+        ...
 ```
 
 
@@ -182,7 +182,7 @@ Note, if you need an interactive shell, you can
 set the entrypoint variable to `/bin/bash`:
 
 ```
-  ginsberg_botflock:
+  stormy_apollo:
     build: . 
     # ---------------
     # fully interactive container
