@@ -62,15 +62,15 @@ To run the bot flock using docker, use the Dockerfile
 contained in this directory to build the container:
 
 ```
-docker build -t apollobotflock .
+$ docker build -t apollobotflock .
 ```
 
 This container expects to have a docker data volume 
 mounted at `/bot`. Now you can run the container:
 
 ```
-docker volume create apollo_data
-doker run -d --name stormy_apollo -v apollo_data:/bot apollobotflock
+$ docker volume create apollo_data
+$ doker run -d --name stormy_apollo -v apollo_data:/bot apollobotflock
 ```
 
 (hopefully that's right, but in any case, just use docker-compose.)
@@ -89,7 +89,21 @@ and can run in detached mode.
 
 ##  Docker Compose
 
-Running the bot with docker-compose is a two-step process.
+Running the bot with docker-compose is a three-step process.
+
+The first step is to build the pod (one container).
+
+```
+$ docker-compose build
+```
+
+If you've made some changes to files copied into the 
+container, specify the `--no-cache` flag or it will
+continue to use the crusty version:
+
+```
+$ docker-compose --no-cache
+```
 
 First, to run the container interactively,
 modify the docker-compose service `apollo_botflock`
@@ -111,7 +125,7 @@ interactively using `docker-compose run`
 (do not use `up`!):
 
 ```
-$ docker-compose run
+$ docker-compose run stormy_apollo
 ```
 
 This will run the entrypoint script, install 
@@ -139,7 +153,7 @@ the data volume.
 (Be advised, this will delete your API keys too!!)
 
 ```
-docker ps -qa | xargs -n1 docker rm
-docker volume rm bapollo_apollo_data  # DANGER!!!
+$ docker ps -qa | xargs -n1 docker rm
+$ docker volume rm bapollo_apollo_data  # DANGER!!!
 ```
 
