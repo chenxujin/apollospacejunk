@@ -5,6 +5,8 @@ apikeys.py
 # pelican stuff
 output/
 cache/
+pelican/output/
+
 
 
 
