@@ -202,53 +202,26 @@ ABOUT_DESCRIPTION = about_md.convert(ABOUT_TEXT)
 
 
 
+# -----------
+
+
 # This is where we document various webhook endpoints.
 
-def make_links():
-    descr = ""
+LINKS_TITLE = "On The Web"
 
-    hooks = {
-            'gitea': {
-                'icon' : 'fa-code-fork',
-                'text' : 'gitea webhooks',
-                'url_short' : 'git.charlesreid1.com',
-                'url_full' : 'https://git.charlesreid1.com'
-            },
-            'github': {
-                'icon' : 'fa-github',
-                'text' : 'github webhooks',
-                'url_short' : 'github.com/charlesreid1',
-                'url_full' : 'https://github.com/charlesreid1'
-            }
-            #'dockerhub': {
-            #    'icon' : 'fa-cloud',
-            #    'text' : 'hub.docker.com webhooks',
-            #    'url_short' : 'hub.docker.com/r/charlesreid1',
-            #    'url_full' : 'https://hub.docker.com/r/charlesreid1'
-            #}
-    }
-    
-    
-    descr = ""
-    
-    for endpoint in hooks.keys():
+LINKS_DESCRIPTION = """
+<p><a class="btn btn-default btn-lg" href="https://git.charlesreid1.com/bots/b-apollo">
+<i class="fa fa-fw fa-2x fa-code-fork"></i> git.charlesreid1.com/bots/b-apollo
+</a></p>
 
-        params = hooks[endpoint]
+<p><a class="btn btn-default btn-lg" href="https://github.com/charlesreid1/apollospacejunk">
+<i class="fa fa-fw fa-2x fa-github-square"></i> github.com/charlesreid1/apollospacejunk
+</a></p>
 
-        descr += "<p>&nbsp;</p>\n\n"
-        descr += "<h3 style=\"text-transform: lowercase;\"><code>https://hooks.charlesreid1.com/webhook</code></h3>\n\n"
-        descr += "<p><a class=\"btn btn-default btn-lg\" href=\"%s\">"%(params['url_full'])
-        descr += "<i class=\"fa fa-fw fa-2x %s\"></i> "%(params['icon'])
-        descr += "%s webhook endpoint"%(endpoint)
-        descr += "</a></p>\n\n"
-    
-    descr += "\n"
-
-    return descr
-
-LINKS_TITLE = "Captain Hook Endpoints"
-
-LINKS_DESCRIPTION = make_links()
+<p><a class="btn btn-default btn-lg" href="https://pages.charlesreid1.com/b-apollo">
+<i class="fa fa-fw fa-2x fa-globe"></i> pages.charlesreid1.com/b-apollo
+</a></p>
+"""
 
 
 # ---
