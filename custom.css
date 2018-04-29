@@ -28,22 +28,22 @@
     color: #fff;
 }
 a {
-  color: #edac00;
+  color: #00aced;
 }
 a:hover,
 a:focus {
-  color: #b48400;
+  color: #0084b4;
 }
 .btn-default {
-  border: 1px solid #edac00;
-  color: #edac00;
+  border: 1px solid #00aced;
+  color: #00aced;
   /*background-color: transparent;*/
   background-color: #000;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #edac00;
+  border: 1px solid #00aced;
   outline: none;
   color: black;
-  background-color: #edac00;
+  background-color: #00aced;
 }
