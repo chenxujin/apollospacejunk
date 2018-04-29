@@ -5,7 +5,7 @@ import markdown
 
 AUTHOR = u'charlesreid1'
 SITENAME = u'apollo space junk bot flock'
-SITEURL = ''
+SITEURL = 'b-apollo'
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = u'en'
@@ -94,106 +94,106 @@ The space junk bots take on a personality all their own.
 
 <br />
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Armstrong: Coming into the terminator.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/988590995485814784?ref_src=twsrc%5Etfw">April 24, 2018</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" data-lang="en"><p lang="en" dir="ltr">Armstrong: Coming into the terminator.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/988590995485814784?ref_src=twsrc%5Etfw">April 24, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br />
 
 <div>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Swigert: Yes. I think we ought to be having AOS, gang; we&#39;ve got... Lovell Give me a call when you&#39;re ready for E-memory dump. Okay.</p>&mdash; Apollo 13 Space Junk (@apollo13junk) <a href="https://twitter.com/apollo13junk/status/746895028153245696">June 26, 2016</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" data-lang="en"><p lang="en" dir="ltr">Swigert: Yes. I think we ought to be having AOS, gang; we&#39;ve got... Lovell Give me a call when you&#39;re ready for E-memory dump. Okay.</p>&mdash; Apollo 13 Space Junk (@apollo13junk) <a href="https://twitter.com/apollo13junk/status/746895028153245696">June 26, 2016</a></blockquote>
 </script>
 </div>
 
 <br />
 
 <div style="align:right;">
-<blockquote class="twitter-tweet" lang="en"><p>Bean: Try to get it out of the center hatch window now, Houston. It really is beautiful. That mark looks just like a nose; about the same</p>&mdash; Apollo 12 Space Junk (@apollo12junk) <a href="https://twitter.com/apollo12junk/status/552697699582357504">January 7, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Bean: Try to get it out of the center hatch window now, Houston. It really is beautiful. That mark looks just like a nose; about the same</p>&mdash; Apollo 12 Space Junk (@apollo12junk) <a href="https://twitter.com/apollo12junk/status/552697699582357504">January 7, 2015</a></blockquote>
 </script>
 </div>
 
 <br />
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Armstrong: Boy, this water separator sure isn&#39;t working worth a durn. Yes.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/989567018226495488?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" data-lang="en"><p lang="en" dir="ltr">Armstrong: Boy, this water separator sure isn&#39;t working worth a durn. Yes.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/989567018226495488?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Duke: Roger, Buzz. Over. You are stay for a T3. Could you describe, from your view, the polar cloud cap? We got the network all configured for the TV. [Pause.]</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/989534549116837888?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" data-lang="en"><p lang="en" dir="ltr">Duke: Roger, Buzz. Over. You are stay for a T3. Could you describe, from your view, the polar cloud cap? We got the network all configured for the TV. [Pause.]</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/989534549116837888?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Duke: 11, your friendly geologist says it&#39;s the camera cank - crank, excuse me, for the 16-sequence camera if it jams. Your angles are 270 in yaw, pitch minus 50. To us you are just bringing it down by the optics now. Thanks again for a great show, you guys.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/988592508006383616?ref_src=twsrc%5Etfw">April 24, 2018</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" data-lang="en"><p lang="en" dir="ltr">Duke: 11, your friendly geologist says it&#39;s the camera cank - crank, excuse me, for the 16-sequence camera if it jams. Your angles are 270 in yaw, pitch minus 50. To us you are just bringing it down by the optics now. Thanks again for a great show, you guys.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/988592508006383616?ref_src=twsrc%5Etfw">April 24, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>McCandless: Go ahead, 11. And I&#39;d like to pass up your Delta azimuth correction at this time if you&#39;re ready to copy.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/551686395681452032">January 4, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>McCandless: Go ahead, 11. And I&#39;d like to pass up your Delta azimuth correction at this time if you&#39;re ready to copy.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/551686395681452032">January 4, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Evans: Apollo 11, Houston. Just about, though. We got about 2 minutes to LOS here, Mike. Over.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/551443999626915841">January 3, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Evans: Apollo 11, Houston. Just about, though. We got about 2 minutes to LOS here, Mike. Over.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/551443999626915841">January 3, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Boston out hit Baltimore to score 6 runs to the Orioles&#39; 2; and Chicago beat Kansas City 6 to 1. Loud and clear. It looks okay to us.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/550302963311181825">December 31, 2014</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Boston out hit Baltimore to score 6 runs to the Orioles&#39; 2; and Chicago beat Kansas City 6 to 1. Loud and clear. It looks okay to us.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/550302963311181825">December 31, 2014</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Collins: I said the Czar is brushing his teeth, so I&#39;m filling in for him. Good.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305959511789569">January 6, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Collins: I said the Czar is brushing his teeth, so I&#39;m filling in for him. Good.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305959511789569">January 6, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Collins: Let me know when it&#39;s lunch time, will you?</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/550850060582281217">January 2, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Collins: Let me know when it&#39;s lunch time, will you?</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/550850060582281217">January 2, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Over.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548438294191554560">December 26, 2014</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Over.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548438294191554560">December 26, 2014</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Armstrong: (Joking) You can&#39;t get away with anything anymore, can you? Yes, it&#39;s about a second off.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548438652507152384">December 26, 2014</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Armstrong: (Joking) You can&#39;t get away with anything anymore, can you? Yes, it&#39;s about a second off.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548438652507152384">December 26, 2014</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>McCandless: There we go, the salmon salad, very good. Reading you loud and clear. One thing that we did miss in the drop-out in the noise</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305204193161216">January 6, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>McCandless: There we go, the salmon salad, very good. Reading you loud and clear. One thing that we did miss in the drop-out in the noise</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305204193161216">January 6, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>on panel 251 also. Roll for Sep 357, 107, 041; 301, 287, 319. [No answer.] The feature that I was describing to you - the small bright</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305205946368001">January 6, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>on panel 251 also. Roll for Sep 357, 107, 041; 301, 287, 319. [No answer.] The feature that I was describing to you - the small bright</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552305205946368001">January 6, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Duke: Houston. About 50 percent of the time, we&#39;re getting high bit rate off the omnis when you&#39;re in PTC. Copy, 11. [Long pause.] Copy.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548621624699011073">December 26, 2014</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Duke: Houston. About 50 percent of the time, we&#39;re getting high bit rate off the omnis when you&#39;re in PTC. Copy, 11. [Long pause.] Copy.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548621624699011073">December 26, 2014</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Collins: That&#39;s affirmative.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548621859910975488">December 26, 2014</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Collins: That&#39;s affirmative.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/548621859910975488">December 26, 2014</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Collins: See that, Buzz?</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552163884207861761">January 5, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Collins: See that, Buzz?</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552163884207861761">January 5, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Aldrin: Roger.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552163999903514626">January 5, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Aldrin: Roger.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552163999903514626">January 5, 2015</a></blockquote>
 </script>
 
 <br />
 
-<blockquote class="twitter-tweet" lang="en"><p>Armstrong: Yes.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552164326107148288">January 5, 2015</a></blockquote>
+<blockquote class="twitter-tweet ubuntu" lang="en"><p>Armstrong: Yes.</p>&mdash; Apollo 11 Space Junk (@apollo11junk) <a href="https://twitter.com/apollo11junk/status/552164326107148288">January 5, 2015</a></blockquote>
 </script>
 
 """
@@ -215,7 +215,7 @@ LINKS_DESCRIPTION = """
 </a></p>
 
 <p><a class="btn btn-default btn-lg" href="https://github.com/charlesreid1/apollospacejunk">
-<i class="fa fa-fw fa-2x fa-github-square"></i> github.com/charlesreid1/apollospacejunk
+<i class="fa fa-fw fa-2x fa-github"></i> github.com/charlesreid1/apollospacejunk
 </a></p>
 
 <p><a class="btn btn-default btn-lg" href="https://pages.charlesreid1.com/b-apollo">
