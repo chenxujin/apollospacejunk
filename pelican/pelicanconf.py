@@ -1,14 +1,11 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 import markdown
 
-AUTHOR = u'charlesreid1'
-SITENAME = u'apollo space junk bot flock'
+AUTHOR = 'charlesreid1'
+SITENAME = 'apollo space junk bot flock'
 SITEURL = ''#'b-apollo'
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # --------------8<---------------------
 
@@ -230,10 +227,15 @@ LINKS_DESCRIPTION = """
 # ---
 
 
-CONTACT_TITLE = "About the Author"
+CONTACT_TITLE = "Contact charlesreid1"
 
-CONTACT_DESCRIPTION = """<p>@charlesreid1 is a data engineer who makes bioinformatics pipelines at UC Davis.</p>
+CONTACT_DESCRIPTION = """<p>@charlesreid1 is a full-time data engineer and part-time bot-wrangler working on bioinformatics problems at UC Davis.</p>
+<p>Get in touch:</p>
 <p><a href="mailto:twitter@charlesreid1.com">twitter (at) charlesreid1.com</a></p>
+"""
+
+ATTRIBUTION = """
+<p style="font-size: 12px;">Image credit: <a href="https://nasa.gov">NASA</a> and 1960s U.S. taxpayers
 """
 
 
