@@ -5,7 +5,7 @@ import markdown
 
 AUTHOR = u'charlesreid1'
 SITENAME = u'apollo space junk bot flock'
-SITEURL = 'b-apollo'
+SITEURL = ''#'b-apollo'
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
 DEFAULT_LANG = u'en'
@@ -14,14 +14,17 @@ DEFAULT_LANG = u'en'
 
 THEME = 'scurvy-knave-theme'
 
+LICENSE_URL = "https://opensource.org/licenses/MIT"
+LICENSE_NAME = "MIT License"
+
 # Pelican is designed for files => pages.
 # Use variables (below) to set pieces of pages.
 
-# hooks use sunflower yellow
+# twitter blue
 INTROCOLOR  = "#fff"
-ACOLOR      = "#edac00"
-AHOVERCOLOR = "#b48400"
-BRIGHTCOLOR = "#f1ca1d"
+ACOLOR      = "#00aced"
+AHOVERCOLOR = "#0084b4"
+BRIGHTCOLOR = "#1dcaff"
 TEMPLATE_PAGES = {
     'custom.css' : 'custom.css'
 }
@@ -227,10 +230,10 @@ LINKS_DESCRIPTION = """
 # ---
 
 
-CONTACT_TITLE = "Contact charlesreid1"
+CONTACT_TITLE = "About the Author"
 
-CONTACT_DESCRIPTION = """<p>Get in touch!</p>
-<p><a href="mailto:charles@charlesreid1.com">charles (at) charlesreid1.com</a></p>
+CONTACT_DESCRIPTION = """<p>@charlesreid1 is a data engineer who makes bioinformatics pipelines at UC Davis.</p>
+<p><a href="mailto:twitter@charlesreid1.com">twitter (at) charlesreid1.com</a></p>
 """
 
 
