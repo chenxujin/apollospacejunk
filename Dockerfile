@@ -1,4 +1,4 @@
-FROM charlesreid1/rainbowmindmachine
+FROM rainbowmindmachine/rainbowmindmachine
 MAINTAINER charles@charlesreid1.com
 
 RUN git clone https://git.charlesreid1.com/bots/b-apollo.git /apollo
