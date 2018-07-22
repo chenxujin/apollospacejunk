@@ -88,7 +88,7 @@ instead of the letter- or word-level often used in random text generation algori
 
 The tweets have the same authentic sound as the original dialogue: 
 dense and thickly technical exchanges, interspersed with moments where
-the humanity of the astronauts shiens through. 
+the humanity of the astronauts shines through. 
 
 The space junk bots take on a personality all their own.
 
