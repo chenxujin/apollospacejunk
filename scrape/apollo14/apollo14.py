@@ -69,7 +69,7 @@ def apollo14_lfj_scrape_index():
             soup = BeautifulSoup(html_doc, "lxml")
 
             with open(dest,'w') as f:
-                f.write(html_doc)
+                f.write(soup.text)
 
             print("Success!\n")
 
@@ -196,7 +196,7 @@ def apollo14_lfj_extract_dialogue():
                     mm=0
                 if ((cc+1)%60)==0:
                     hh += 1
-
+                
                 d['time'] = '%03d:%02d:00'%(hh,mm)
                 all_the_dialogue.append(d)
                 mm += 1
@@ -269,6 +269,6 @@ def strip_funky_unicode(txt):
 
 
 if __name__=="__main__":
-    #apollo14_lfj_scrape_index()
+    apollo14_lfj_scrape_index()
     apollo14_lfj_extract_dialogue()
 
