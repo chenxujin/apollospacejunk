@@ -19,6 +19,26 @@ SCRAPE_DIR = 'scrape'
 DATA_DIR = 'data'
 
 
+SPEAKERS = [
+    'Public Affairs Office',
+    'SC',
+    'MS',
+    'Fullerton',
+    'Mitchell',
+    'Mitchell (onboard)',
+    'Mitchell (on board)',
+    'Roosa',
+    'Roosa (onboard)',
+    'Roosa (on board)',
+    'Shepard',
+    'Shepard (onboard)',
+    'Shepard (on board)',
+    'Haise',
+    'McCandless',
+    'ARIA',
+    'MS',
+    'SC',
+]
 
 
 def apollo14_lsj_scrape_index():
@@ -206,34 +226,13 @@ def apollo14_lsj_extract_dialogue():
 
         tokens = [j for j in tokens if tokens!='']
 
-        speakers = [
-            'Public Affairs Office',
-            'SC',
-            'MS',
-            'Fullerton',
-            'Mitchell',
-            'Mitchell (onboard)',
-            'Mitchell (on board)',
-            'Roosa',
-            'Roosa (onboard)',
-            'Roosa (on board)',
-            'Shepard',
-            'Shepard (onboard)',
-            'Shepard (on board)',
-            'Haise',
-            'McCandless',
-            'ARIA',
-            'MS',
-            'SC',
-            ]
-
         # replace timestamps 000:00:00
         # look for "last updated" location
         #
         last_updated_index = 0
         for jj,tok in enumerate(tokens):
 
-            if any([speaker in tok for speaker in speakers]):
+            if any([speaker in tok for speaker in SPEAKERS]):
 
                 stripped_tok = re.sub('[0-9]{3}:[0-9]{2}:[0-9]{2} ','',tok)
                 stripped_tok2 = re.sub('at [0-9]{3}:[0-9]{2}:[0-9x]{2}','',stripped_tok)
@@ -248,12 +247,12 @@ def apollo14_lsj_extract_dialogue():
 
         ii = 0
         while ii < len(tokens):
-            if tokens[ii] in speakers:
+            if tokens[ii] in SPEAKERS:
                 d = {}
                 d['speaker'] = tokens[ii]
                 ii += 1
                 z = []
-                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in speakers):
+                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in SPEAKERS):
                     z.append(tokens[ii])
                     ii += 1
                 d['tokens'] = z
@@ -359,34 +358,13 @@ def apollo14_lfj_extract_dialogue():
 
         tokens = [j for j in tokens if tokens!='']
 
-        speakers = [
-            'Public Affairs Office',
-            'SC',
-            'MS',
-            'Fullerton',
-            'Mitchell',
-            'Mitchell (onboard)',
-            'Mitchell (on board)',
-            'Roosa',
-            'Roosa (onboard)',
-            'Roosa (on board)',
-            'Shepard',
-            'Shepard (onboard)',
-            'Shepard (on board)',
-            'Haise',
-            'McCandless',
-            'ARIA',
-            'MS',
-            'SC',
-            ]
-
         # replace timestamps 000:00:00
         # look for "last updated" location
         #
         last_updated_index = 0
         for jj,tok in enumerate(tokens):
 
-            if any([speaker in tok for speaker in speakers]):
+            if any([speaker in tok for speaker in SPEAKERS]):
 
                 stripped_tok = re.sub('[0-9]{3}:[0-9]{2}:[0-9]{2} ','',tok)
                 stripped_tok2 = re.sub('at [0-9]{3}:[0-9]{2}:[0-9x]{2}','',stripped_tok)
@@ -401,12 +379,12 @@ def apollo14_lfj_extract_dialogue():
 
         ii = 0
         while ii < len(tokens):
-            if tokens[ii] in speakers:
+            if tokens[ii] in SPEAKERS:
                 d = {}
                 d['speaker'] = tokens[ii]
                 ii += 1
                 z = []
-                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in speakers):
+                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in SPEAKERS):
                     z.append(tokens[ii])
                     ii += 1
                 d['tokens'] = z
@@ -491,8 +469,8 @@ def strip_funky_unicode(txt):
 
 if __name__=="__main__":
 
-    #apollo14_lfj_scrape_index()
-    #apollo14_lfj_extract_dialogue()
+    apollo14_lfj_scrape_index()
+    apollo14_lfj_extract_dialogue()
 
     apollo14_lsj_scrape_index()
     apollo14_lsj_extract_dialogue()
