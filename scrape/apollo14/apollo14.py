@@ -22,7 +22,7 @@ def apollo14_lfj_scrape_index():
     Request the contents of each "Day X" page.
     Save it to a file for later processing.
     """
-    scrape_dir = 'data'
+    scrape_dir = 'scrape'
 
     lfj_base_link = 'https://web.archive.org/web/20171225232133/https://history.nasa.gov/afj/ap14fj/'
 
