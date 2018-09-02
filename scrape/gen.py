@@ -18,16 +18,26 @@ Step 3:
     good to go!
 """
 
-which = '14'
+def make_fj(which):
+    f = "apollo%s/data/apollo_%s_min.txt"%(which,which)
+    make(f)
 
-d = DialogueAssembler.loadlines(open("apollo%s/data/apollo_%s_sj_min.txt"%(which,which)))
-last_speaker = None
-for i in range(1, 100):
+def make_sj(which):
+    f = "apollo%s/data/apollo_%s_sj_min.txt"%(which,which)
+    make(f)
 
-    speaker = ''
-    while (speaker=='' or speaker=='ANNOTATION'):
-        speaker, tokens = d.assemble(last_speaker)
+def make(f):
+    d = DialogueAssembler.loadlines(open(f))
+    last_speaker = None
+    for i in range(1, 100):
+        speaker = ''
+        while (speaker=='' or speaker=='ANNOTATION'):
+            speaker, tokens = d.assemble(last_speaker)
+        last_speaker = speaker
+        print("%s: %s\n" % (speaker, " ".join(x for x, y in tokens)))
 
-    last_speaker = speaker
-    print("%s: %s\n" % (speaker, " ".join(x for x, y in tokens)))
-
+if __name__=="__main__":
+    print("="*40)
+    make_fj('14')
+    print("="*40)
+    make_sj('14')
