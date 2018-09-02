@@ -52,7 +52,8 @@ SPEAKERS = [
     'Unidentified',
     'Recovery',
     'Airboss',
-    'Chaplain'
+    'Chaplain',
+    'ANNOTATION',
 ]
 
 
@@ -241,7 +242,9 @@ def apollo16_lsj_extract_dialogue():
 
         comm_break = 'comm break'
 
-        tokens = [j for j in tokens if tokens!='']
+        tokens = [j for j in tokens if j!='']
+        tokens = [j for j in tokens if 'RealAudio' not in j]
+
 
         # replace timestamps 000:00:00
         # look for "last updated" location
@@ -265,14 +268,62 @@ def apollo16_lsj_extract_dialogue():
         ii = 0
         while ii < len(tokens):
             if tokens[ii] in SPEAKERS:
+
+                #####################
+                # after inspecting the output, 
+                # we found some problems with 
+                # non-dialogue annotations 
+                # in brackets showing up as
+                # speaker dialogue...
+                # this should belong to speaker
+                # "ANNOTATION"
+                # keep this dictionary ready
+                # to add annotations if they
+                # do appear.
+                #####################
+                annotation = {}
+                annotation['speaker'] = 'ANNOTATION'
+                annotation_tokens = []
+                annotation_running = False
+
                 d = {}
                 d['speaker'] = tokens[ii]
                 ii += 1
-                z = []
+                speaker_tokens = []
+
                 while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in SPEAKERS):
-                    z.append(tokens[ii])
-                    ii += 1
-                d['tokens'] = z
+
+                    if tokens[ii][0]=='[':
+                        # this is the start of a sequence
+                        # of annotation tokens
+                        annotation_running = True
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    elif tokens[ii][-1]==']':
+                        # this is the end of a sequence
+                        # of annotation tokens
+                        annotation_running = False
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    elif annotation_running:
+                        # more annotation tokens
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    else:
+                        # back to speaker tokens
+                        speaker_tokens.append(tokens[ii])
+                        ii += 1
+
+
+
+                # load results into the master dialogue list
+
+                # first the speaker tokens
+
+                d['tokens'] = speaker_tokens
 
                 cc = len(all_the_dialogue)
                 if ((mm+1)%60)==0:
@@ -283,6 +334,24 @@ def apollo16_lsj_extract_dialogue():
                 d['time'] = '%03d:%02d:00'%(hh,mm)
                 all_the_dialogue.append(d)
                 mm += 1
+
+
+                # now the annotation tokens
+
+                if len(annotation_tokens)>0:
+
+                    annotation['tokens'] = annotation_tokens
+
+                    cc = len(all_the_dialogue)
+                    if ((mm+1)%60)==0:
+                        mm=0
+                    if ((cc+1)%60)==0:
+                        hh += 1
+
+                    annotation['time'] = '%03d:%02d:00'%(hh,mm)
+                    all_the_dialogue.append(annotation)
+                    mm += 1
+
 
             ii += 1
         
@@ -486,10 +555,10 @@ def strip_funky_unicode(txt):
 
 if __name__=="__main__":
 
-    apollo16_lfj_scrape_index()
-    apollo16_lfj_extract_dialogue()
+    #apollo16_lfj_scrape_index()
+    #apollo16_lfj_extract_dialogue()
 
-    apollo16_lsj_scrape_index()
+    #apollo16_lsj_scrape_index()
     apollo16_lsj_extract_dialogue()
 
 
