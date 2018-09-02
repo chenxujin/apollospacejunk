@@ -242,6 +242,7 @@ def apollo16_lsj_extract_dialogue():
 
         comm_break = 'comm break'
 
+        # ignore these tokens
         tokens = [j for j in tokens if j!='']
         tokens = [j for j in tokens if 'RealAudio' not in j]
 
@@ -318,7 +319,6 @@ def apollo16_lsj_extract_dialogue():
                         ii += 1
 
 
-
                 # load results into the master dialogue list
 
                 # first the speaker tokens
@@ -376,12 +376,6 @@ def apollo16_lsj_extract_dialogue():
     print("Done.\n")
 
     print("Done tokenizing Apollo 16 Lunar Surface Journals.")
-
-
-
-
-
-
 
 
 
@@ -508,48 +502,6 @@ def apollo16_lfj_extract_dialogue():
     print("Done.\n")
 
     print("Done tokenizing Apollo 16 Lunar Flight Journals.")
-
-
-
-
-def check_for_funky_unicode(txt):
-    """
-    Given some text, check if there are any funky unicode symbols
-    that need to be removed. Print out their names. Add them to
-    the strip_funky_unicode() method below.
-    """
-    import unicodedata
-    for c in txt:
-        if ord(c) >= 127:
-            print('{} U+{:04x} {}'.format(c.encode('utf8'), ord(c), unicodedata.name(c)))
-
-def strip_funky_unicode(txt):
-    """
-    Scrub out any funk unicode.
-    """
-    # scrub these unicode symbols from the scraped text
-    unicode_key = [
-        (u"\u2019",'RIGHT SINGLE QUOTATION MARK','\''),
-        (u"\u2013",'EN DASH','-'),
-        (u"\u00bd",'VULGAR FRACTION ONE HALF',' 1/2 '),
-        (u"\u00be",'VULGAR FRACTION THREE QUARTERS',' 3/4 '),
-        (u"\u201d",'RIGHT DOUBLE QUOTATION MARK','"'),
-        (u"\u201c",'LEFT DOUBLE QUOTATION MARK','"'),
-        (u"\u00b7",'MIDDLE DOT','.'),
-        (u"\u00b7",'MIDDLE DOT','.'),
-        (u"\u00a9",'COPYRIGHT SIGN',' '),
-        (u"\u00e9",'LATIN SMALL LETTER E WITH ACUTE','e'),
-        (u"\u00b0",'DEGREE SIGN','o'),
-        ]
-
-    for code, name, symbol in unicode_key:
-        txt_decode = txt.decode("utf-8")
-        txt_replace = txt_decode.replace(code,symbol)
-        txt_encode = txt_replace.encode("utf-8")
-        txt = txt_encode
-
-    return txt
-
 
 
 
