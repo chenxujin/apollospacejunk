@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os
+import os, glob, re
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -15,6 +15,10 @@ https://www.hq.nasa.gov/alsj/a14/a14.html
 """
 
 
+SCRAPE_DIR = 'scrape'
+DATA_DIR = 'data'
+
+
 def apollo14_lfj_scrape_index():
     """
     Scrape the index of the Apollo 14 Lunar Flight Journal.
@@ -22,8 +26,6 @@ def apollo14_lfj_scrape_index():
     Request the contents of each "Day X" page.
     Save it to a file for later processing.
     """
-    scrape_dir = 'scrape'
-
     lfj_base_link = 'https://web.archive.org/web/20171225232133/https://history.nasa.gov/afj/ap14fj/'
 
     lfj_base_page = 'index.html'
@@ -47,14 +49,14 @@ def apollo14_lfj_scrape_index():
             link_name = lfj_base_link + page_name
             log_links.append(link_name)
 
+    if not os.path.exists(SCRAPE_DIR):
+        os.mkdir(SCRAPE_DIR)
+
     # Follow those links!!!
     # Save each page to disk
-    if not os.path.exists(scrape_dir):
-        os.mkdir(scrape_dir)
-
     for i,link in enumerate(log_links):
 
-        dest = os.path.join(scrape_dir, os.path.basename(link))
+        dest = os.path.join(SCRAPE_DIR, os.path.basename(link))
 
         if not os.path.exists(dest):
 
@@ -64,10 +66,10 @@ def apollo14_lfj_scrape_index():
 
             r = requests.get(link, headers=headers)
             html_doc = r.content.decode('utf-8')
-            soup = BeautifulSoup(html_doc,"lxml")
+            soup = BeautifulSoup(html_doc, "lxml")
 
             with open(dest,'w') as f:
-                f.write(soup.text)
+                f.write(html_doc)
 
             print("Success!\n")
 
@@ -75,14 +77,198 @@ def apollo14_lfj_scrape_index():
 
             print("Skipping %s, file already exists..."%(dest))
 
+    print("\nDone scraping Apollo 14 Flight Journals.")
+
 
 def apollo14_lfj_extract_dialogue():
     """
     Use the saved "Day X" pages on disk to exract dialogue.
     """
-    pass
+    import nltk
+
+    # a list of dictionaries with "speaker" and "token" keys
+    all_the_dialogue = []
+
+    hh = 0
+    mm = 0
+
+    lfj_files = glob.glob(os.path.join(SCRAPE_DIR,"*"))
+
+    if not os.path.exists(DATA_DIR):
+        os.mkdir(DATA_DIR)
+
+    # For each LFJ transcript, we have plain text,
+    # so go through each line and look for speaker: dialogue tokens.
+    for lfj_file in lfj_files:
+
+        print("Tokenizing...")
+        print("    Target file: %s"%(lfj_file))
+
+        with open(lfj_file,'r') as f:
+            html_doc = f.read()
+
+        soup = BeautifulSoup(html_doc, "lxml")
+
+        ## --------------------
+        ## tokenize by word:
+        #tokens = nltk.wordpunct_tokenize(booty)
+
+        # tokenize by sentence:
+        tokens = nltk.tokenize.sent_tokenize(html_doc)
+
+        # split, then flatten list
+        tokens = [j.split(": ") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # split, then flatten list
+        tokens = [j.split(" - ") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # split, then flatten list
+        tokens = [j.split("\n") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # replace double quotes
+        tokens = [j.replace('"','') for j in tokens]
+
+        # no mp3 audio clips
+        tokens = [j for j in tokens if 'mp3 audio' not in j.lower()]
+        tokens = [j for j in tokens if ' kb.' not in j.lower()]
+
+        comm_break = 'comm break'
+
+        tokens = [j for j in tokens if tokens!='']
+
+        speakers = [
+            'Public Affairs Office',
+            'SC',
+            'MS',
+            'Fullerton',
+            'Mitchell',
+            'Mitchell (onboard)',
+            'Mitchell (on board)',
+            'Roosa',
+            'Roosa (onboard)',
+            'Roosa (on board)',
+            'Shepard',
+            'Shepard (onboard)',
+            'Shepard (on board)',
+            'Haise',
+            'McCandless',
+            'ARIA',
+            'MS',
+            'SC',
+            ]
+
+        # replace timestamps 000:00:00
+        # look for "last updated" location
+        #
+        last_updated_index = 0
+        for jj,tok in enumerate(tokens):
+
+            if any([speaker in tok for speaker in speakers]):
+
+                stripped_tok = re.sub('[0-9]{3}:[0-9]{2}:[0-9]{2} ','',tok)
+                stripped_tok2 = re.sub('at [0-9]{3}:[0-9]{2}:[0-9x]{2}','',stripped_tok)
+                stripped_tok3 = re.sub(' \(onboard\)','',stripped_tok2)
+                tokens[jj] = stripped_tok3
+            
+            if 'last updated' in tok.lower():
+                last_updated_index = jj
+        
+        if last_updated_index != 0:
+            tokens[0:last_updated_index+1] = []
+
+        ii = 0
+        while ii < len(tokens):
+            if tokens[ii] in speakers:
+                d = {}
+                d['speaker'] = tokens[ii]
+                ii += 1
+                z = []
+                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in speakers):
+                    z.append(tokens[ii])
+                    ii += 1
+                d['tokens'] = z
+
+                cc = len(all_the_dialogue)
+                if ((mm+1)%60)==0:
+                    mm=0
+                if ((cc+1)%60)==0:
+                    hh += 1
+
+                d['time'] = '%03d:%02d:00'%(hh,mm)
+                all_the_dialogue.append(d)
+                mm += 1
+
+            ii += 1
+        
+        print("Done.")
+
+
+    out_min = os.path.join(DATA_DIR,'apollo_14_min.txt')
+    out_nice = os.path.join(DATA_DIR,'apollo_14.json')
+
+    print("Saving tokens to file:")
+    print("    Text: %s"%(out_min))
+    print("    Json: %s"%(out_nice))
+
+    with open(out_min,'w') as f:
+        for d in all_the_dialogue:
+            f.write(json.dumps(d))
+            f.write("\n")
+    
+    with open(out_nice,'w') as f:
+        json.dump(all_the_dialogue,f,indent=4)
+
+    print("Done.\n")
+
+    print("Success!\n")
+
+
+
+
+def check_for_funky_unicode(txt):
+    """
+    Given some text, check if there are any funky unicode symbols
+    that need to be removed. Print out their names. Add them to
+    the strip_funky_unicode() method below.
+    """
+    import unicodedata
+    for c in txt:
+        if ord(c) >= 127:
+            print('{} U+{:04x} {}'.format(c.encode('utf8'), ord(c), unicodedata.name(c)))
+
+def strip_funky_unicode(txt):
+    """
+    Scrub out any funk unicode.
+    """
+    # scrub these unicode symbols from the scraped text
+    unicode_key = [
+        (u"\u2019",'RIGHT SINGLE QUOTATION MARK','\''),
+        (u"\u2013",'EN DASH','-'),
+        (u"\u00bd",'VULGAR FRACTION ONE HALF',' 1/2 '),
+        (u"\u00be",'VULGAR FRACTION THREE QUARTERS',' 3/4 '),
+        (u"\u201d",'RIGHT DOUBLE QUOTATION MARK','"'),
+        (u"\u201c",'LEFT DOUBLE QUOTATION MARK','"'),
+        (u"\u00b7",'MIDDLE DOT','.'),
+        (u"\u00b7",'MIDDLE DOT','.'),
+        (u"\u00a9",'COPYRIGHT SIGN',' '),
+        (u"\u00e9",'LATIN SMALL LETTER E WITH ACUTE','e'),
+        (u"\u00b0",'DEGREE SIGN','o'),
+        ]
+
+    for code, name, symbol in unicode_key:
+        txt_decode = txt.decode("utf-8")
+        txt_replace = txt_decode.replace(code,symbol)
+        txt_encode = txt_replace.encode("utf-8")
+        txt = txt_encode
+
+    return txt
+
 
 
 if __name__=="__main__":
-    apollo14_lfj_scrape_index()
+    #apollo14_lfj_scrape_index()
+    apollo14_lfj_extract_dialogue()
 
