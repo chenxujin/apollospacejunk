@@ -224,7 +224,9 @@ def apollo14_lsj_extract_dialogue():
 
         comm_break = 'comm break'
 
-        tokens = [j for j in tokens if tokens!='']
+        # ignore these tokens
+        tokens = [j for j in tokens if j!='']
+        tokens = [j for j in tokens if 'RealAudio' not in j]
 
         # replace timestamps 000:00:00
         # look for "last updated" location
@@ -248,14 +250,49 @@ def apollo14_lsj_extract_dialogue():
         ii = 0
         while ii < len(tokens):
             if tokens[ii] in SPEAKERS:
+
+                annotation = {}
+                annotation['speaker'] = 'ANNOTATION'
+                annotation_tokens = []
+                annotation_running = False
+
                 d = {}
                 d['speaker'] = tokens[ii]
                 ii += 1
-                z = []
+                speaker_tokens = []
+
                 while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in SPEAKERS):
-                    z.append(tokens[ii])
-                    ii += 1
-                d['tokens'] = z
+
+                    if tokens[ii][0]=='[':
+                        # this is the start of a sequence
+                        # of annotation tokens
+                        annotation_running = True
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    elif tokens[ii][-1]==']':
+                        # this is the end of a sequence
+                        # of annotation tokens
+                        annotation_running = False
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    elif annotation_running:
+                        # more annotation tokens
+                        annotation_tokens.append(tokens[ii])
+                        ii += 1
+
+                    else:
+                        # back to speaker tokens
+                        speaker_tokens.append(tokens[ii])
+                        ii += 1
+
+
+                # load results into the master dialogue list
+
+                # first the speaker tokens
+
+                d['tokens'] = speaker_tokens
 
                 cc = len(all_the_dialogue)
                 if ((mm+1)%60)==0:
@@ -266,6 +303,23 @@ def apollo14_lsj_extract_dialogue():
                 d['time'] = '%03d:%02d:00'%(hh,mm)
                 all_the_dialogue.append(d)
                 mm += 1
+
+
+                # now the annotation tokens
+
+                if len(annotation_tokens)>0:
+
+                    annotation['tokens'] = annotation_tokens
+
+                    cc = len(all_the_dialogue)
+                    if ((mm+1)%60)==0:
+                        mm=0
+                    if ((cc+1)%60)==0:
+                        hh += 1
+
+                    annotation['time'] = '%03d:%02d:00'%(hh,mm)
+                    all_the_dialogue.append(annotation)
+                    mm += 1
 
             ii += 1
         
@@ -290,11 +344,6 @@ def apollo14_lsj_extract_dialogue():
     print("Done.\n")
 
     print("Done tokenizing Apollo 14 Lunar Surface Journals.")
-
-
-
-
-
 
 
 
@@ -425,54 +474,12 @@ def apollo14_lfj_extract_dialogue():
 
 
 
-
-def check_for_funky_unicode(txt):
-    """
-    Given some text, check if there are any funky unicode symbols
-    that need to be removed. Print out their names. Add them to
-    the strip_funky_unicode() method below.
-    """
-    import unicodedata
-    for c in txt:
-        if ord(c) >= 127:
-            print('{} U+{:04x} {}'.format(c.encode('utf8'), ord(c), unicodedata.name(c)))
-
-def strip_funky_unicode(txt):
-    """
-    Scrub out any funk unicode.
-    """
-    # scrub these unicode symbols from the scraped text
-    unicode_key = [
-        (u"\u2019",'RIGHT SINGLE QUOTATION MARK','\''),
-        (u"\u2013",'EN DASH','-'),
-        (u"\u00bd",'VULGAR FRACTION ONE HALF',' 1/2 '),
-        (u"\u00be",'VULGAR FRACTION THREE QUARTERS',' 3/4 '),
-        (u"\u201d",'RIGHT DOUBLE QUOTATION MARK','"'),
-        (u"\u201c",'LEFT DOUBLE QUOTATION MARK','"'),
-        (u"\u00b7",'MIDDLE DOT','.'),
-        (u"\u00b7",'MIDDLE DOT','.'),
-        (u"\u00a9",'COPYRIGHT SIGN',' '),
-        (u"\u00e9",'LATIN SMALL LETTER E WITH ACUTE','e'),
-        (u"\u00b0",'DEGREE SIGN','o'),
-        ]
-
-    for code, name, symbol in unicode_key:
-        txt_decode = txt.decode("utf-8")
-        txt_replace = txt_decode.replace(code,symbol)
-        txt_encode = txt_replace.encode("utf-8")
-        txt = txt_encode
-
-    return txt
-
-
-
-
 if __name__=="__main__":
 
-    apollo14_lfj_scrape_index()
-    apollo14_lfj_extract_dialogue()
+    #apollo14_lfj_scrape_index()
+    #apollo14_lfj_extract_dialogue()
 
-    apollo14_lsj_scrape_index()
+    #apollo14_lsj_scrape_index()
     apollo14_lsj_extract_dialogue()
 
 
