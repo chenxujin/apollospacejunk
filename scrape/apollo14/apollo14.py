@@ -19,6 +19,73 @@ SCRAPE_DIR = 'scrape'
 DATA_DIR = 'data'
 
 
+
+
+def apollo14_lsj_scrape_index():
+    """
+    Scrape the index of the Apollo 14 Lunar Surface Journal.
+    """
+    lsj_base_link = 'https://www.hq.nasa.gov/alsj/a14/'
+    lsj_base_page = lsj_base_link+'a14.html'
+
+    headers = {'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}
+
+    # Make a soup from the page HTML
+    r = requests.get(lsj_base_page, headers = headers)
+    html_doc = r.text
+    soup = BeautifulSoup(html_doc,"lxml")
+
+    # Extract everything under "<h2>The Journal</h2>"
+    log_links = []
+
+    stuff = soup.find_all(['h2','a'])
+    
+    switch = False
+    for s in stuff:
+        if s.name=='h2':
+            if s.text=='The Journal':
+                switch=True
+            else:
+                switch=False
+        if s.name=='a' and switch:
+            if 'Flight Journal' not in s.text:
+                link_loc = lsj_base_link+"/"+s.attrs['href'] 
+                print(link_loc)
+                print("Found link:")
+                print("    Target: %s"%(link_loc))
+                log_links.append(link_loc)
+
+    if not os.path.exists(SCRAPE_DIR):
+        os.mkdir(SCRAPE_DIR)
+
+    # Follow those links!!!
+    # Save each page to disk
+    for i,link in enumerate(log_links):
+
+        dest = os.path.join(SCRAPE_DIR, os.path.basename(link))
+
+        if not os.path.exists(dest):
+
+            print("Scraping...")
+            print("    Link: %s"%(link))
+            print("    Target file: %s"%(dest))
+
+            r = requests.get(link, headers=headers)
+            html_doc = r.content.decode('ISO-8859-1')
+            soup = BeautifulSoup(html_doc, "lxml")
+
+            with open(dest,'w') as f:
+                f.write(soup.text)
+
+            print("Done.\n")
+
+        else:
+
+            print("Skipping %s, file already exists..."%(dest))
+
+    print("Done scraping Apollo 14 Lunar Surface Journals.")
+
+
 def apollo14_lfj_scrape_index():
     """
     Scrape the index of the Apollo 14 Lunar Flight Journal.
@@ -27,8 +94,6 @@ def apollo14_lfj_scrape_index():
     Save it to a file for later processing.
     """
     lfj_base_link = 'https://web.archive.org/web/20171225232133/https://history.nasa.gov/afj/ap14fj/'
-
-    lfj_base_page = 'index.html'
 
     headers = {'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'}
 
@@ -71,18 +136,173 @@ def apollo14_lfj_scrape_index():
             with open(dest,'w') as f:
                 f.write(soup.text)
 
-            print("Success!\n")
+            print("Done.\n")
 
         else:
 
             print("Skipping %s, file already exists..."%(dest))
 
-    print("\nDone scraping Apollo 14 Flight Journals.")
+    print("Done scraping Apollo 14 Lunar Flight Journals.")
+
+
+
+
+def apollo14_lsj_extract_dialogue():
+    """
+    Use the Lunar Surface Journal pages saved to disk to extract dialogue.
+    """
+    import nltk
+
+    # list of dictionaries with "speaker" and "token" keys
+    all_the_dialogue = []
+
+    hh = 0
+    mm = 0
+
+    lsj_files = glob.glob(os.path.join(SCRAPE_DIR,"a14*.html"))
+
+    if not os.path.exists(DATA_DIR):
+        os.mkdir(DATA_DIR)
+
+    # For each LFJ transcript, we have plain text,
+    # so go through each line and look for speaker: dialogue tokens.
+    for lsj_file in lsj_files:
+
+        print("Tokenizing...")
+        print("    Target file: %s"%(lsj_file))
+
+        with open(lsj_file,'r') as f:
+            html_doc = f.read()
+
+        soup = BeautifulSoup(html_doc, "lxml")
+
+        ## --------------------
+        ## tokenize by word:
+        #tokens = nltk.wordpunct_tokenize(booty)
+
+        # tokenize by sentence:
+        tokens = nltk.tokenize.sent_tokenize(html_doc)
+
+        # split, then flatten list
+        tokens = [j.split(": ") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # split, then flatten list
+        tokens = [j.split(" - ") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # split, then flatten list
+        tokens = [j.split("\n") for j in tokens]
+        tokens = [item for sublist in tokens for item in sublist]
+
+        # replace double quotes
+        tokens = [j.replace('"','') for j in tokens]
+
+        # no mp3 audio clips
+        tokens = [j for j in tokens if 'mp3 audio' not in j.lower()]
+        tokens = [j for j in tokens if ' kb.' not in j.lower()]
+
+        comm_break = 'comm break'
+
+        tokens = [j for j in tokens if tokens!='']
+
+        speakers = [
+            'Public Affairs Office',
+            'SC',
+            'MS',
+            'Fullerton',
+            'Mitchell',
+            'Mitchell (onboard)',
+            'Mitchell (on board)',
+            'Roosa',
+            'Roosa (onboard)',
+            'Roosa (on board)',
+            'Shepard',
+            'Shepard (onboard)',
+            'Shepard (on board)',
+            'Haise',
+            'McCandless',
+            'ARIA',
+            'MS',
+            'SC',
+            ]
+
+        # replace timestamps 000:00:00
+        # look for "last updated" location
+        #
+        last_updated_index = 0
+        for jj,tok in enumerate(tokens):
+
+            if any([speaker in tok for speaker in speakers]):
+
+                stripped_tok = re.sub('[0-9]{3}:[0-9]{2}:[0-9]{2} ','',tok)
+                stripped_tok2 = re.sub('at [0-9]{3}:[0-9]{2}:[0-9x]{2}','',stripped_tok)
+                stripped_tok3 = re.sub(' \(onboard\)','',stripped_tok2)
+                tokens[jj] = stripped_tok3
+            
+            if 'last updated' in tok.lower():
+                last_updated_index = jj
+        
+        if last_updated_index != 0:
+            tokens[0:last_updated_index+1] = []
+
+        ii = 0
+        while ii < len(tokens):
+            if tokens[ii] in speakers:
+                d = {}
+                d['speaker'] = tokens[ii]
+                ii += 1
+                z = []
+                while (ii<len(tokens)) and (comm_break not in tokens[ii].lower()) and (tokens[ii] not in speakers):
+                    z.append(tokens[ii])
+                    ii += 1
+                d['tokens'] = z
+
+                cc = len(all_the_dialogue)
+                if ((mm+1)%60)==0:
+                    mm=0
+                if ((cc+1)%60)==0:
+                    hh += 1
+                
+                d['time'] = '%03d:%02d:00'%(hh,mm)
+                all_the_dialogue.append(d)
+                mm += 1
+
+            ii += 1
+        
+        print("Done.")
+
+
+    out_min = os.path.join(DATA_DIR,'apollo_14_sj_min.txt')
+    out_nice = os.path.join(DATA_DIR,'apollo_14_sj.json')
+
+    print("Saving tokens to file:")
+    print("    Text: %s"%(out_min))
+    print("    Json: %s"%(out_nice))
+
+    with open(out_min,'w') as f:
+        for d in all_the_dialogue:
+            f.write(json.dumps(d))
+            f.write("\n")
+    
+    with open(out_nice,'w') as f:
+        json.dump(all_the_dialogue,f,indent=4)
+
+    print("Done.\n")
+
+    print("Done tokenizing Apollo 14 Lunar Surface Journals.")
+
+
+
+
+
+
+
 
 
 def apollo14_lfj_extract_dialogue():
     """
-    Use the saved "Day X" pages on disk to exract dialogue.
+    Use the saved "Day X" pages saved to disk to exract dialogue.
     """
     import nltk
 
@@ -92,7 +312,7 @@ def apollo14_lfj_extract_dialogue():
     hh = 0
     mm = 0
 
-    lfj_files = glob.glob(os.path.join(SCRAPE_DIR,"*"))
+    lfj_files = glob.glob(os.path.join(SCRAPE_DIR,"0*.html"))
 
     if not os.path.exists(DATA_DIR):
         os.mkdir(DATA_DIR)
@@ -223,7 +443,7 @@ def apollo14_lfj_extract_dialogue():
 
     print("Done.\n")
 
-    print("Success!\n")
+    print("Done tokenizing Apollo 14 Lunar Flight Journals.")
 
 
 
@@ -268,7 +488,13 @@ def strip_funky_unicode(txt):
 
 
 
+
 if __name__=="__main__":
-    apollo14_lfj_scrape_index()
-    apollo14_lfj_extract_dialogue()
+
+    #apollo14_lfj_scrape_index()
+    #apollo14_lfj_extract_dialogue()
+
+    apollo14_lsj_scrape_index()
+    apollo14_lsj_extract_dialogue()
+
 
