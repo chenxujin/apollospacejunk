@@ -1,8 +1,10 @@
+rmm/
 vp/
 
 # bot stuff
 bot/keys/*.json
 apikeys.py
+apikeys.json
 
 # pelican stuff
 output/
