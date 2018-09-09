@@ -1,36 +1,51 @@
 import rainbowmindmachine as rmm
 import os, glob
+import logging
+
+ch = logging.StreamHandler()
+logger = logging.getLogger('')
+logger.setLevel(logging.INFO)
+logger.addHandler(ch)
 
 DATADIR = os.path.join(os.getcwd(), 'data')
 KEYSDIR = os.path.join(os.getcwd(), 'keys')
 
 def setup():
     k = rmm.TxtKeymaker()
+    k.set_apikeys_file('apikeys.json')
     k.make_keys(DATADIR, KEYSDIR)
     
 def run():
-    sh = rmm.Shepherd(KEYSDIR, 
-                      flock_name = 'apollo',
-                      sheep_class=rmm.QueneauSheep)
+    sh = rmm.TwitterShepherd(
+            KEYSDIR, 
+            flock_name = 'apollo',
+            sheep_class=rmm.QueneauSheep
+    )
 
 
     LIVE = True
 
 
     if not LIVE:
-        sh.perform_pool_action('tweet',{
-                'publish' : False,
-                'inner_sleep' : 3,#3*60,
-                'outer_sleep' : 3,#2*3600,
-                'lines_length' : 4
-            })
+        sh.perform_parallel_action(
+                'tweet',
+                **{
+                    'publish' : False,
+                    'inner_sleep' : 1,#3*60,
+                    'outer_sleep' : 1,#2*3600,
+                    'lines_length' : 4
+                }
+        )
     else:
-        sh.perform_pool_action('tweet',{
-                'publish' : True,
-                'inner_sleep' : 3*60,
-                'outer_sleep' : 2*3600,
-                'lines_length' : 4
-            })
+        sh.perform_parallel_action(
+                'tweet',
+                **{
+                    'publish' : True,
+                    'inner_sleep' : 3*60,
+                    'outer_sleep' : 2*3600,
+                    'lines_length' : 4
+                }
+        )
 
 
 if __name__=="__main__":
