@@ -1,3 +1,5 @@
+vp/
+
 # bot stuff
 bot/keys/*.json
 apikeys.py
