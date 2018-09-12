@@ -23,7 +23,7 @@ def run():
     )
 
 
-    LIVE = True
+    LIVE = False
 
 
     if not LIVE:
