@@ -11,6 +11,5 @@ services:
     #tty: true
     # ---------------
     volumes:
-      - "./bot/apikeys.py:/apollo/bot/apikeys.py"
-      - "./bot/keys:/apollo/bot/keys"
+      - "./bot:/apollo/bot"
 
