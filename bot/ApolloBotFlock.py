@@ -7,6 +7,10 @@ logger = logging.getLogger('')
 logger.setLevel(logging.INFO)
 logger.addHandler(ch)
 
+fh = logging.FileHandler(filename='rmm_apollo.log')
+fh.setLevel(logging.INFO)
+logger.addHandler(fh)
+
 DATADIR = os.path.join(os.getcwd(), 'data')
 KEYSDIR = os.path.join(os.getcwd(), 'keys')
 
