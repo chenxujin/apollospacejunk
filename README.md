@@ -162,7 +162,7 @@ container, specify the `--no-cache` flag or it will
 continue to use the crusty version:
 
 ```
-$ docker-compose --no-cache
+$ docker-compose build --no-cache
 ```
 
 First, to run the container interactively,
@@ -202,7 +202,7 @@ interactive, run the container using `docker-compose run <service-name>`
 (do not use `up`!):
 
 ```
-$ docker-compose run stormy_apollo
+$ docker-compose run --rm stormy_apollo
 ```
 
 This will run the entrypoint script, install 
