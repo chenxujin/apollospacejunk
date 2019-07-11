@@ -18,7 +18,6 @@ https://www.hq.nasa.gov/alsj/a16/a16.html
 SCRAPE_DIR = 'scrape'
 DATA_DIR = 'data'
 
-
 SPEAKERS = [
     'Public Affairs Office',
     'SC',
@@ -55,7 +54,6 @@ SPEAKERS = [
     'Chaplain',
     'ANNOTATION',
 ]
-
 
 
 def apollo16_lsj_scrape_index():
@@ -147,7 +145,11 @@ def apollo16_lfj_scrape_index():
 
     for a_ in a_s:
         link_text = a_.get_text()
-        if 'Day ' in link_text:
+        if 'Day ' in link_text \
+        or 'Launch and Reaching' in link_text \
+        or 'Earth Orbit' in link_text \
+        or 'Transposition' in link_text \
+        or 'SPS Troubleshooting' in link_text:
             page_name = a_.attrs['href']
             link_name = lfj_base_link + page_name
             log_links.append(link_name)
@@ -245,7 +247,6 @@ def apollo16_lsj_extract_dialogue():
         # ignore these tokens
         tokens = [j for j in tokens if j!='']
         tokens = [j for j in tokens if 'RealAudio' not in j]
-
 
         # replace timestamps 000:00:00
         # look for "last updated" location
@@ -352,7 +353,6 @@ def apollo16_lsj_extract_dialogue():
                     all_the_dialogue.append(annotation)
                     mm += 1
 
-
             ii += 1
         
         print("Done.")
@@ -371,7 +371,7 @@ def apollo16_lsj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -497,7 +497,7 @@ def apollo16_lfj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -508,7 +508,7 @@ def apollo16_lfj_extract_dialogue():
 if __name__=="__main__":
 
     #apollo16_lfj_scrape_index()
-    #apollo16_lfj_extract_dialogue()
+    apollo16_lfj_extract_dialogue()
 
     #apollo16_lsj_scrape_index()
     apollo16_lsj_extract_dialogue()

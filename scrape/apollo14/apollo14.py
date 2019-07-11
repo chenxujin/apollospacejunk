@@ -18,7 +18,6 @@ https://www.hq.nasa.gov/alsj/a14/a14.html
 SCRAPE_DIR = 'scrape'
 DATA_DIR = 'data'
 
-
 SPEAKERS = [
     'Public Affairs Office',
     'SC',
@@ -111,6 +110,7 @@ def apollo14_lfj_scrape_index():
     Scrape the index of the Apollo 14 Lunar Flight Journal.
     Get each link to a "Day X" page.
     Request the contents of each "Day X" page.
+    Also. "Launch", "Earth", "Transposition", and "SPS".
     Save it to a file for later processing.
     """
     lfj_base_link = 'https://web.archive.org/web/20171225232133/https://history.nasa.gov/afj/ap14fj/'
@@ -129,7 +129,11 @@ def apollo14_lfj_scrape_index():
 
     for a_ in a_s:
         link_text = a_.get_text()
-        if 'Day ' in link_text:
+        if 'Day ' in link_text \
+        or 'Launch and Reaching' in link_text \
+        or 'Earth Orbit' in link_text \
+        or 'Transposition' in link_text \
+        or 'SPS Troubleshooting' in link_text:
             page_name = a_.attrs['href']
             link_name = lfj_base_link + page_name
             log_links.append(link_name)
@@ -477,7 +481,7 @@ def apollo14_lfj_extract_dialogue():
 if __name__=="__main__":
 
     #apollo14_lfj_scrape_index()
-    #apollo14_lfj_extract_dialogue()
+    apollo14_lfj_extract_dialogue()
 
     #apollo14_lsj_scrape_index()
     apollo14_lsj_extract_dialogue()

@@ -70,7 +70,11 @@ def apollo13_lfj_scrape_index():
 
     for a_ in a_s:
         link_text = a_.get_text()
-        if 'Day ' in link_text:
+        if 'Day ' in link_text \
+        or 'Launch and Reaching' in link_text \
+        or 'Earth Orbit' in link_text \
+        or 'Transposition' in link_text \
+        or 'SPS Troubleshooting' in link_text:
             page_name = a_.attrs['href']
             link_name = lfj_base_link + page_name
             log_links.append(link_name)

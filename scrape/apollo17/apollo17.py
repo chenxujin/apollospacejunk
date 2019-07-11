@@ -18,7 +18,6 @@ https://www.hq.nasa.gov/alsj/a17/a17.html
 SCRAPE_DIR = 'scrape'
 DATA_DIR = 'data'
 
-
 SPEAKERS = [
     'Public Affairs Office',
     'SC',
@@ -42,7 +41,6 @@ SPEAKERS = [
     'Kranz',
     'SC',
 ]
-
 
 
 def apollo17_lsj_scrape_index():
@@ -134,7 +132,11 @@ def apollo17_lfj_scrape_index():
 
     for a_ in a_s:
         link_text = a_.get_text()
-        if 'Day ' in link_text:
+        if 'Day ' in link_text \
+        or 'Launch and Reaching' in link_text \
+        or 'Earth Orbit' in link_text \
+        or 'Transposition' in link_text \
+        or 'SPS Troubleshooting' in link_text:
             page_name = a_.attrs['href']
             link_name = lfj_base_link + page_name
             log_links.append(link_name)
@@ -256,6 +258,18 @@ def apollo17_lsj_extract_dialogue():
         while ii < len(tokens):
             if tokens[ii] in SPEAKERS:
 
+                #####################
+                # after inspecting the output, 
+                # we found some problems with 
+                # non-dialogue annotations 
+                # in brackets showing up as
+                # speaker dialogue...
+                # this should belong to speaker
+                # "ANNOTATION"
+                # keep this dictionary ready
+                # to add annotations if they
+                # do appear.
+                #####################
                 annotation = {}
                 annotation['speaker'] = 'ANNOTATION'
                 annotation_tokens = []
@@ -326,7 +340,6 @@ def apollo17_lsj_extract_dialogue():
                     all_the_dialogue.append(annotation)
                     mm += 1
 
-
             ii += 1
         
         print("Done.")
@@ -345,7 +358,7 @@ def apollo17_lsj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -471,7 +484,7 @@ def apollo17_lfj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -482,7 +495,7 @@ def apollo17_lfj_extract_dialogue():
 if __name__=="__main__":
 
     #apollo17_lfj_scrape_index()
-    #apollo17_lfj_extract_dialogue()
+    apollo17_lfj_extract_dialogue()
 
     #apollo17_lsj_scrape_index()
     apollo17_lsj_extract_dialogue()

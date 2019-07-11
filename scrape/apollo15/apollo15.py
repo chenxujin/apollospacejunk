@@ -258,6 +258,18 @@ def apollo15_lsj_extract_dialogue():
         while ii < len(tokens):
             if tokens[ii] in SPEAKERS:
 
+                #####################
+                # after inspecting the output, 
+                # we found some problems with 
+                # non-dialogue annotations 
+                # in brackets showing up as
+                # speaker dialogue...
+                # this should belong to speaker
+                # "ANNOTATION"
+                # keep this dictionary ready
+                # to add annotations if they
+                # do appear.
+                #####################
                 annotation = {}
                 annotation['speaker'] = 'ANNOTATION'
                 annotation_tokens = []
@@ -354,7 +366,6 @@ def apollo15_lsj_extract_dialogue():
 
 
 
-
 def apollo15_lfj_extract_dialogue():
     """
     Use the saved "Day X" pages saved to disk to exract dialogue.
@@ -413,7 +424,6 @@ def apollo15_lfj_extract_dialogue():
         comm_break = 'comm break'
 
         tokens = [j for j in tokens if tokens!='']
-
 
         # replace timestamps 000:00:00
         # look for "last updated" location
