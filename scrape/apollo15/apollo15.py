@@ -346,7 +346,7 @@ def apollo15_lsj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -474,7 +474,7 @@ def apollo15_lfj_extract_dialogue():
             f.write("\n")
     
     with open(out_nice,'w') as f:
-        json.dump(all_the_dialogue,f,indent=4)
+        json.dump(all_the_dialogue,f)
 
     print("Done.\n")
 
@@ -485,7 +485,7 @@ def apollo15_lfj_extract_dialogue():
 if __name__=="__main__":
 
     #apollo15_lfj_scrape_index()
-    #apollo15_lfj_extract_dialogue()
+    apollo15_lfj_extract_dialogue()
 
     #apollo15_lsj_scrape_index()
     apollo15_lsj_extract_dialogue()
